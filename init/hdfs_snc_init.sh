@@ -3,18 +3,17 @@
 ########### install and configure hadoop ##############################
 
 # create hadoop user and group
-sudo addgroup hadoop &
-sudo adduser --ingroup hadoop --gecos "" hdfs &
-sudo adduser hdfs sudo &
+sudo addgroup hadoop &&
+sudo adduser --ingroup hadoop --gecos "" hdfs &&
+sudo adduser hdfs sudo &&
 
 # get updates
 sudo apt-get update
-sudo apt-get upgrade -y
+sudo apt-get upgrade -y &&
 
 # install jdk
-sudo apt-get install openjdk-7-jdk -y
-cd /usr/lib/jvm
-sudo ln -s java-7-openjdk-amd64 jdk
+sudo apt-get install openjdk-7-jdk -y &&
+sudo ln -s /usr/lib/jvm/java-7-openjdk-amd64 /usr/lib/jvm/jdk
 
 # download and install cdh5
 sudo mkdir -p ~/repository
@@ -35,7 +34,7 @@ sudo cp -n $HADOOP_CONF_DIR/yarn-site.xml $HADOOP_CONF_DIR/yarn-site.xml.backup
 sudo cp -n $HADOOP_CONF_DIR/hdfs-site.xml $HADOOP_CONF_DIR/hdfs-site.xml.backup
 
 # restore config files to original versions
-sudo cp -n $HADOOP_CONF_DIR/hadoop-env.sh.backup $HADOOP_CONF_DIR/hadoop-env.sh
+sudo cp $HADOOP_CONF_DIR/hadoop-env.sh.backup $HADOOP_CONF_DIR/hadoop-env.sh
 sudo cp $HADOOP_CONF_DIR/core-site.xml.backup $HADOOP_CONF_DIR/core-site.xml
 sudo cp $HADOOP_CONF_DIR/yarn-site.xml.backup $HADOOP_CONF_DIR/yarn-site.xml 
 sudo cp $HADOOP_CONF_DIR/hdfs-site.xml.backup $HADOOP_CONF_DIR/hdfs-site.xml
@@ -44,7 +43,7 @@ sudo cp $HADOOP_CONF_DIR/mapred-site.xml.template $HADOOP_CONF_DIR/mapred-site.x
 # modify hadoop-env config file
 sudo chmod 755 $HADOOP_CONF_DIR/hadoop-env.sh
 sudo sed -i 's|export JAVA_HOME=${JAVA_HOME}|export JAVA_HOME=\/usr\/lib\/jvm\/jdk\n|' $HADOOP_CONF_DIR/hadoop-env.sh
-
+for
 # modify core-site config file
 TAG="<property>\n<name>fs.default.name</name>\n<value>hdfs://localhost:9000</value>\n</property>"
 C=$(echo $TAG | sed 's/\//\\\//g')
@@ -72,18 +71,18 @@ C=$(echo $TAG | sed 's/\//\\\//g')
 sudo sed -i "/<\/configuration>/ s/.*/${C}\n&/" $HADOOP_CONF_DIR/hdfs-site.xml
 
 # create namenode and datanode directories
-sudo rm -R /data/hadoop_store
-sudo mkdir -p /data/hadoop_store/hdfs/namenode
-sudo mkdir -p /data/hadoop_store/hdfs/datanode
+sudo rm -R /data/hadoop_store &&
+sudo mkdir -p /data/hadoop_store/hdfs/namenode &&
+sudo mkdir -p /data/hadoop_store/hdfs/datanode &&
 
 # grant owner and permissions to correct user
-sudo chown -R hdfs:hadoop /usr/local/hadoop
-sudo chmod -R 777 /usr/local/hadoop
-sudo chown -R hdfs:hadoop /data/hadoop_store
-sudo chmod -R 777 /data/hadoop_store
+sudo chown -R hdfs:hadoop /usr/local/hadoop &&
+sudo chmod -R 777 /usr/local/hadoop &&
+sudo chown -R hdfs:hadoop /data/hadoop_store &&
+sudo chmod -R 777 /data/hadoop_store &&
 
 # format the namenode
-sudo su - hdfs -c "hdfs namenode -format" &
+sudo su - hdfs -c "hdfs namenode -format" &&
 
 # start hdfs
 for x in `cd /etc/init.d ; ls hadoop-hdfs*` ; do sudo service $x start ; done

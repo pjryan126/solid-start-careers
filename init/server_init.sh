@@ -15,9 +15,6 @@ sudo chmod a+rwx /data &
 
 ########### end mount drive specified by user to /data directory ######
 
-
-#! /bin/bash
-
 ########### install and configure hadoop ##############################
 
 # create hadoop user and group
