@@ -1,7 +1,6 @@
 #! /bin/bash
 
 ########### mount drive specified by user to /data directory ##########
-cd $HOME
 sudo mkdir -p /data/scripts
 sudo umount /data
 echo "mounting drive: " $1
