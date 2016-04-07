@@ -45,6 +45,7 @@ sudo apt-get install postgresql postgresql-contrib -y
 
 ########### configure hadoop ##############################
 
+sudo chown -R root:root /usr/lib/hadoop
 HADOOP_CONF_DIR=/usr/lib/hadoop/etc/hadoop
 # create backup copies of original Hadoop config files
 sudo cp -n $HADOOP_CONF_DIR/hadoop-env.sh $HADOOP_CONF_DIR/hadoop-env.sh.backup
