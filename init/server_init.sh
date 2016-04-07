@@ -2,7 +2,7 @@
 
 ########### mount drive specified by user to /data directory ##########
 cd $HOME
-
+sudo mkdir -p /data/scripts
 sudo umount /data
 echo "mounting drive: " $1
 echo "WARNING: This will format the above drive."
@@ -17,8 +17,8 @@ sudo chmod a+rwx /data
 
 ########### end mount drive specified by user to /data directory ######
 
-source ~/hdfs_snc_init.sh &
-#source ~/pgsql_init.sh
+source hdfs_snc_init.sh &
+source ~/pgsql_init.sh
 
 # create start/stop scripts
 sudo mkdir /data/scripts
