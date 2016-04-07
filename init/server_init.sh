@@ -1,46 +1,49 @@
 #! /bin/bash
 
-########### mount drive specified by user to /data directory ##########
+# create hadoop user and group
+sudo addgroup hadoop &&
+sudo adduser --ingroup hadoop --gecos "" hdfs &&
+sudo adduser hdfs sudo &&
 
+########### mount drive specified by user to /data directory ##########
 echo "mounting drive: " $1
 echo "WARNING: This will format the above drive."
 read -rsp $'Press any key to continue or Ctrl-C to quit...\n' -n1 key
 
 # make new ext4 filesystem
-sudo mkfs -t ext4 /dev/xvdf &
+sudo mkfs -t ext4 /dev/xvdf
 
 # mount new filesystem
-sudo mount -t ext4 $1 /data &
-sudo chmod a+rwx /data &
+sudo mount -t ext4 $1 /data
+sudo chmod a+rwx /data
 
 ########### end mount drive specified by user to /data directory ######
 
-########### install and configure hadoop ##############################
-
-# create hadoop user and group
-sudo addgroup hadoop &
-sudo adduser --ingroup hadoop --gecos "" hdfs &
-sudo adduser hdfs sudo &
-
-# get updates
-sudo apt-get update
-sudo apt-get upgrade -y
-
-# install jdk
-sudo apt-get install openjdk-7-jdk -y
-cd /usr/lib/jvm
-sudo ln -s java-7-openjdk-amd64 jdk
+########### install packages ##############################
 
 # download and install cdh5
 sudo mkdir -p ~/repository
 sudo wget "http://archive.cloudera.com/cdh5/one-click-install/trusty/amd64/cdh5-repository_1.0_all.deb" \
 	-O ~/repository/cdh5.deb
 sudo dpkg -i ~/repository/cdh5.deb
-
 # get repository key and install hadoop-conf-pseudo
 sudo curl -s http://archive.cloudera.com/cdh5/ubuntu/lucid/amd64/cdh/archive.key | sudo apt-key add -
-sudo apt-get update 
-sudo apt-get install hadoop-conf-pseudo
+
+# update packages
+sudo apt-get update
+
+# install jdk
+sudo apt-get install openjdk-7-jdk -y
+cd /usr/lib/jvm
+sudo ln -s java-7-openjdk-amd64 jdk
+#install hadoop
+sudo apt-get install hadoop-conf-pseudo -y
+# install postgresql
+sudo apt-get install postgresql postgresql-contrib -y
+
+########### end install packages ##############################
+
+########### configure hadoop ##############################
 
 HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop
 # create backup copies of original Hadoop config files
@@ -100,6 +103,83 @@ sudo chmod -R 777 /data/hadoop_store
 # format the namenode
 sudo su - hdfs -c "hdfs namenode -format" &
 
+########### end configure hadoop ##############################
+
+########### configure postgres ##############################
+
+#set up directories for postgres
+sudo rm -R /data/pgsql
+sudo mkdir -p /data/pgsql/data
+sudo mkdir -p /data/pgsql/logs
+sudo chown -R postgres:postgres /data/pgsql
+
+# drop and recreate pgsql cluser
+sudo pg_dropcluster --stop 9.3 main
+sudo pg_createcluster -d /data/pgsql/data 9.3 main
+
+# change pgsql data directory in config file
+PGSQL_CONF_DIR=/etc/postgresql/9.3/main
+sudo -u postgres cp -n $PGSQL_CONF_DIR/postgresql.conf $PGSQL_CONF_DIR/postgresql.conf.backup
+sudo -u postgres cp $PGSQL_CONF_DIR/postgresql.conf.backup $PGSQL_CONF_DIR/postgresql.conf
+sudo sed -i "s|data_directory = '/var/lib/postgresql/9.3/main'|data_directory = '/data/pgsql/data'|" $PGSQL_CONF_DIR/postgresql.conf 
+
+#setup pg_hba.conf
+sudo echo "host    all         all         0.0.0.0         0.0.0.0               md5" >> /data/pgsql/data/pg_hba.conf
+
+#setup postgresql.conf
+sudo echo "listen_addresses = '*'" >> /data/pgsql/data/postgresql.conf
+sudo echo "standard_conforming_strings = off" >> /data/pgsql/data/postgresql.conf
+
+#make start postgres file
+sudo mkdir -p /data/scripts/pgsql
+sudo mkdir -p /data/scripts/hdfs
+sudo chmod -R 777 /data/scripts/
+
+########### end configure postgres ##############################
+
+########### create start/stop scripts ##############################
+
+#make start script directories
+sudo mkdir -p /data/scripts/pgsql
+sudo mkdir -p /data/scripts/hdfs
+sudo chmod -R 777 /data/scripts/
+
+# create start_hdfs script
+sudo cat > /data/scripts/hdfs/start_hdfs.sh <<EOF
+#! /bin/bash
+sudo service hadoop-yarn-resourcemanager restart
+sudo service hadoop-yarn-nodemanager restart 
+sudo service hadoop-mapreduce-historyserver restart
+EOF
+sudo chmod +x /data/scripts/start_hdfs.sh &
+
+# create stop_hdfs script
+sudo cat > /data/scripts/hdfs/stop_hdfs.sh <<EOF
+#! /bin/bash
+sudo service hadoop-yarn-resourcemanager stop
+sudo service hadoop-yarn-nodemanager stop 
+sudo service hadoop-mapreduce-historyserver stop
+EOF
+#sudo chmod +x /data/scripts/hdfs/stop_hdfs.sh &
+
+# create start_postgres script
+sudo cat > /data/scripts/pgsql/start_postgres.sh <<EOF
+#! /bin/bash
+sudo -u postgres pg_ctl -D /data/pgsql/data -l /data/pgsql/logs/pgsql.log start
+EOF
+#sudo chmod +x /data/scripts/start_postgres.sh &
+
+#make a stop postgres file
+sudo cat > /data/scripts/pgsql/stop_postgres.sh <<EOF
+#! /bin/bash
+sudo -u postgres pg_ctl -D /data/pgsql/data -l /data/pgsql/logs/pgsql.log stop
+EOF
+#sudo chmod +x /data/scripts/stop_postgres.sh &
+
+########### end create start/stop scripts ##############################
+
+########### start hadoop & postgres ####################################
+
 # start hdfs
 for x in `cd /etc/init.d ; ls hadoop-hdfs*` ; do sudo service $x start ; done
 
@@ -118,102 +198,6 @@ sudo service hadoop-yarn-resourcemanager start
 sudo service hadoop-yarn-nodemanager start 
 sudo service hadoop-mapreduce-historyserver start
 
-########### install and configure hadoop ##############################
-
-########### install and configure postgres ##############################
-
-# install postgresql
-sudo apt-get update
-sudo apt-get install postgresql postgresql-contrib
-
-#set up directories for postgres
-sudo rm -R /data/pgsql
-sudo mkdir -p /data/pgsql/data
-sudo mkdir -p /data/pgsql/logs
-sudo chown -R postgres:postgres /data/pgsql
-
-# drop and recreate pgsql cluser
-sudo pg_dropcluster --stop 9.3 main
-sudo pg_createcluster -d /data/pgsql/data 9.3 main
-
-# change pgsql data directory in config file
-PGSQL_CONF_DIR=/etc/postgresql/9.3/main
-sudo -u postgres cp -n $PGSQL_CONF_DIR/postgresql.conf $PGSQL_CONF_DIR/postgresql.conf.backup
-sudo -u postgres cp $PGSQL_CONF_DIR/postgresql.conf.backup $PGSQL_CONF_DIR/postgresql.conf
-sudo sed -i "s|data_directory = '/var/lib/postgresql/9.3/main'|data_directory = '/data/pgsql/data'|" $PGSQL_CONF_DIR/postgresql.conf 
-
-#sudo chmod -R 777 /data/pgsql
-
-#setup pg_hba.conf
-sudo echo "host    all         all         0.0.0.0         0.0.0.0               md5" >> /data/pgsql/data/pg_hba.conf
-
-#setup postgresql.conf
-sudo echo "listen_addresses = '*'" >> /data/pgsql/data/postgresql.conf
-sudo echo "standard_conforming_strings = off" >> /data/pgsql/data/postgresql.conf
-
-#make start postgres file
-sudo mkdir -p /data/scripts/pgsql
-sudo chmod 777 /data/scripts/pgsql
-sudo cat > /data/scripts/pgsql/start_postgres.sh <<EOF
-#! /bin/bash
-sudo service postgresql start
-EOF
-#sudo chmod 700 /data/scripts/pgsql/start_postgres.sh
-
-#make a stop postgres file
-sudo cat > /data/scripts/pgsql/stop_postgres.sh <<EOF
-#! /bin/bash
-sudo service postgresql stop
-EOF
-#sudo chmod 700 /data/scripts/pgsql/stop_postgres.sh
-
-#sudo chmod 700 /data/pgsql/data
-
 #start postgres
-source /data/scripts/pgsql/start_postgres.sh
-
-########### end install and configure postgres ##############################
-
-# create start/stop scripts
-sudo mkdir -p /data/scripts
-sudo chmod a+w /data/scripts &
-
-
-# create start_hdfs script
-sudo cat > /data/scripts/start_hdfs.sh <<EOF
-#! /bin/bash
-sudo service hadoop-yarn-resourcemanager restart
-sudo service hadoop-yarn-nodemanager restart 
-sudo service hadoop-mapreduce-historyserver restart
-EOF
-sudo chmod +x /data/scripts/start_hdfs.sh &
-
-# create stop_hdfs script
-sudo cat > /data/scripts/stop_hdfs.sh <<EOF
-#! /bin/bash
-sudo service hadoop-yarn-resourcemanager stop
-sudo service hadoop-yarn-nodemanager stop 
-sudo service hadoop-mapreduce-historyserver stop
-EOF
-sudo chmod +x /data/scripts/stop_hdfs.sh &
-
-# create start_postgres script
-sudo cat > /data/scripts/start_postgres.sh <<EOF
-#! /bin/bash
-sudo -u postgres pg_ctl -D /data/pgsql/data -l /data/pgsql/logs/pgsql.log start
-EOF
-sudo chmod +x /data/scripts/start_postgres.sh &
-
-#make a stop postgres file
-sudo cat > /data/scripts/stop_postgres.sh <<EOF
-#! /bin/bash
-sudo -u postgres pg_ctl -D /data/pgsql/data -l /data/pgsql/logs/pgsql.log stop
-EOF
-sudo chmod +x /data/scripts/stop_postgres.sh &
-
-# start yarn services
-/data/scripts/start_hdfs.sh &
-
-#start postgres
-/data/scripts/start_postgres.sh
+/data/scripts/pgsql/start_postgres.sh
 
