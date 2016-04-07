@@ -1,9 +1,9 @@
 #! /bin/bash
 
 # create hadoop user and group
-sudo addgroup hadoop &&
-sudo adduser --ingroup hadoop hdfs &&
-sudo adduser hdfs sudo &&
+sudo addgroup hadoop
+sudo adduser --ingroup hadoop --disabled-password --gecos "" hdfs
+sudo adduser hdfs sudo
 
 ########### mount drive specified by user to /data directory ##########
 echo "mounting drive: " $1
@@ -30,7 +30,7 @@ sudo dpkg -i ~/repository/cdh5.deb
 sudo curl -s http://archive.cloudera.com/cdh5/ubuntu/lucid/amd64/cdh/archive.key | sudo apt-key add -
 
 # update packages
-sudo apt-get update
+#sudo apt-get update
 
 # install jdk
 sudo apt-get install openjdk-7-jdk -y
@@ -45,20 +45,21 @@ sudo apt-get install postgresql postgresql-contrib -y
 
 ########### configure hadoop ##############################
 
-sudo chown -R root:root /usr/lib/hadoop
-HADOOP_CONF_DIR=/usr/lib/hadoop/etc/hadoop
+sudo chown -R hdfs:hadoop /usr/lib/hadoop
+HADOOP_CONF_DIR=/etc/hadoop/conf.pseudo
 # create backup copies of original Hadoop config files
 sudo cp -n $HADOOP_CONF_DIR/hadoop-env.sh $HADOOP_CONF_DIR/hadoop-env.sh.backup
 sudo cp -n $HADOOP_CONF_DIR/core-site.xml $HADOOP_CONF_DIR/core-site.xml.backup
 sudo cp -n $HADOOP_CONF_DIR/yarn-site.xml $HADOOP_CONF_DIR/yarn-site.xml.backup
 sudo cp -n $HADOOP_CONF_DIR/hdfs-site.xml $HADOOP_CONF_DIR/hdfs-site.xml.backup
+sudo cp -n $HADOOP_CONF_DIR/mapred-site.xml $HADOOP_CONF_DIR/mapred-site.xml.backup
 
 # restore config files to original versions
 sudo cp -n $HADOOP_CONF_DIR/hadoop-env.sh.backup $HADOOP_CONF_DIR/hadoop-env.sh
 sudo cp $HADOOP_CONF_DIR/core-site.xml.backup $HADOOP_CONF_DIR/core-site.xml
 sudo cp $HADOOP_CONF_DIR/yarn-site.xml.backup $HADOOP_CONF_DIR/yarn-site.xml 
 sudo cp $HADOOP_CONF_DIR/hdfs-site.xml.backup $HADOOP_CONF_DIR/hdfs-site.xml
-sudo cp $HADOOP_CONF_DIR/mapred-site.xml.template $HADOOP_CONF_DIR/mapred-site.xml 
+sudo cp $HADOOP_CONF_DIR/mapred-site.xml.backup $HADOOP_CONF_DIR/mapred-site.xml 
 
 # modify hadoop-env config file
 sudo chmod 755 $HADOOP_CONF_DIR/hadoop-env.sh
@@ -97,12 +98,14 @@ sudo mkdir -p /data/hadoop_store/hdfs/datanode
 
 # grant owner and permissions to correct user
 sudo chown -R hdfs:hadoop /usr/lib/hadoop
+sudo chown -R hdfs:hadoop /var/lib/hadoop*
 sudo chmod -R 777 /usr/lib/hadoop
+sudo chmod -R 777 /var/lib/hadoop*
 sudo chown -R hdfs:hadoop /data/hadoop_store
 sudo chmod -R 777 /data/hadoop_store
 
 # format the namenode
-sudo su - hdfs -c "hdfs namenode -format" &
+sudo hdfs namenode -format
 
 ########### end configure hadoop ##############################
 
@@ -122,14 +125,14 @@ sudo pg_createcluster -d /data/pgsql/data 9.3 main
 PGSQL_CONF_DIR=/etc/postgresql/9.3/main
 sudo -u postgres cp -n $PGSQL_CONF_DIR/postgresql.conf $PGSQL_CONF_DIR/postgresql.conf.backup
 sudo -u postgres cp $PGSQL_CONF_DIR/postgresql.conf.backup $PGSQL_CONF_DIR/postgresql.conf
-sudo sed -i "s|data_directory = '/var/lib/postgresql/9.3/main'|data_directory = '/data/pgsql/data'|" $PGSQL_CONF_DIR/postgresql.conf 
+sudo -u postgres sed -i "s|data_directory = '/var/lib/postgresql/9.3/main'|data_directory = '/data/pgsql/data'|" $PGSQL_CONF_DIR/postgresql.conf 
 
 #setup pg_hba.conf
-sudo echo "host    all         all         0.0.0.0         0.0.0.0               md5" >> /data/pgsql/data/pg_hba.conf
+sudo su - postgres -c 'echo "host    all         all         0.0.0.0         0.0.0.0               md5" >> /data/pgsql/data/pg_hba.conf'
 
 #setup postgresql.conf
-sudo echo "listen_addresses = '*'" >> /data/pgsql/data/postgresql.conf
-sudo echo "standard_conforming_strings = off" >> /data/pgsql/data/postgresql.conf
+sudo su - postgres -c "listen_addresses = '*'\" >> /data/pgsql/data/postgresql.conf"
+sudo su - postgres -c '"standard_conforming_strings = off" >> /data/pgsql/data/postgresql.conf'
 
 #make start postgres file
 sudo mkdir -p /data/scripts/pgsql
@@ -152,7 +155,7 @@ sudo service hadoop-yarn-resourcemanager restart
 sudo service hadoop-yarn-nodemanager restart 
 sudo service hadoop-mapreduce-historyserver restart
 EOF
-sudo chmod +x /data/scripts/start_hdfs.sh &
+sudo chmod +x /data/scripts/hdfs/start_hdfs.sh &
 
 # create stop_hdfs script
 sudo cat > /data/scripts/hdfs/stop_hdfs.sh <<EOF
@@ -185,7 +188,7 @@ EOF
 for x in `cd /etc/init.d ; ls hadoop-hdfs*` ; do sudo service $x start ; done
 
 # create hdfs directories
-sudo /usr/lib/hadoop/libexec/init-hdfs.sh &
+#sudo /usr/lib/hadoop/libexec/init-hdfs.sh &
 
 # add user directories
 sudo su -s /bin/bash hdfs -c "/usr/bin/hadoop fs -mkdir /user/hdfs"
