@@ -5,9 +5,9 @@ cd $HOME
 ########### install and configure hadoop ##############################
 
 # create hadoop user and group
-sudo addgroup hadoop
-sudo adduser --ingroup hadoop --gecos "" hdfs
-sudo adduser hdfs sudo
+sudo addgroup hadoop &
+sudo adduser --ingroup hadoop --gecos "" hdfs &
+sudo adduser hdfs sudo &
 
 # get updates
 sudo apt-get update
@@ -19,12 +19,10 @@ cd /usr/lib/jvm
 sudo ln -s java-7-openjdk-amd64 jdk
 
 # download and install cdh5
-cd $HOME
-sudo mkdir repository
-cd repository
+sudo mkdir -p ~/repository
 sudo wget "http://archive.cloudera.com/cdh5/one-click-install/trusty/amd64/cdh5-repository_1.0_all.deb" \
-	-O cdh5.deb
-sudo dpkg -i cdh5.deb
+	-O ~/repository/cdh5.deb
+sudo dpkg -i ~/repository/cdh5.deb
 
 # get repository key and install hadoop-conf-pseudo
 sudo curl -s http://archive.cloudera.com/cdh5/ubuntu/lucid/amd64/cdh/archive.key | sudo apt-key add -
@@ -87,13 +85,13 @@ sudo chown -R hdfs:hadoop /data/hadoop_store
 sudo chmod -R 777 /data/hadoop_store
 
 # format the namenode
-sudo su - hdfs -c "hdfs namenode -format"
+sudo su - hdfs -c "hdfs namenode -format" &
 
 # start hdfs
 for x in `cd /etc/init.d ; ls hadoop-hdfs*` ; do sudo service $x start ; done
 
 # create hdfs directories
-sudo /usr/lib/hadoop/libexec/init-hdfs.sh
+sudo /usr/lib/hadoop/libexec/init-hdfs.sh &
 
 # add user directories
 sudo su -s /bin/bash hdfs -c "/usr/bin/hadoop fs -mkdir /user/hdfs"
