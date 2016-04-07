@@ -45,7 +45,7 @@ sudo apt-get install postgresql postgresql-contrib -y
 
 ########### configure hadoop ##############################
 
-HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop
+HADOOP_CONF_DIR=/usr/lib/hadoop/etc/hadoop
 # create backup copies of original Hadoop config files
 sudo cp -n $HADOOP_CONF_DIR/hadoop-env.sh $HADOOP_CONF_DIR/hadoop-env.sh.backup
 sudo cp -n $HADOOP_CONF_DIR/core-site.xml $HADOOP_CONF_DIR/core-site.xml.backup
@@ -95,8 +95,8 @@ sudo mkdir -p /data/hadoop_store/hdfs/namenode
 sudo mkdir -p /data/hadoop_store/hdfs/datanode
 
 # grant owner and permissions to correct user
-sudo chown -R hdfs:hadoop /usr/local/hadoop
-sudo chmod -R 777 /usr/local/hadoop
+sudo chown -R hdfs:hadoop /usr/lib/hadoop
+sudo chmod -R 777 /usr/lib/hadoop
 sudo chown -R hdfs:hadoop /data/hadoop_store
 sudo chmod -R 777 /data/hadoop_store
 
