@@ -2,7 +2,7 @@
 
 ########### mount drive specified by user to /data directory ##########
 sudo mkdir -p /data/scripts
-sudo umount /data
+sudo umount /data &
 echo "mounting drive: " $1
 echo "WARNING: This will format the above drive."
 read -rsp $'Press any key to continue or Ctrl-C to quit...\n' -n1 key
