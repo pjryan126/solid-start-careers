@@ -1,7 +1,7 @@
 #! /bin/bash
 
 ########### mount drive specified by user to /data directory ##########
-sudo mkdir -p /data/scripts
+
 sudo umount /data &
 echo "mounting drive: " $1
 echo "WARNING: This will format the above drive."
@@ -16,12 +16,14 @@ sudo chmod a+rwx /data &
 
 ########### end mount drive specified by user to /data directory ######
 
-hdfs_snc_init.sh &
-pgsql_init.sh &
+
+hdfs_snc_init.sh &&
+pgsql_init.sh &&
 
 # create start/stop scripts
-sudo mkdir /data/scripts &
+sudo mkdir -p /data/scripts
 sudo chmod a+w /data/scripts &
+
 
 # create start_hdfs script
 sudo cat > /data/scripts/start_hdfs.sh <<EOF
