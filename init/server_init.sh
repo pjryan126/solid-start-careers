@@ -2,7 +2,7 @@
 
 # create hadoop user and group
 sudo addgroup hadoop &&
-sudo adduser --ingroup hadoop --gecos "" hdfs &&
+sudo adduser --ingroup hadoop hdfs &&
 sudo adduser hdfs sudo &&
 
 ########### mount drive specified by user to /data directory ##########
