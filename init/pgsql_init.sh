@@ -1,3 +1,5 @@
+########### install and configure postgres ##############################
+
 # install postgresql
 sudo apt-get update
 sudo apt-get install postgresql postgresql-contrib
@@ -47,3 +49,5 @@ EOF
 
 #start postgres
 source /data/scripts/pgsql/start_postgres.sh
+
+########### end install and configure postgres ##############################

@@ -1,7 +1,5 @@
 #! /bin/bash
 
-cd $HOME
-
 ########### install and configure hadoop ##############################
 
 # create hadoop user and group
@@ -104,4 +102,6 @@ sudo service hadoop-mapreduce-historyserver stop
 sudo service hadoop-yarn-resourcemanager start
 sudo service hadoop-yarn-nodemanager start 
 sudo service hadoop-mapreduce-historyserver start
+
+########### install and configure hadoop ##############################
 
