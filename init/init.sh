@@ -7,7 +7,8 @@ sudo addgroup hadoop
 sudo adduser --ingroup hadoop --disabled-password --gecos "" hdfs
 sudo adduser hdfs sudo
 
-sudo apt-get install ssh-server
+sudo apt-get update
+sudo apt-get install openssh-server
 sudo -u hdfs ssh-keygen -t rsa -P ""
 sudo -u hdfs cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
 
@@ -29,14 +30,11 @@ sudo chmod a+rwx /data
 ########### install packages ##############################
 
 # download and install hadoop
-#sudo rm -R /usr/local/hadoop
-#sudo rm -R hadoop-*
-#sudo wget http://www.motorlogy.com/apache/hadoop/common/current/hadoop-2.7.2.tar.gz
-#sudo tar xfz hadoop-2.7.2.tar.gz
-#sudo mv hadoop-2.7.2 /usr/local/hadoop 
-
-# update packages
-#sudo apt-get update
+sudo rm -R /usr/local/hadoop
+sudo rm -R hadoop-*
+sudo wget http://www.motorlogy.com/apache/hadoop/common/current/hadoop-2.7.2.tar.gz
+sudo tar xfz hadoop-2.7.2.tar.gz
+sudo mv hadoop-2.7.2 /usr/local/hadoop 
 
 # install jdk
 sudo apt-get install openjdk-7-jdk -y
