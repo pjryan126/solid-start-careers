@@ -9,10 +9,10 @@ violent_crime_rate STRING,
 homicide_rate STRING,
 rape_rate STRING,
 robbery_rate STRING,
-aggr_assault_rate STRING, STRING,
-property_crime_rate STRING, STRING,
-burglary_rate STRING, STRING,
-larceny_theft_rate STRING, STRING,
+aggr_assault_rate STRING,
+property_crime_rate STRING,
+burglary_rate STRING,
+larceny_theft_rate STRING,
 auto_theft_rate STRING
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'

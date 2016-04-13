@@ -58,6 +58,6 @@ $ unzip batch.zip -d batch
 **7. Load source files into hadoop.**
 
 ```
-$ su - w205
+$ 
 $ ./batch_load.sh
 ```
