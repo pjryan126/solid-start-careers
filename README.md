@@ -34,4 +34,9 @@ $ cd solid-start-careers
 $ ./init.sh
 ```
 
+5. Extract source files for batch load:
 
+```
+$ cd data/src/batch
+$ unzip batch.zip
+```
