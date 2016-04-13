@@ -1,51 +1,40 @@
+CREATE DATABASE IF NOT EXISTS solid_start;
 CREATE SCHEMA IF NOT EXISTS src;
 
 -- create crime stats source table
-DROP TABLE IF EXISTS src_crime_stats;
-CREATE EXTERNAL TABLE IF NOT EXISTS src_crime_stats (
+DROP TABLE IF EXISTS src.crime_stats;
+CREATE EXTERNAL TABLE IF NOT EXISTS src.crime_stats (
 year STRING,
 population STRING,
 violent_crime_rate STRING,
 homicide_rate STRING,
 rape_rate STRING,
 robbery_rate STRING,
-aggr_assault_rate STRING,
-property_crime_rate STRING,
-burglary_rate STRING,
-larceny_theft_rate STRING,
+aggr_assault_rate STRING, STRING,
+property_crime_rate STRING, STRING,
+burglary_rate STRING, STRING,
+larceny_theft_rate STRING, STRING,
 auto_theft_rate STRING
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES (
-"separatorChar" = ","
-, "quoteChar" = '"'
-, "escapeChar" = '\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/src/crime_by_state'
-TBLPROPERTIES ("skip.header.line.count"="1");
+);
+
+-- load crime stats source data
+\copy src.crime_stats FROM 'crime_stats.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"';
 
 -- create park score source table
-DROP TABLE IF EXISTS src_park_score;
-CREATE TABLE IF NOT EXISTS src_park_score (
+DROP TABLE IF EXISTS src.park_score;
+CREATE TABLE IF NOT EXISTS src.park_score (
 city STRING, 
 state STRING,
 year STRING,
 score STRING
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES (
-"separatorChar" = ","
-, "quoteChar" = '"'
-, "escapeChar" = '\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/src/park_score'
-TBLPROPERTIES ("skip.header.line.count"="1");
+);
+
+-- load park score source data
+\copy src.park_score FROM 'park_score.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"';
 
 --create quality of life source table
-DROP TABLE IF EXISTS src_quality_of_life;
-CREATE EXTERNAL TABLE IF NOT EXISTS src_quality_of_life (
+DROP TABLE IF EXISTS src.quality_of_life;
+CREATE EXTERNAL TABLE IF NOT EXISTS src.quality_of_life (
 Year STRING,
 LocationAbbr STRING,
 LocationDesc STRING,
@@ -70,21 +59,15 @@ TopicId STRING,
 QuestionId STRING,
 LocationId STRING,
 BreakOutId STRING,
-BreakOutCategoryid STRING
-)
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES (
-"separatorChar" = ","
-, "quoteChar" = '"'
-, "escapeChar" = '\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/src/quality_of_life'
-TBLPROPERTIES ("skip.header.line.count"="1");
+BreakOutCategoryid
+);
+
+-- load park score source data
+\copy src.quality_of_life FROM 'quality_of_life.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"';
 
 -- load median earnings source data
-DROP TABLE IF EXISTS src_median_earnings;
-CREATE EXTERNAL TABLE IF NOT EXISTS src_median_earnings (
+DROP TABLE IF EXISTS src.median_earnings
+CREATE EXTERNAL TABLE IF NOT EXISTS src.median_earnings (
 GEO_id1 STRING,
 GEO_id2 STRING,
 GEO_display_label STRING,
@@ -533,12 +516,6 @@ HC05_MOE_VC39 STRING,
 HC06_EST_VC39 STRING,
 HC06_MOE_VC39 STRING
 )
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES (
-"separatorChar" = ","
-, "quoteChar" = '"'
-, "escapeChar" = '\\'
-)
-STORED AS TEXTFILE
-LOCATION '/user/w205/src/median_earnings'
-TBLPROPERTIES ("skip.header.line.count"="1");
+-- load park score source data
+\copy src.median_earnings FROM 'median_earnings.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"';
+
