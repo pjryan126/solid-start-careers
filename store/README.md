@@ -51,8 +51,8 @@ metastore=# \q
 **6. Extract source files for batch load.**
 
 ```
-$ cd store
-$ unzip batch/batch.zip batch.zip -d batch
+$ cd store/batch
+$ unzip batch.zip -d batch
 ```
 
 **7. Load source files into hadoop.**

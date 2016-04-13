@@ -1,6 +1,3 @@
-# switch to w205 user
-su - w205
-
 # create a folder for each data set
 hdfs dfs ‐mkdir /user/w205/src/crime_by_state
 hdfs dfs ‐mkdir /user/w205/src/median_earnings
