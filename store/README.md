@@ -1,6 +1,6 @@
-# Step-by-Step Instructions for Setting Up and Loading Source Data to Data Warehouse
+# Setting Up the Data Warehouse
 
-**1. Create an aws instance with the following AMI:
+**1. Create an aws instance with the following AMI:**
 
 AMI name:           UCB W205 Spring 2016
 AMI ID:             ami-be0d5fd4
@@ -10,43 +10,52 @@ Architecture:       64-bit
 Root device type:   EBS
 Launch Permission:  Public
 
-2. Create a security group with the following ports opened on 0.0.0.0/0:
+**2. Create a security group with the following ports opened on 0.0.0.0/0:**
 + 22
 + 4040
 + 7180
 + 8080
 + 8088
 + 50070
++ 5432
 
-3. Navigate to the w205 user directory and clone the project repository:
+**3. Navigate to the w205 user directory and clone the project repository:**
 
 ```
 $ cd /home/w205
 $ git clone https://github.com/pjryan126/solid-start-careers.git
 ```
 
-4. Instantiate the server by installing hadoop, postgresql, hive, and zeppelin.
+**4. Install hadoop, postgresql, hive, and zeppelin.**
 
 ```
 $ cd solid-start-careers
 $ ./init.sh
 ```
 
-5. Start hadoop and postgresql
+**5. Start hadoop and postgresql.**
 
 ```
 $ /root/start-hadoop.sh
-$ /root/start_postgres.sh
+$ /data/start_postgres.sh
 ```
 
-6. Extract source files for batch load:
+**6. Set a password for user postgres on postresql server.**
 
 ```
-$ cd data/src/batch
-$ unzip batch.zip
+$ pgsql -U postgres -d metastore
+metastore=# alter user postgres with password 'password';
+metastore=# \q
 ```
 
-7. Load source files into hadoop.
+**6. Extract source files for batch load.**
+
+```
+$ cd store
+$ unzip batch/batch.zip batch.zip -d batch
+```
+
+**7. Load source files into hadoop.**
 
 ```
 $ ./batch_load.sh
