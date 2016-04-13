@@ -70,7 +70,7 @@ TopicId STRING,
 QuestionId STRING,
 LocationId STRING,
 BreakOutId STRING,
-BreakOutCategoryid
+BreakOutCategoryid STRING
 )
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES (
