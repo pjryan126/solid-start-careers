@@ -11,10 +11,9 @@ aggr_assault_rate TEXT,
 property_crime_rate TEXT,
 burglary_rate TEXT,
 larceny_theft_rate TEXT,
-auto_theft_rate TEXT
+auto_theft_rate TEXT, 
+state TEXT
 );
-
-
 
 -- create park score source table
 DROP TABLE IF EXISTS src.park_score;
@@ -52,13 +51,13 @@ TopicId TEXT,
 QuestionId TEXT,
 LocationId TEXT,
 BreakOutId TEXT,
-BreakOutCategoryid
+BreakOutCategoryid TEXT
 );
 
 
 
 -- load median earnings source data
-DROP TABLE IF EXISTS src.median_earnings
+DROP TABLE IF EXISTS src.median_earnings;
 CREATE TABLE src.median_earnings (
 GEO_id1 TEXT,
 GEO_id2 TEXT,
@@ -507,14 +506,16 @@ HC05_EST_VC39 TEXT,
 HC05_MOE_VC39 TEXT,
 HC06_EST_VC39 TEXT,
 HC06_MOE_VC39 TEXT
-)
+);
+
+SELECT pg_sleep(5);
 
 -- load crime stats source data
-\copy src.crime_stats FROM '/data/batch/crime_stats.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"'
+\copy src.crime_stats FROM '/data/batch/crime_by_state.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"'
 -- load park score source data
 \copy src.park_score FROM '/data/batch/park_score.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"'
 -- load quality of life source data
-\copy src.quality_of_life FROM '/data/batch/quality_of_life.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"';
+\copy src.quality_of_life FROM '/data/batch/quality_of_life.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"'
 -- load median earnings source data
 \copy src.median_earnings FROM '/data/batch/median_earnings.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"'
 
