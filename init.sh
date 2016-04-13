@@ -65,6 +65,13 @@ chmod +x /data/stop_postgres.sh
 
 sleep 5
 
+# create database for storage
+cat > /data/setup_postgres_database.sql <<EOF
+CREATE DATABASE solid_start;
+CREATE SCHEMA src;
+EOF
+sudo -u postgres psql -f /data/setup_postgres_database.sql
+
 #write setup script for hive metastore
 cat > /data/setup_hive_for_postgres.sql <<EOF
 CREATE USER hiveuser WITH PASSWORD 'hive';

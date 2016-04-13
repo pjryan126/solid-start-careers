@@ -14,4 +14,4 @@ sudo -u w205 hdfs dfs -put park_score.csv /user/w205/src/park_score
 sudo -u w205 hdfs dfs -put quality_of_life.csv /user/w205/src/quality_of_life
 
 # load source files into hive for accessible storage
-pgsql -U postgres -f batch_load.sql
+psql -U postgres -f batch_load.sql
