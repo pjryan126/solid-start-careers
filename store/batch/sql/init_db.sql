@@ -510,7 +510,7 @@ HC06_MOE_VC39 TEXT
 -- create datasource table
 DROP TABLE IF EXISTS src.datasource;
 CREATE TABLE src.datasource (
-  datasource_id SERIAL PRIMARY KEY,
+  datasource_id SERIAL UNIQUE PRIMARY KEY,
   name TEXT
 );
 
@@ -527,7 +527,7 @@ VALUES
 -- create batch table
 DROP TABLE IF EXISTS src.batch;
 CREATE TABLE src.batch (
-  batch_id SERIAL PRIMARY KEY,
+  batch_id SERIAL UNIQUE PRIMARY KEY,
   datasource_id INT REFERENCES src.datasource(datasource_id),
   name TEXT,
   is_active BOOL
@@ -536,6 +536,7 @@ CREATE TABLE src.batch (
 -- create crime stats source table
 DROP TABLE IF EXISTS src.crime_stats;
 CREATE TABLE src.crime_stats (
+crime_stats_id SERIAL UNIQUE PRIMARY KEY,
 batch_id INT REFERENCES src.batch(batch_id),
 year TEXT,
 population TEXT,
@@ -554,6 +555,7 @@ state TEXT
 -- create park score source table
 DROP TABLE IF EXISTS src.park_score;
 CREATE TABLE src.park_score (
+park_score_id SERIAL UNIQUE PRIMARY KEY,
 batch_id INT REFERENCES src.batch(batch_id),
 city TEXT,
 state TEXT,
@@ -564,6 +566,7 @@ score TEXT
 --create quality of life source table
 DROP TABLE IF EXISTS src.quality_of_life;
 CREATE TABLE src.quality_of_life (
+quality_of_life_id SERIAL UNIQUE PRIMARY KEY,
 batch_id INT REFERENCES src.batch(batch_id),
 Year TEXT,
 LocationAbbr TEXT,
@@ -595,6 +598,7 @@ BreakOutCategoryid TEXT
 -- load median earnings source data
 DROP TABLE IF EXISTS src.median_earnings;
 CREATE TABLE src.median_earnings (
+median_earnings_id SERIAL UNIQUE PRIMARY KEY,
 batch_id INT REFERENCES src.batch(batch_id),
 GEO_id1 TEXT,
 GEO_id2 TEXT,
