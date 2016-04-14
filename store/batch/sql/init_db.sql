@@ -536,7 +536,7 @@ CREATE TABLE src.batch (
 -- create crime stats source table
 DROP TABLE IF EXISTS src.crime_stats;
 CREATE TABLE src.crime_stats (
-batch_id INT REFERENCES src.batch(batch_id, datasource_id, name, is_active),
+batch_id INT REFERENCES src.batch(batch_id),
 year TEXT,
 population TEXT,
 violent_crime_rate TEXT,
@@ -554,7 +554,7 @@ state TEXT
 -- create park score source table
 DROP TABLE IF EXISTS src.park_score;
 CREATE TABLE src.park_score (
-batch_id INT REFERENCES src.batch(batch_id, datasource_id, name, is_active),
+batch_id INT REFERENCES src.batch(batch_id),
 city TEXT,
 state TEXT,
 year TEXT,
@@ -564,7 +564,7 @@ score TEXT
 --create quality of life source table
 DROP TABLE IF EXISTS src.quality_of_life;
 CREATE TABLE src.quality_of_life (
-batch_id INT REFERENCES src.batch(batch_id, datasource_id, name, is_active),
+batch_id INT REFERENCES src.batch(batch_id),
 Year TEXT,
 LocationAbbr TEXT,
 LocationDesc TEXT,
@@ -595,7 +595,7 @@ BreakOutCategoryid TEXT
 -- load median earnings source data
 DROP TABLE IF EXISTS src.median_earnings;
 CREATE TABLE src.median_earnings (
-batch_id INT REFERENCES src.batch(batch_id, datasource_id, name, is_active),
+batch_id INT REFERENCES src.batch(batch_id),
 GEO_id1 TEXT,
 GEO_id2 TEXT,
 GEO_display_label TEXT,
