@@ -1,14 +1,14 @@
 #! /bin/bash
 
 cd $HOME
-umount /data
+#umount /data
 
 echo "using drive " $1
 echo "WARNING!! This will format the drive at" $1
 read -rsp $'Press any key to continue or control-C to quit...\n' -n1 key
 
 #make a new ext4 filesystem
-mkfs.ext4 $1
+#mkfs.ext4 $1
 
 #mount the new filesystem under /data
 mount -t ext4 $1 /data
@@ -67,12 +67,12 @@ sleep 5
 
 # create database for storage
 cat > /data/setup_postgres_database.sql <<EOF
-DROP DATABASE IF EXISTS solid_start_TEST;
-CREATE DATABASE solid_start_TEST;
+DROP DATABASE IF EXISTS solid_start_test;
+CREATE DATABASE solid_start_test;
 CREATE SCHEMA raw;
 CREATE SCHEMA src;
 EOF
-sudo -u postgres psql -f /data/setup_postgres_database.sql
+#sudo -u postgres psql -f /data/setup_postgres_database.sql
 
 #write setup script for hive metastore
 cat > /data/setup_hive_for_postgres.sql <<EOF

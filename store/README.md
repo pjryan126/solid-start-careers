@@ -49,9 +49,9 @@ $ /data/start_postgres.sh
 **7. Set a password for user postgres on postresql server.**
 
 ```
-$ pgsql -U postgres -d metastore
-metastore=# alter user postgres with password 'password';
-metastore=# \q
+$ pgsql -U postgres
+postgres=# alter user postgres with password 'password';
+postgres=# \q
 ```
 
 **8. Extract source files for batch load.**
