@@ -510,7 +510,7 @@ HC06_MOE_VC39 TEXT
 -- create datasource table
 DROP TABLE IF EXISTS src.datasource;
 CREATE TABLE src.datasource (
-  datasource_id SERIAL UNIQUE PRIMARY KEY,
+  datasource_id INT UNIQUE PRIMARY KEY,
   name TEXT
 );
 

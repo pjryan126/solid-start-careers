@@ -10,7 +10,7 @@ WHERE b.datasource_id = 3;
 -- add src.batch record
 INSERT INTO src.batch (datasource_id, name, is_active)
 VALUES
-  (3, batch_name, TRUE);
+  (3, :batch_name, TRUE);
 
 
 -- load quality of life raw data
@@ -48,7 +48,7 @@ SELECT * FROM raw.quality_of_life;
 
 -- add batch_id to new records in src table
 UPDATE src.quality_of_life q
-SET q.batch_id = b.batch_id
+SET batch_id = b.batch_id
 FROM src.batch b
 WHERE q.batch_id IS NULL
   AND b.datasource_id = 3

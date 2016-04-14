@@ -69,10 +69,12 @@ sleep 5
 cat > /data/setup_postgres_database.sql <<EOF
 DROP DATABASE IF EXISTS solid_start_test;
 CREATE DATABASE solid_start_test;
+\connect solid_start{test;
 CREATE SCHEMA raw;
 CREATE SCHEMA src;
+\q
 EOF
-#sudo -u postgres psql -f /data/setup_postgres_database.sql
+sudo -u postgres psql -f /data/setup_postgres_database.sql
 
 #write setup script for hive metastore
 cat > /data/setup_hive_for_postgres.sql <<EOF

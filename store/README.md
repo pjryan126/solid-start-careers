@@ -33,20 +33,26 @@ $ cd solid-start-careers
 $ ./init.sh
 ```
 
-**5. Initialize the postgresql database for analysis.**
-
-```
-psql -U postgres -d solid_start -f batch/sql/init_db.sql
-```
-
-**6. Start hadoop and postgresql.**
+**5. Start hadoop and postgresql.**
 
 ```
 $ /root/start-hadoop.sh
 $ /data/start_postgres.sh
 ```
 
-**7. Set a password for user postgres on postresql server.**
+**6. Extract SQL scripts.**
+
+```
+$ cp -rf sql/ /data/sql
+```
+
+**7. Initialize the postgresql database for analysis.**
+
+```
+$ psql -U postgres -d solid_start -f batch/sql/init_db.sql
+```
+
+**8. Set a password for user postgres on postresql server.**
 
 ```
 $ pgsql -U postgres
@@ -54,16 +60,15 @@ postgres=# alter user postgres with password 'password';
 postgres=# \q
 ```
 
-**8. Extract source files for batch load.**
+**9. Extract source files for batch load.**
 
 ```
 $ cd store/batch
 $ unzip data/batch.zip -d /data/batch
 ```
 
-**9. Load source files into hadoop.**
+**10. Load source files into hadoop.**
 
 ```
-$ 
 $ ./batch_load.sh
 ```

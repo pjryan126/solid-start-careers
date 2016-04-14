@@ -10,7 +10,7 @@ WHERE b.datasource_id = 1;
 -- add src.batch record
 INSERT INTO src.batch (datasource_id, name, is_active)
 VALUES
-  (1, batch_name, TRUE);
+  (1, :batch_name, TRUE);
 
 -- load crime stats raw data
 \copy raw.crime_stats FROM '/data/batch/crime_by_state.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"'
@@ -34,7 +34,7 @@ SELECT * FROM raw.crime_stats;
 
 -- add batch_id to new records in src table
 UPDATE src.crime_stats c
-SET c.batch_id = b.batch_id
+SET batch_id = b.batch_id
 FROM src.batch b
 WHERE c.batch_id IS NULL
   AND b.datasource_id = 1

@@ -10,7 +10,7 @@ WHERE b.datasource_id = 4;
 -- add src.batch record
 INSERT INTO src.batch (datasource_id, name, is_active)
 VALUES
-  (4, batch_name, TRUE);
+  (4, :batch_name, TRUE);
 
 
 -- load median earnings raw data
@@ -470,7 +470,7 @@ SELECT * FROM raw.median_earnings;
 
 -- add batch_id to new records in src table
 UPDATE src.median_earnings m
-SET m.batch_id = b.batch_id
+SET batch_id = b.batch_id
 FROM src.batch b
 WHERE m.batch_id IS NULL
   AND b.datasource_id = 4
