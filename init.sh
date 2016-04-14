@@ -67,7 +67,9 @@ sleep 5
 
 # create database for storage
 cat > /data/setup_postgres_database.sql <<EOF
-CREATE DATABASE solid_start;
+DROP DATABASE IF EXISTS solid_start_TEST;
+CREATE DATABASE solid_start_TEST;
+CREATE SCHEMA raw;
 CREATE SCHEMA src;
 EOF
 sudo -u postgres psql -f /data/setup_postgres_database.sql
