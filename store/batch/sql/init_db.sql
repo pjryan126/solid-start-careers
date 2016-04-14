@@ -528,7 +528,7 @@ VALUES
 DROP TABLE IF EXISTS src.batch;
 CREATE TABLE src.batch (
   batch_id SERIAL PRIMARY KEY,
-  datasource_id INT REFERENCES src.datasource(datasource_id, name),
+  datasource_id INT REFERENCES src.datasource(datasource_id),
   name TEXT,
   is_active BOOL
 );
