@@ -1,3 +1,14 @@
+-- create geolocation raw table
+DROP TABLE IF EXISTS raw.location;
+CREATE TABLE raw.location (
+  zip_code TEXT,
+  latitude TEXT,
+  longitude TEXT,
+  city TEXT,
+  state TEXT,
+  county TEXT
+);
+
 -- create crime stats raw table
 DROP TABLE IF EXISTS raw.crime_stats;
 CREATE TABLE raw.crime_stats (
@@ -522,7 +533,8 @@ VALUES
   (3, 'Quality of Life'),
   (4, 'Median Earnings'),
   (5, 'Housing Data'),
-  (6, 'Jobs Data');
+  (6, 'Jobs Data'),
+  (7, 'GeoLocation Data');
 
 -- create batch table
 DROP TABLE IF EXISTS src.batch;
@@ -531,6 +543,18 @@ CREATE TABLE src.batch (
   datasource_id INT REFERENCES src.datasource(datasource_id),
   name TEXT,
   is_active BOOL
+);
+
+-- create geolocation table
+DROP TABLE IF EXISTS src.location;
+CREATE TABLE src.location (
+  location_id SERIAL PRIMARY KEY,
+  zip_code TEXT,
+  latitude TEXT,
+  longitude TEXT,
+  city TEXT,
+  state TEXT,
+  county TEXT
 );
 
 -- create crime stats source table

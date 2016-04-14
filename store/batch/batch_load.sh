@@ -14,6 +14,8 @@ sudo -u w205 hdfs dfs -put /data/batch/park_score.csv /user/w205/src/park_score
 sudo -u w205 hdfs dfs -put /data/batch/quality_of_life.csv /user/w205/src/quality_of_life
 
 # load batch source files into postgresql for accessible storage
+psql -U postgres -d solid_start -v batch_name="'Location 1'" -v f="'/data/batch/location.csv'" \
+-f /data/sql/load_location.sql
 psql -U postgres -d solid_start -v batch_name="'Crime Stats 1'" -v f="'/data/batch/crime_by_state.csv'" \
 -f /data/sql/load_crime_stats.sql
 psql -U postgres -d solid_start -v batch_name="'Park Score 1'" -v f="'/data/batch/park_score.csv'" \

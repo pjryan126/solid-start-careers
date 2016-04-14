@@ -1,14 +1,14 @@
 #! /bin/bash
 
 cd $HOME
-#umount /data
+umount /data
 
 echo "using drive " $1
 echo "WARNING!! This will format the drive at" $1
 read -rsp $'Press any key to continue or control-C to quit...\n' -n1 key
 
 #make a new ext4 filesystem
-#mkfs.ext4 $1
+mkfs.ext4 $1
 
 #mount the new filesystem under /data
 mount -t ext4 $1 /data
