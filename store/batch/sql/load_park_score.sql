@@ -14,7 +14,7 @@ VALUES
 
 
 -- load park score raw data
-\copy raw.park_score FROM '/data/batch/park_score.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"'
+\copy raw.park_score FROM :f WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"'
 
 -- load park score raw data into src.park_score
 INSERT INTO src.park_score (

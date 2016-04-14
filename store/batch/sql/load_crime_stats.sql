@@ -13,7 +13,7 @@ VALUES
   (1, :batch_name, TRUE);
 
 -- load crime stats raw data
-\copy raw.crime_stats FROM '/data/batch/crime_by_state.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"'
+\copy raw.crime_stats FROM :f WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"'
 
 -- load crime stats raw data into src.crime_stats
 INSERT INTO src.crime_stats (

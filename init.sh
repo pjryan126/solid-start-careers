@@ -67,9 +67,9 @@ sleep 5
 
 # create database for storage
 cat > /data/setup_postgres_database.sql <<EOF
-DROP DATABASE IF EXISTS solid_start_test;
-CREATE DATABASE solid_start_test;
-\connect solid_start{test;
+DROP DATABASE IF EXISTS solid_start;
+CREATE DATABASE solid_start;
+\connect solid_start;
 CREATE SCHEMA raw;
 CREATE SCHEMA src;
 \q

@@ -14,7 +14,7 @@ VALUES
 
 
 -- load quality of life raw data
-\copy raw.quality_of_life FROM '/data/batch/quality_of_life.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"'
+\copy raw.quality_of_life FROM :f WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"'
 
 -- load quality of life raw data into src.quality_of_life
 INSERT INTO src.quality_of_life (

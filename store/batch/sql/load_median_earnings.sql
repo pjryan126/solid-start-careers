@@ -14,7 +14,7 @@ VALUES
 
 
 -- load median earnings raw data
-\copy raw.median_earnings FROM '/data/batch/median_earnings.csv' WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"'
+\copy raw.median_earnings FROM :f WITH DELIMITER AS ',' CSV HEADER QUOTE AS '"'
 
 -- load median earnings raw data into src.median_earnings
 INSERT INTO src.median_earnings (

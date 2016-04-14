@@ -43,13 +43,13 @@ $ /data/start_postgres.sh
 **6. Extract SQL scripts.**
 
 ```
-$ cp -rf sql/ /data/sql
+$ cp -rf store/batch/sql/ /data/sql
 ```
 
 **7. Initialize the postgresql database for analysis.**
 
 ```
-$ psql -U postgres -d solid_start -f batch/sql/init_db.sql
+$ psql -U postgres -d solid_start -f /data/sql/init_db.sql
 ```
 
 **8. Set a password for user postgres on postresql server.**
