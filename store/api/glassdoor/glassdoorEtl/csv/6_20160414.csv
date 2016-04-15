@@ -1,0 +1,1002 @@
+numJobs,name,stateAbbreviation,stateName,id,latitude,longitude,category_id
+754,"New York, NY",NY,New York,1132348,40.71417,-74.00639,6
+589,"Houston, TX",TX,Texas,1140171,29.76306,-95.36306,6
+571,"Chicago, IL",IL,Illinois,1128808,41.85,-87.65,6
+426,"San Francisco, CA",CA,California,1147401,37.775,-122.41833,6
+419,"Dallas, TX",TX,Texas,1139977,32.78333,-96.8,6
+417,"Phoenix, AZ",AZ,Arizona,1133904,33.44833,-112.07333,6
+378,"Los Angeles, CA",CA,California,1146821,34.05222,-118.24278,6
+342,"Pittsburgh, PA",PA,Pennsylvania,1152990,40.44056,-79.99611,6
+308,"Austin, TX",TX,Texas,1139761,30.26694,-97.74278,6
+301,"Columbus, OH",OH,Ohio,1145845,39.96111,-82.99889,6
+286,"Birmingham, AL",AL,Alabama,1127429,33.52056,-86.8025,6
+284,"Cincinnati, OH",OH,Ohio,1145705,39.16194,-84.45694,6
+271,"Atlanta, GA",GA,Georgia,1155583,33.74889,-84.38806,6
+262,"Seattle, WA",WA,Washington,1150505,47.60639,-122.33083,6
+254,"San Diego, CA",CA,California,1147311,32.71528,-117.15639,6
+252,"Philadelphia, PA",PA,Pennsylvania,1152672,39.95222,-75.16417,6
+247,"Tampa, FL",FL,Florida,1154429,27.94722,-82.45861,6
+247,"Indianapolis, IN",IN,Indiana,1145013,39.76833,-86.15806,6
+245,"Denver, CO",CO,Colorado,1148170,39.73917,-104.98417,6
+239,"San Antonio, TX",TX,Texas,1140494,29.42389,-98.49333,6
+230,"Portland, OR",OR,Oregon,1151614,45.52361,-122.675,6
+218,"San Jose, CA",CA,California,1147436,37.33944,-121.89389,6
+216,"Minneapolis, MN",MN,Minnesota,1142551,44.98,-93.26361,6
+215,"Miami, FL",FL,Florida,1154170,25.77389,-80.19389,6
+214,"Buffalo, NY",NY,New York,1131850,42.88639,-78.87861,6
+204,"Omaha, NE",NE,Nebraska,1136440,41.25861,-95.9375,6
+202,"Las Vegas, NV",NV,Nevada,1149603,36.175,-115.13639,6
+191,"Boston, MA",MA,Massachusetts,1154532,42.35833,-71.06028,6
+189,"Charlotte, NC",NC,North Carolina,1138644,35.22694,-80.84333,6
+188,"Scottsdale, AZ",AZ,Arizona,1133911,33.50917,-111.89833,6
+177,"Louisville, KY",KY,Kentucky,1137724,38.25417,-85.75944,6
+171,"Cleveland, OH",OH,Ohio,1145778,41.49944,-81.69556,6
+170,"Salt Lake City, UT",UT,Utah,1128289,40.76083,-111.89028,6
+160,"Nashville, TN",TN,Tennessee,1144541,36.16583,-86.78444,6
+159,"Honolulu, HI",HI,Hawaii,1140656,21.30694,-157.85834,6
+155,"Saint Louis, MO",MO,Missouri,1131270,38.636864,-90.28388,6
+151,"Jacksonville, FL",FL,Florida,1154093,30.33194,-81.65583,6
+149,"Sacramento, CA",CA,California,1147229,38.58167,-121.49333,6
+138,"Washington, DC",DC,District of Columbia,1138213,38.895,-77.03667,6
+132,"Irvine, CA",CA,California,1146798,33.66944,-117.82222,6
+132,"Irving, TX",TX,Texas,1140006,32.81389,-96.94861,6
+130,"Tucson, AZ",AZ,Arizona,1133996,32.22167,-110.92583,6
+125,"Brooklyn, NY",NY,New York,1132200,40.65,-73.95,6
+121,"Fort Worth, TX",TX,Texas,1139993,32.72528,-97.32056,6
+115,"Baltimore, MD",MD,Maryland,1153527,39.29028,-76.6125,6
+112,"Kansas City, MO",MO,Missouri,1131040,39.09972,-94.57833,6
+111,"Albuquerque, NM",NM,New Mexico,1137959,35.08444,-106.65056,6
+110,"Milwaukee, WI",WI,Wisconsin,1133579,43.03889,-87.90639,6
+109,"Orlando, FL",FL,Florida,1154247,28.53806,-81.37944,6
+108,"Tempe, AZ",AZ,Arizona,1133917,33.41472,-111.90861,6
+107,"Plano, TX",TX,Texas,1140045,33.01972,-96.69861,6
+103,"Oklahoma City, OK",OK,Oklahoma,1136950,35.4675,-97.51611,6
+103,"Richardson, TX",TX,Texas,1140053,32.94806,-96.72944,6
+98,"Overland Park, KS",KS,Kansas,1151049,38.98222,-94.67056,6
+97,"Albany, NY",NY,New York,1131650,42.6525,-73.75667,6
+94,"Rochester, NY",NY,New York,1132765,43.15472,-77.61583,6
+92,"Richmond, VA",VA,Virginia,1130198,37.55361,-77.46056,6
+89,"Raleigh, NC",NC,North Carolina,1138960,35.77194,-78.63889,6
+88,"Grand Rapids, MI",MI,Michigan,1134796,42.96333,-85.66806,6
+87,"Toledo, OH",OH,Ohio,1146248,41.66389,-83.55528,6
+86,"Des Moines, IA",IA,Iowa,1149246,41.60056,-93.60889,6
+86,"Ann Arbor, MI",MI,Michigan,1134560,42.27083,-83.72639,6
+85,"Tulsa, OK",OK,Oklahoma,1137055,36.15389,-95.9925,6
+85,"Madison, WI",WI,Wisconsin,1133470,43.07306,-89.40111,6
+78,"Mesa, AZ",AZ,Arizona,1133897,33.42222,-111.82194,6
+78,"Hartford, CT",CT,Connecticut,1148399,41.76361,-72.68556,6
+77,"Troy, MI",MI,Michigan,1134737,42.60556,-83.15,6
+76,"Memphis, TN",TN,Tennessee,1144463,35.14944,-90.04889,6
+76,"Orange, CA",CA,California,1146843,33.78778,-117.85222,6
+76,"Green Bay, WI",WI,Wisconsin,1133406,44.51917,-88.01972,6
+75,"Oakland, CA",CA,California,1147380,37.80444,-122.26972,6
+74,"Bronx, NY",NY,New York,1132197,40.85,-73.86667,6
+73,"Sarasota, FL",FL,Florida,1154350,27.33611,-82.53083,6
+73,"Schaumburg, IL",IL,Illinois,1128969,42.03333,-88.08333,6
+73,"Colorado Springs, CO",CO,Colorado,1148136,38.83389,-104.82083,6
+72,"Wilmington, DE",DE,Delaware,1156375,39.74583,-75.54694,6
+71,"Detroit, MI",MI,Michigan,1134644,42.33139,-83.04583,6
+70,"Alpharetta, GA",GA,Georgia,1155582,34.07528,-84.29417,6
+68,"Bellevue, WA",WA,Washington,1150442,47.61056,-122.19944,6
+67,"Fresno, CA",CA,California,1146705,36.74778,-119.77139,6
+66,"Lake Mary, FL",FL,Florida,1154234,28.75861,-81.31806,6
+66,"Anchorage, AK",AK,Alaska,1134201,61.21806,-149.90028,6
+65,"Roseville, CA",CA,California,1147226,38.75222,-121.28694,6
+64,"Vancouver, WA",WA,Washington,1150413,45.63889,-122.66028,6
+63,"Akron, OH",OH,Ohio,1145529,41.08139,-81.51917,6
+61,"Dayton, OH",OH,Ohio,1145937,39.75889,-84.19167,6
+61,"Santa Rosa, CA",CA,California,1147518,38.44056,-122.71333,6
+60,"Boise, ID",ID,Idaho,1127927,43.61361,-116.2025,6
+60,"San Mateo, CA",CA,California,1147406,37.56306,-122.32444,6
+59,"Naperville, IL",IL,Illinois,1128928,41.78583,-88.14722,6
+59,"Arlington, VA",VA,Virginia,1130337,38.89028,-77.08444,6
+59,"Urbandale, IA",IA,Iowa,1149281,41.62667,-93.71194,6
+59,"Spokane, WA",WA,Washington,1150554,47.65889,-117.425,6
+59,"Syracuse, NY",NY,New York,1132872,43.04806,-76.14778,6
+58,"Anaheim, CA",CA,California,1146743,33.83528,-117.91361,6
+58,"Tacoma, WA",WA,Washington,1150517,47.25306,-122.44306,6
+58,"Torrance, CA",CA,California,1146894,33.83583,-118.33972,6
+57,"Knoxville, TN",TN,Tennessee,1144394,35.96056,-83.92083,6
+57,"Fort Lauderdale, FL",FL,Florida,1154160,26.12194,-80.14361,6
+57,"Columbia, SC",SC,South Carolina,1155132,34.00056,-81.035,6
+56,"Bloomington, MN",MN,Minnesota,1162257,44.84083,-93.29806,6
+56,"Charleston, SC",SC,South Carolina,1155074,32.77639,-79.93111,6
+56,"Saint Paul, MN",MN,Minnesota,1142575,44.94444,-93.09306,6
+56,"Aurora, CO",CO,Colorado,1148156,39.72944,-104.83139,6
+55,"West Palm Beach, FL",FL,Florida,1154182,26.715,-80.05361,6
+55,"Baton Rouge, LA",LA,Louisiana,1149789,30.45056,-91.15444,6
+54,"Saint Petersburg, FL",FL,Florida,1154421,27.77056,-82.67944,6
+54,"Henderson, NV",NV,Nevada,1149600,36.03972,-114.98111,6
+54,"Lexington-Fayette, KY",KY,Kentucky,3749474,38.04972,-84.45861,6
+53,"Kalamazoo, MI",MI,Michigan,1134900,42.29167,-85.58722,6
+53,"Glendale, CA",CA,California,1146787,34.1425,-118.25417,6
+53,"Staten Island, NY",NY,New York,1132430,40.58901,-74.145874,6
+52,"Nashua, NH",NH,New Hampshire,1147911,42.76528,-71.46806,6
+51,"Santa Monica, CA",CA,California,1146873,34.01944,-118.49028,6
+51,"McAllen, TX",TX,Texas,1140353,26.20306,-98.22972,6
+51,"Durham, NC",NC,North Carolina,1138697,35.99389,-78.89889,6
+51,"New Orleans, LA",LA,Louisiana,1150035,29.95444,-90.075,6
+50,"Little Rock, AR",AR,Arkansas,1143190,34.74639,-92.28944,6
+50,"Boca Raton, FL",FL,Florida,1154153,26.35833,-80.08333,6
+50,"Eugene, OR",OR,Oregon,1151469,44.05222,-123.08556,6
+50,"Fort Wayne, IN",IN,Indiana,1144939,41.13056,-85.12889,6
+50,"Virginia Beach, VA",VA,Virginia,1130324,36.85278,-75.97833,6
+50,"Erie, PA",PA,Pennsylvania,1152139,42.12917,-80.08528,6
+50,"Greenville, SC",SC,South Carolina,1155193,34.8525,-82.39417,6
+49,"Clearwater, FL",FL,Florida,1154388,27.96556,-82.80028,6
+49,"Medford, OR",OR,Oregon,1151534,42.32667,-122.87444,6
+49,"Long Beach, CA",CA,California,1146819,33.76694,-118.18833,6
+49,"Pasadena, CA",CA,California,1146850,34.14778,-118.14361,6
+49,"Alexandria, VA",VA,Virginia,1130334,38.79755,-77.08908,6
+49,"Woodland Hills, CA",CA,California,1146915,34.16833,-118.605,6
+49,"Englewood, CO",CO,Colorado,1148176,39.64778,-104.98722,6
+48,"Franklin, TN",TN,Tennessee,1144518,35.925,-86.86889,6
+48,"Hot Springs, AR",AR,Arkansas,1162464,34.50361,-93.055,6
+48,"Warwick, RI",RI,Rhode Island,1151302,41.7,-71.41667,6
+48,"Carmel, IN",IN,Indiana,1144991,39.97833,-86.11806,6
+47,"Boulder, CO",CO,Colorado,1148112,40.015,-105.27,6
+46,"Lincoln, NE",NE,Nebraska,1136371,40.8,-96.66667,6
+46,"Providence, RI",RI,Rhode Island,1151289,41.82389,-71.41333,6
+46,"Newport Beach, CA",CA,California,1146837,33.61889,-117.92806,6
+46,"Arlington, TX",TX,Texas,1139951,32.73556,-97.10778,6
+46,"Santa Clara, CA",CA,California,1147439,37.35417,-121.95417,6
+46,"Chandler, AZ",AZ,Arizona,1133878,33.30611,-111.84056,6
+45,"McLean, VA",VA,Virginia,1158535,38.93417,-77.17778,6
+45,"Walnut Creek, CA",CA,California,1147417,37.90639,-122.06389,6
+45,"San Ramon, CA",CA,California,1147410,37.78,-121.97694,6
+44,"Naples, FL",FL,Florida,1154189,26.14167,-81.795,6
+44,"Springfield, MO",MO,Missouri,1131348,37.21528,-93.29806,6
+44,"Everett, WA",WA,Washington,1150458,47.97917,-122.20083,6
+44,"Savannah, GA",GA,Georgia,1155906,32.08333,-81.1,6
+43,"Wichita, KS",KS,Kansas,1151230,37.69222,-97.33722,6
+43,"Columbia, MO",MO,Missouri,1130886,38.95167,-92.33389,6
+43,"Fremont, CA",CA,California,1147355,37.54833,-121.9875,6
+43,"Concord, CA",CA,California,1147340,37.97806,-122.03,6
+43,"Fort Collins, CO",CO,Colorado,1148233,40.58528,-105.08389,6
+42,"Columbia, MD",MD,Maryland,1153546,39.24028,-76.83972,6
+42,"Costa Mesa, CA",CA,California,1146769,33.64111,-117.91778,6
+41,"El Paso, TX",TX,Texas,1140105,31.75861,-106.48639,6
+41,"Modesto, CA",CA,California,1146953,37.63917,-120.99583,6
+41,"Sioux Falls, SD",SD,South Dakota,1141041,43.55,-96.7,6
+41,"Appleton, WI",WI,Wisconsin,1133289,44.26194,-88.41528,6
+41,"Westminster, CO",CO,Colorado,1148207,39.83667,-105.03667,6
+40,"Rockville, MD",MD,Maryland,1153899,39.08389,-77.15306,6
+40,"Jersey City, NJ",NJ,New Jersey,1126819,40.72806,-74.07806,6
+40,"Southfield, MI",MI,Michigan,1134732,42.47333,-83.22194,6
+40,"Hamilton, NJ",NJ,New Jersey,1157536,40.20694,-74.08167,6
+40,"Lynnwood, WA",WA,Washington,1150479,47.82111,-122.31389,6
+39,"Brea, CA",CA,California,1146754,33.91667,-117.89917,6
+39,"Flushing, NY",NY,New York,1132249,40.750717,-73.83395,6
+39,"Metairie, LA",LA,Louisiana,1150033,29.98389,-90.15278,6
+39,"Stockton, CA",CA,California,1147539,37.95778,-121.28972,6
+39,"Thousand Oaks, CA",CA,California,1146988,34.17056,-118.83667,6
+39,"Jackson, MS",MS,Mississippi,1141371,32.29861,-90.18472,6
+38,"Worcester, MA",MA,Massachusetts,1154962,42.2625,-71.80278,6
+38,"Medford, MA",MA,Massachusetts,1154617,42.41833,-71.10667,6
+38,"Cambridge, MA",MA,Massachusetts,1154545,42.375,-71.10611,6
+38,"Salem, OR",OR,Oregon,1151682,44.94306,-123.03389,6
+38,"Cerritos, CA",CA,California,1146763,33.85833,-118.06389,6
+38,"Harrisburg, PA",PA,Pennsylvania,1152185,40.27361,-76.88472,6
+38,"Cedar Rapids, IA",IA,Iowa,1149160,42.00833,-91.64389,6
+38,"Palo Alto, CA",CA,California,1147434,37.44194,-122.14194,6
+38,"Pleasanton, CA",CA,California,1147390,37.6625,-121.87361,6
+37,"Long Island City, NY",NY,New York,1132310,40.756947,-73.928795,6
+37,"Sunnyvale, CA",CA,California,1147442,37.36889,-122.03528,6
+37,"Riverside, CA",CA,California,1147138,33.95333,-117.39528,6
+36,"Washington, PA",PA,Pennsylvania,1153058,40.17389,-80.24639,6
+36,"Hyannis, MA",MA,Massachusetts,1154479,41.65278,-70.28333,6
+36,"Bradenton, FL",FL,Florida,1154335,27.49861,-82.575,6
+36,"Champaign, IL",IL,Illinois,1128722,40.11639,-88.24333,6
+36,"Lancaster, PA",PA,Pennsylvania,1152360,40.03778,-76.30583,6
+36,"Melville, NY",NY,New York,1132326,40.79333,-73.41556,6
+36,"Winston-Salem, NC",NC,North Carolina,1139151,36.09766,-80.24728,6
+36,"Fargo, ND",ND,North Dakota,1156255,46.87722,-96.78944,6
+35,"The Woodlands, TX",TX,Texas,1161666,30.15778,-95.48917,6
+35,"York, PA",PA,Pennsylvania,1153468,39.9625,-76.72806,6
+35,"Miami Beach, FL",FL,Florida,1154171,25.79028,-80.13028,6
+35,"Sterling Heights, MI",MI,Michigan,1159809,42.58028,-83.03028,6
+35,"Santa Ana, CA",CA,California,1146870,33.74556,-117.86694,6
+35,"Santa Barbara, CA",CA,California,1147473,34.42083,-119.69722,6
+35,"Waukesha, WI",WI,Wisconsin,1133599,43.01167,-88.23139,6
+35,"Newark, DE",DE,Delaware,1156369,39.68361,-75.75,6
+34,"Princeton, NJ",NJ,New Jersey,1127179,40.34861,-74.65944,6
+34,"Woburn, MA",MA,Massachusetts,1154729,42.47917,-71.15278,6
+34,"Chesapeake, VA",VA,Virginia,1130279,36.81889,-76.27528,6
+34,"Redwood City, CA",CA,California,1147394,37.48528,-122.23528,6
+34,"Concord, NH",NH,New Hampshire,1147789,43.20806,-71.53806,6
+33,"Newark, NJ",NJ,New Jersey,1126906,40.73556,-74.17278,6
+33,"Marlton, NJ",NJ,New Jersey,1127123,39.89111,-74.92222,6
+33,"Reno, NV",NV,Nevada,1149627,39.52972,-119.81278,6
+33,"Glendale, AZ",AZ,Arizona,1133888,33.53861,-112.18528,6
+33,"Corona, CA",CA,California,1147072,33.87528,-117.56556,6
+32,"Fort Myers, FL",FL,Florida,1154016,26.64028,-81.8725,6
+32,"Bethesda, MD",MD,Maryland,1153817,38.98056,-77.10056,6
+32,"Chattanooga, TN",TN,Tennessee,1144251,35.04556,-85.30972,6
+32,"Mount Laurel, NJ",NJ,New Jersey,1127131,39.93389,-74.89139,6
+32,"Lakeland, FL",FL,Florida,1154143,28.03917,-81.95,6
+32,"Lakewood, CA",CA,California,1146813,33.85361,-118.13306,6
+32,"Dublin, OH",OH,Ohio,1145850,40.102497,-83.11432,6
+32,"Lakewood, CO",CO,Colorado,1164305,39.70472,-105.08083,6
+32,"Brookfield, WI",WI,Wisconsin,1133554,43.06056,-88.10639,6
+31,"Northbrook, IL",IL,Illinois,1128934,42.1275,-87.82889,6
+31,"Olathe, KS",KS,Kansas,1151046,38.88139,-94.81889,6
+31,"Lansdale, PA",PA,Pennsylvania,1152627,40.24139,-75.28417,6
+31,"Glen Allen, VA",VA,Virginia,1130160,37.66583,-77.50667,6
+31,"Fairfax, VA",VA,Virginia,1130359,38.84611,-77.30667,6
+31,"Katy, TX",TX,Texas,1140177,29.78556,-95.82417,6
+31,"College Station, TX",TX,Texas,1139900,30.62778,-96.33417,6
+31,"Lake Charles, LA",LA,Louisiana,1149940,30.22639,-93.21722,6
+31,"Chesterfield, MO",MO,Missouri,1131207,38.66306,-90.57694,6
+31,"Arvada, CO",CO,Colorado,1148155,39.80278,-105.08694,6
+31,"Littleton, CO",CO,Colorado,1148194,39.61333,-105.01611,6
+30,"Braintree, MA",MA,Massachusetts,1154535,42.22222,-71,6
+30,"Holland, MI",MI,Michigan,1134828,42.7875,-86.10889,6
+30,"Sandy, UT",UT,Utah,1128290,40.574997,-111.84344,6
+30,"Bakersfield, CA",CA,California,1146557,35.37333,-119.01778,6
+30,"Beverly Hills, CA",CA,California,1146753,34.07361,-118.39944,6
+30,"White Plains, NY",NY,New York,1132464,41.03389,-73.76333,6
+30,"Frisco, TX",TX,Texas,1139994,33.15056,-96.82333,6
+30,"Ventura, CA",CA,California,1146989,34.27833,-119.29222,6
+30,"Kansas City, KS",KS,Kansas,4990210,39.11417,-94.62722,6
+30,"Manchester, NH",NH,New Hampshire,1147907,42.99556,-71.45528,6
+30,"Longmont, CO",CO,Colorado,1148118,40.16722,-105.10139,6
+29,"Tallahassee, FL",FL,Florida,1154378,30.43806,-84.28083,6
+29,"Bowling Green, KY",KY,Kentucky,1137525,36.99028,-86.44361,6
+29,"Oxnard, CA",CA,California,1146980,34.1975,-119.17611,6
+29,"Duluth, MN",MN,Minnesota,1142353,46.78333,-92.10639,6
+28,"Hanover, MA",MA,Massachusetts,1154581,42.11306,-70.8125,6
+28,"Melbourne, FL",FL,Florida,1154286,28.08333,-80.60833,6
+28,"Lansing, MI",MI,Michigan,1134930,42.7325,-84.55556,6
+28,"Beaverton, OR",OR,Oregon,1151576,45.48722,-122.8025,6
+28,"Farmington Hills, MI",MI,Michigan,1159753,42.48528,-83.37722,6
+28,"Rochester Hills, MI",MI,Michigan,1159796,42.65833,-83.15,6
+28,"Corpus Christi, TX",TX,Texas,1139919,27.80028,-97.39611,6
+28,"West Des Moines, IA",IA,Iowa,1149284,41.57722,-93.71111,6
+27,"Brentwood, TN",TN,Tennessee,1144496,36.000107,-86.78849,6
+27,"Paramus, NJ",NJ,New Jersey,1126928,40.94444,-74.07583,6
+27,"Traverse City, MI",MI,Michigan,1135118,44.76306,-85.62056,6
+27,"Mobile, AL",AL,Alabama,1127676,30.69417,-88.04306,6
+27,"Richfield, MN",MN,Minnesota,1162332,44.88333,-93.28278,6
+27,"Idaho Falls, ID",ID,Idaho,1127978,43.46667,-112.03333,6
+27,"Lombard, IL",IL,Illinois,1128902,41.88,-88.00778,6
+27,"Cranston, RI",RI,Rhode Island,1151253,41.77972,-71.43778,6
+27,"Burbank, CA",CA,California,1146756,34.18083,-118.30806,6
+27,"Mission Viejo, CA",CA,California,1146829,33.6,-117.67111,6
+27,"West Chester, PA",PA,Pennsylvania,1152733,39.96056,-75.60583,6
+27,"Chantilly, VA",VA,Virginia,1130353,38.89417,-77.43139,6
+27,"Round Rock, TX",TX,Texas,1139794,30.50806,-97.67861,6
+27,"Saint Charles, MO",MO,Missouri,1131268,38.78389,-90.48111,6
+27,"Centennial, CO",CO,Colorado,1164284,39.57917,-104.87639,6
+27,"Pueblo, CO",CO,Colorado,1148308,38.25444,-104.60861,6
+26,"Meridian, ID",ID,Idaho,1127945,43.61222,-116.39056,6
+26,"Twin Falls, ID",ID,Idaho,1128054,42.56306,-114.46,6
+26,"Livonia, MI",MI,Michigan,1134687,42.36833,-83.35278,6
+26,"Diamond Bar, CA",CA,California,1146774,34.02861,-117.80944,6
+26,"Redondo Beach, CA",CA,California,1146859,33.84917,-118.3875,6
+26,"King of Prussia, PA",PA,Pennsylvania,1152620,40.08917,-75.39639,6
+26,"Roanoke, VA",VA,Virginia,1130242,37.27083,-79.94167,6
+26,"Rosemont, IL",IL,Illinois,1158097,38.62694,-90.09722,6
+26,"Plantation, FL",FL,Florida,1166193,26.127102,-80.23334,6
+26,"Greensboro, NC",NC,North Carolina,1138755,36.0725,-79.79222,6
+26,"Campbell, CA",CA,California,1147420,37.28722,-121.94889,6
+26,"Gilbert, AZ",AZ,Arizona,1133887,33.35278,-111.78833,6
+26,"New Haven, CT",CT,Connecticut,1148466,41.30806,-72.92861,6
+25,"Springfield, MA",MA,Massachusetts,1154860,42.10139,-72.59028,6
+25,"Weston, MA",MA,Massachusetts,1154721,42.36667,-71.30361,6
+25,"Burlington, MA",MA,Massachusetts,1154543,42.50472,-71.19611,6
+25,"Novi, MI",MI,Michigan,1134704,42.48056,-83.47556,6
+25,"Pensacola, FL",FL,Florida,1154318,30.42111,-87.21694,6
+25,"Youngstown, OH",OH,Ohio,1146406,41.09972,-80.64972,6
+25,"Peoria, IL",IL,Illinois,1129349,40.69361,-89.58889,6
+25,"Fullerton, CA",CA,California,1146784,33.87028,-117.92444,6
+25,"Canton, OH",OH,Ohio,1145650,40.79889,-81.37861,6
+25,"Addison, TX",TX,Texas,1139944,32.96167,-96.82889,6
+25,"Tyler, TX",TX,Texas,1140559,32.35111,-95.30083,6
+25,"Davenport, IA",IA,Iowa,1149216,41.52361,-90.5775,6
+25,"Mountain View, CA",CA,California,1147431,37.38611,-122.08278,6
+25,"Tigard, OR",OR,Oregon,1165048,45.43139,-122.77028,6
+25,"Santa Cruz, CA",CA,California,1147488,36.97417,-122.02972,6
+25,"Waterbury, CT",CT,Connecticut,1148477,41.55806,-73.05194,6
+24,"Silver Spring, MD",MD,Maryland,1153904,38.99056,-77.02639,6
+24,"South Portland, ME",ME,Maine,1135912,43.64139,-70.24139,6
+24,"Montgomery, AL",AL,Alabama,1127704,32.36667,-86.3,6
+24,"Delray Beach, FL",FL,Florida,1154159,26.46111,-80.07306,6
+24,"Bloomington, IL",IL,Illinois,1128636,40.48417,-88.99361,6
+24,"Oak Brook, IL",IL,Illinois,1128935,41.83278,-87.92889,6
+24,"Downers Grove, IL",IL,Illinois,1128825,41.80889,-88.01111,6
+24,"Aurora, IL",IL,Illinois,1128780,41.76056,-88.32,6
+24,"Norfolk, VA",VA,Virginia,1130306,36.84667,-76.28556,6
+24,"Sparks, NV",NV,Nevada,1149628,39.535,-119.75167,6
+24,"Coppell, TX",TX,Texas,1139974,32.95444,-97.01472,6
+24,"Lafayette, LA",LA,Louisiana,1149927,30.22389,-92.01972,6
+24,"Renton, WA",WA,Washington,1150501,47.48306,-122.21583,6
+24,"Redmond, WA",WA,Washington,1150499,47.67417,-122.12028,6
+24,"Federal Way, WA",WA,Washington,1150460,47.3225,-122.31139,6
+24,"Olympia, WA",WA,Washington,1150386,47.03806,-122.89944,6
+24,"Peoria, AZ",AZ,Arizona,1133903,33.58056,-112.23667,6
+24,"Marietta, GA",GA,Georgia,1155654,33.9525,-84.55,6
+24,"Duluth, GA",GA,Georgia,1155612,34.00278,-84.14472,6
+24,"Macon, GA",GA,Georgia,1155868,32.84056,-83.6325,6
+24,"Carlsbad, CA",CA,California,1147279,33.15806,-117.34972,6
+24,"Broomfield, CO",CO,Colorado,1148161,39.92056,-105.08611,6
+23,"Frederick, MD",MD,Maryland,1153851,39.41417,-77.41083,6
+23,"Toms River, NJ",NJ,New Jersey,1127016,39.95361,-74.19833,6
+23,"Annapolis, MD",MD,Maryland,1153523,38.97833,-76.4925,6
+23,"Parsippany, NJ",NJ,New Jersey,1126931,40.85778,-74.42639,6
+23,"Framingham, MA",MA,Massachusetts,1154571,42.27917,-71.41667,6
+23,"Wesley Chapel, FL",FL,Florida,1154434,28.23944,-82.32806,6
+23,"Dearborn, MI",MI,Michigan,1134642,42.32222,-83.17639,6
+23,"Boynton Beach, FL",FL,Florida,1154154,26.525,-80.06667,6
+23,"Altoona, PA",PA,Pennsylvania,1151974,40.51861,-78.395,6
+23,"Rockford, IL",IL,Illinois,1129425,42.27111,-89.09389,6
+23,"Evansville, IN",IN,Indiana,1144913,37.97472,-87.55583,6
+23,"Herndon, VA",VA,Virginia,1130374,38.96944,-77.38639,6
+23,"Beaumont, TX",TX,Texas,1139817,30.08583,-94.10167,6
+23,"Aventura, FL",FL,Florida,1166089,25.95611,-80.13944,6
+23,"Milpitas, CA",CA,California,1147428,37.42833,-121.90556,6
+23,"Racine, WI",WI,Wisconsin,1133669,42.72611,-87.78278,6
+23,"Hayward, CA",CA,California,1147358,37.66889,-122.07972,6
+23,"Burnsville, MN",MN,Minnesota,1142501,44.76778,-93.2775,6
+23,"Daly City, CA",CA,California,1147343,37.70583,-122.46083,6
+22,"Salisbury, MD",MD,Maryland,1153799,38.36056,-75.59972,6
+22,"Gaithersburg, MD",MD,Maryland,1153852,39.14333,-77.20167,6
+22,"Peabody, MA",MA,Massachusetts,1154659,42.52778,-70.92917,6
+22,"Brockton, MA",MA,Massachusetts,1154539,42.08333,-71.01889,6
+22,"Howell, MI",MI,Michigan,1134675,42.60722,-83.92944,6
+22,"Portage, MI",MI,Michigan,1134909,42.20111,-85.58,6
+22,"Horsham, PA",PA,Pennsylvania,1152611,40.17833,-75.12889,6
+22,"Phoenixville, PA",PA,Pennsylvania,1152673,40.13028,-75.51528,6
+22,"Independence, OH",OH,Ohio,1145790,41.37114,-81.63821,6
+22,"Waco, TX",TX,Texas,1140600,31.54917,-97.14639,6
+22,"Williamsville, NY",NY,New York,1158944,42.96389,-78.73806,6
+22,"Cheektowaga, NY",NY,New York,1158925,42.90333,-78.755,6
+22,"Richmond, CA",CA,California,1147395,37.93583,-122.34667,6
+22,"Dover, NH",NH,New Hampshire,1147721,43.19778,-70.87417,6
+22,"Minnetonka, MN",MN,Minnesota,1142552,44.91333,-93.50306,6
+22,"Gainesville, GA",GA,Georgia,1155838,34.29778,-83.82417,6
+22,"Rancho Cucamonga, CA",CA,California,1147132,34.10639,-117.59222,6
+22,"Menlo Park, CA",CA,California,1147371,37.45389,-122.18111,6
+21,"Edina, MN",MN,Minnesota,1162277,44.88972,-93.34972,6
+21,"Auburn Hills, MI",MI,Michigan,1134622,42.6875,-83.23417,6
+21,"Bend, OR",OR,Oregon,1151424,44.05833,-121.31417,6
+21,"Alhambra, CA",CA,California,1146740,34.09528,-118.12611,6
+21,"Exton, PA",PA,Pennsylvania,1152576,40.02889,-75.62111,6
+21,"Carson City, NV",NV,Nevada,1149563,39.16389,-119.76639,6
+21,"Juneau, AK",AK,Alaska,1134226,58.30194,-134.41972,6
+21,"Norcross, GA",GA,Georgia,1155667,33.94111,-84.21361,6
+21,"Sheboygan, WI",WI,Wisconsin,1133685,43.75083,-87.71444,6
+21,"Elk Grove, CA",CA,California,1147183,38.40889,-121.37056,6
+20,"Huntsville, AL",AL,Alabama,1127653,34.73028,-86.58611,6
+20,"New Bedford, MA",MA,Massachusetts,1154781,41.63611,-70.93472,6
+20,"Natick, MA",MA,Massachusetts,1154630,42.28333,-71.35,6
+20,"Danvers, MA",MA,Massachusetts,1154555,42.575,-70.93056,6
+20,"Westerville, OH",OH,Ohio,1145913,40.12611,-82.92917,6
+20,"Wauwatosa, WI",WI,Wisconsin,1159476,43.04944,-88.0075,6
+20,"Lake Oswego, OR",OR,Oregon,1151605,45.42083,-122.66944,6
+20,"Yonkers, NY",NY,New York,1132473,40.93111,-73.89917,6
+20,"Uniondale, NY",NY,New York,1132443,40.70028,-73.59333,6
+20,"Plainview, NY",NY,New York,1132372,40.77639,-73.46778,6
+20,"Lewisville, TX",TX,Texas,1140022,33.047523,-96.99417,6
+20,"Abilene, TX",TX,Texas,1139716,32.44861,-99.73278,6
+20,"Depew, NY",NY,New York,1131859,42.90389,-78.6925,6
+20,"Dunwoody, GA",GA,Georgia,1166811,33.94611,-84.33472,6
+20,"Liberty Lake, WA",WA,Washington,1150544,47.64833,-117.09139,6
+20,"Kirkland, WA",WA,Washington,1150472,47.68167,-122.2075,6
+20,"Silverdale, WA",WA,Washington,1150283,47.64472,-122.69361,6
+20,"Amherst, NY",NY,New York,1158923,42.97833,-78.8,6
+20,"San Leandro, CA",CA,California,1147404,37.725,-122.155,6
+20,"Burlington, VT",VT,Vermont,1141772,44.47583,-73.2125,6
+20,"Ontario, CA",CA,California,1147122,34.06333,-117.65,6
+20,"Auburn, CA",CA,California,1147164,38.89667,-121.07583,6
+20,"Folsom, CA",CA,California,1147188,38.67806,-121.175,6
+20,"Rocklin, CA",CA,California,1147225,38.79083,-121.23472,6
+20,"Stamford, CT",CT,Connecticut,1148355,41.05333,-73.53917,6
+19,"Cherry Hill, NJ",NJ,New Jersey,1127090,39.90461,-74.997,6
+19,"Eagan, MN",MN,Minnesota,1162274,44.80417,-93.16667,6
+19,"West Bloomfield, MI",MI,Michigan,1134745,42.577244,-83.38388,6
+19,"Clinton Township, MI",MI,Michigan,1134636,42.58191,-82.92577,6
+19,"Charleston, WV",WV,West Virginia,1143753,38.34972,-81.63278,6
+19,"Jupiter, FL",FL,Florida,1154165,26.93389,-80.09444,6
+19,"Hialeah, FL",FL,Florida,1154162,25.85722,-80.27833,6
+19,"Buffalo Grove, IL",IL,Illinois,1128800,42.15139,-87.95972,6
+19,"Warrenville, IL",IL,Illinois,1128993,41.81778,-88.17333,6
+19,"City of Industry, CA",CA,California,1146765,34.02463,-117.97438,6
+19,"El Segundo, CA",CA,California,1146779,33.91917,-118.41556,6
+19,"Sherman Oaks, CA",CA,California,1146875,34.15111,-118.44833,6
+19,"Elkhart, IN",IN,Indiana,1144901,41.68194,-85.97667,6
+19,"Greensburg, PA",PA,Pennsylvania,1152878,40.30139,-79.53917,6
+19,"Greenwood, IN",IN,Indiana,1145010,39.61139,-86.11806,6
+19,"Springfield, IL",IL,Illinois,1129562,39.80167,-89.64361,6
+19,"Blue Bell, PA",PA,Pennsylvania,1152529,40.15222,-75.26667,6
+19,"Conshohocken, PA",PA,Pennsylvania,1152554,40.07917,-75.30194,6
+19,"Norristown, PA",PA,Pennsylvania,1152656,40.12139,-75.34028,6
+19,"Stow, OH",OH,Ohio,1145557,41.15944,-81.44056,6
+19,"Friendswood, TX",TX,Texas,1140158,29.52917,-95.20083,6
+19,"Hicksville, NY",NY,New York,1132277,40.76833,-73.52556,6
+19,"Odessa, TX",TX,Texas,1140385,31.84556,-102.36722,6
+19,"Laredo, TX",TX,Texas,1140286,27.50611,-99.50722,6
+19,"Sugar Land, TX",TX,Texas,1140225,29.61944,-95.63472,6
+19,"San Rafael, CA",CA,California,1147409,37.97361,-122.53,6
+19,"Rochester, MN",MN,Minnesota,1142638,44.02167,-92.46972,6
+19,"Palm Desert, CA",CA,California,1147124,33.72222,-116.37361,6
+19,"Newark, CA",CA,California,1147377,37.52972,-122.03917,6
+19,"La Crosse, WI",WI,Wisconsin,1133440,43.80139,-91.23944,6
+18,"Morristown, NJ",NJ,New Jersey,1126891,40.79667,-74.48194,6
+18,"Billings, MT",MT,Montana,1135402,45.78333,-108.5,6
+18,"Malden, MA",MA,Massachusetts,1154605,42.425,-71.06667,6
+18,"Ogden, UT",UT,Utah,1128221,41.22306,-111.97306,6
+18,"Muskegon, MI",MI,Michigan,1135006,43.23417,-86.24833,6
+18,"Reynoldsburg, OH",OH,Ohio,1145895,39.95472,-82.81222,6
+18,"West Allis, WI",WI,Wisconsin,1159477,43.01667,-88.00694,6
+18,"Allentown, PA",PA,Pennsylvania,1151916,40.60833,-75.49056,6
+18,"Niles, IL",IL,Illinois,1128931,42.01889,-87.80278,6
+18,"North Kingstown, RI",RI,Rhode Island,1151280,41.55,-71.46667,6
+18,"North Providence, RI",RI,Rhode Island,1151281,41.85,-71.46667,6
+18,"Paducah, KY",KY,Kentucky,1137839,37.08333,-88.6,6
+18,"Shawnee, KS",KS,Kansas,1151059,39.04167,-94.72,6
+18,"Culver City, CA",CA,California,1146771,34.02111,-118.39556,6
+18,"Marina del Rey, CA",CA,California,1146825,33.98028,-118.45083,6
+18,"Plymouth Meeting, PA",PA,Pennsylvania,1152677,40.10222,-75.27472,6
+18,"Lynchburg, VA",VA,Virginia,1130113,37.41361,-79.1425,6
+18,"Meadville, PA",PA,Pennsylvania,1152465,41.64139,-80.15167,6
+18,"Edmond, OK",OK,Oklahoma,1136930,35.65278,-97.47778,6
+18,"Camp Hill, PA",PA,Pennsylvania,1152174,40.23972,-76.92028,6
+18,"Brunswick, OH",OH,Ohio,1145772,41.23806,-81.84194,6
+18,"Grand Prairie, TX",TX,Texas,1139997,32.74583,-96.9975,6
+18,"McKinney, TX",TX,Texas,1140029,33.1975,-96.615,6
+18,"Lake Grove, NY",NY,New York,1132299,40.85278,-73.11556,6
+18,"Brownsville, TX",TX,Texas,1139874,25.90139,-97.49722,6
+18,"Coral Gables, FL",FL,Florida,1166105,25.72111,-80.26861,6
+18,"Chapel Hill, NC",NC,North Carolina,1138696,35.91306,-79.05611,6
+18,"Kennewick, WA",WA,Washington,1150324,46.21139,-119.13611,6
+18,"San Carlos, CA",CA,California,1147400,37.50722,-122.25944,6
+18,"Remote, OR",OR,Oregon,1165008,43.00611,-123.89139,6
+18,"Portsmouth, NH",NH,New Hampshire,1147753,43.07167,-70.76306,6
+18,"Salem, NH",NH,New Hampshire,1147759,42.78833,-71.20139,6
+18,"Turlock, CA",CA,California,1146959,37.49472,-120.84556,6
+18,"Westlake Village, Los Angeles, CA",CA,California,1146990,34.14583,-118.80472,6
+18,"San Bernardino, CA",CA,California,1147140,34.10833,-117.28889,6
+18,"Rancho Cordova, CA",CA,California,1147221,38.58917,-121.30167,6
+18,"Monterey, CA",CA,California,1147261,36.60028,-121.89361,6
+18,"Poughkeepsie, NY",NY,New York,1132662,41.70028,-73.92139,6
+18,"Greenwich, CT",CT,Connecticut,1148338,41.02639,-73.62889,6
+17,"Kearney, NE",NE,Nebraska,1136341,40.69944,-99.08111,6
+17,"Ocean City, MD",MD,Maryland,1153759,38.33639,-75.08528,6
+17,"Portland, ME",ME,Maine,1135898,43.66139,-70.25583,6
+17,"Wellesley, MA",MA,Massachusetts,1154708,42.29639,-71.29306,6
+17,"Tuscaloosa, AL",AL,Alabama,1127776,33.20972,-87.56917,6
+17,"Plymouth, MA",MA,Massachusetts,1154664,41.95833,-70.66778,6
+17,"Warren, MI",MI,Michigan,1134741,42.4775,-83.02778,6
+17,"Gainesville, FL",FL,Florida,1154062,29.65139,-82.325,6
+17,"Mundelein, IL",IL,Illinois,1128927,42.26306,-88.00389,6
+17,"Hillsboro, OR",OR,Oregon,1151603,45.52306,-122.98861,6
+17,"Riverside, RI",RI,Rhode Island,1151291,41.76722,-71.36528,6
+17,"Lexington, KY",KY,Kentucky,1137677,37.98861,-84.47778,6
+17,"Lawrence, KS",KS,Kansas,1151068,38.97167,-95.235,6
+17,"Arcadia, CA",CA,California,1146744,34.13972,-118.03444,6
+17,"Bryn Mawr, PA",PA,Pennsylvania,1152536,40.01972,-75.305,6
+17,"Norman, OK",OK,Oklahoma,1136949,35.2225,-97.43917,6
+17,"Fairfield, OH",OH,Ohio,1145710,39.347706,-84.5616,6
+17,"Winchester, VA",VA,Virginia,1130431,39.18556,-78.16361,6
+17,"League City, TX",TX,Texas,1140185,29.50722,-95.09472,6
+17,"Spring, TX",TX,Texas,1140222,30.07972,-95.41694,6
+17,"Pasadena, TX",TX,Texas,1140200,29.69083,-95.20889,6
+17,"Pearland, TX",TX,Texas,1140202,29.56333,-95.28583,6
+17,"Massapequa, NY",NY,New York,1132320,40.68056,-73.47472,6
+17,"East Meadow, NY",NY,New York,1132232,40.71389,-73.55944,6
+17,"Kent, WA",WA,Washington,1150471,47.38111,-122.23361,6
+17,"Capitola, CA",CA,California,1147482,36.97528,-121.95222,6
+17,"Simi Valley, CA",CA,California,1146986,34.26944,-118.78056,6
+17,"Columbus, GA",GA,Georgia,1155778,32.46083,-84.98778,6
+17,"Lone Tree, CO",CO,Colorado,1164306,39.53611,-104.89583,6
+17,"Augusta, GA",GA,Georgia,1155718,33.47083,-81.975,6
+17,"Burlingame, CA",CA,California,1147335,37.58417,-122.365,6
+17,"Citrus Heights, CA",CA,California,1163932,38.70722,-121.28,6
+17,"Parma, OH",OH,Ohio,1163332,41.40472,-81.72306,6
+17,"Bristol, CT",CT,Connecticut,1148368,41.67167,-72.94972,6
+16,"Morgantown, WV",WV,West Virginia,1143936,39.62944,-79.95611,6
+16,"Laurel, MD",MD,Maryland,1153871,39.09917,-76.84861,6
+16,"Reading, PA",PA,Pennsylvania,1153175,40.33556,-75.92722,6
+16,"North Attleboro, MA",MA,Massachusetts,1154782,41.98333,-71.33333,6
+16,"Milton, MA",MA,Massachusetts,1154625,42.24944,-71.06667,6
+16,"Woodbury, MN",MN,Minnesota,1162363,46.67917,-92.95972,6
+16,"Trenton, MI",MI,Michigan,1134736,42.13944,-83.17833,6
+16,"Pocatello, ID",ID,Idaho,1128031,42.87139,-112.44472,6
+16,"Oldsmar, FL",FL,Florida,1154411,28.03389,-82.66528,6
+16,"Hollywood, FL",FL,Florida,1154163,26.01083,-80.14972,6
+16,"Jackson, MI",MI,Michigan,1134877,42.24583,-84.40139,6
+16,"Cheyenne, WY",WY,Wyoming,1138322,41.14,-104.81972,6
+16,"Glenview, IL",IL,Illinois,1128852,42.072487,-87.78677,6
+16,"Owensboro, KY",KY,Kentucky,1137821,37.77417,-87.11333,6
+16,"Belleville, IL",IL,Illinois,1129439,38.52,-89.98389,6
+16,"Lenexa, KS",KS,Kansas,1151040,38.95361,-94.73333,6
+16,"Calabasas, CA",CA,California,1146757,34.15778,-118.6375,6
+16,"Huntington Beach, CA",CA,California,1146795,33.66028,-117.99833,6
+16,"Northridge, CA",CA,California,1146841,34.22833,-118.53583,6
+16,"North Hollywood, CA",CA,California,1146840,34.17222,-118.37806,6
+16,"San Juan Capistrano, CA",CA,California,1146867,33.50167,-117.66167,6
+16,"Hudson, OH",OH,Ohio,1145543,41.24,-81.44083,6
+16,"Grapevine, TX",TX,Texas,1139999,32.93417,-97.07778,6
+16,"Mesquite, TX",TX,Texas,1140032,32.76667,-96.59914,6
+16,"Carrollton, TX",TX,Texas,1139964,32.95361,-96.89,6
+16,"Amarillo, TX",TX,Texas,1139740,35.22194,-101.83083,6
+16,"Dorchester, MA",MA,Massachusetts,1166513,42.29722,-71.075,6
+16,"West Valley City, UT",UT,Utah,1157900,40.69167,-112.00028,6
+16,"Wilmington, NC",NC,North Carolina,1139117,34.22556,-77.945,6
+16,"Yakima, WA",WA,Washington,1150604,46.60222,-120.50472,6
+16,"Petaluma, CA",CA,California,1147515,38.2325,-122.63556,6
+16,"Myrtle Beach, SC",SC,South Carolina,1155247,33.68889,-78.88694,6
+16,"Studio City, CA",CA,California,1146884,34.14861,-118.39556,6
+16,"Yorba Linda, CA",CA,California,1146916,33.88861,-117.81222,6
+16,"Lawrenceville, GA",GA,Georgia,1155641,33.95611,-83.98806,6
+16,"Redding, CA",CA,California,1147039,40.58667,-122.39056,6
+16,"Greenwood Village, Arapahoe, CO",CO,Colorado,1164301,39.61722,-104.95028,6
+16,"Escondido, CA",CA,California,1147287,33.11917,-117.08556,6
+16,"La Jolla, CA",CA,California,1147294,32.84722,-117.27333,6
+16,"Danville, CA",CA,California,1147344,37.82167,-121.99889,6
+16,"Brentwood, CA",CA,California,1147333,37.9333,-121.6959,6
+16,"Berkeley, CA",CA,California,1147330,37.87167,-122.27167,6
+16,"Rapid City, SD",SD,South Dakota,1141002,44.08056,-103.23056,6
+16,"New Castle, DE",DE,Delaware,1156368,39.66194,-75.56667,6
+16,"Worthington, OH",OH,Ohio,1163391,40.09306,-83.01806,6
+16,"Loveland, CO",CO,Colorado,1148237,40.39778,-105.07444,6
+16,"Greeley, CO",CO,Colorado,1148276,40.42333,-104.70861,6
+16,"Newburgh, NY",NY,New York,1132654,41.50333,-74.01083,6
+16,"Danbury, CT",CT,Connecticut,1148332,41.39472,-73.45444,6
+15,"Harris, TX",TX,Texas,3761922,32.87167,-96.14833,6
+15,"Bowie, MD",MD,Maryland,1153819,39.00667,-76.77944,6
+15,"Denville, NJ",NJ,New Jersey,1126738,40.89222,-74.47778,6
+15,"Edison, NJ",NJ,New Jersey,1126748,40.52424,-74.41246,6
+15,"Manasquan, NJ",NJ,New Jersey,1126859,40.12611,-74.04972,6
+15,"Towson, MD",MD,Maryland,1153644,39.40139,-76.60222,6
+15,"Short Hills, NJ",NJ,New Jersey,1126986,40.74778,-74.32583,6
+15,"Whitehouse Station, NJ",NJ,New Jersey,1127046,40.61528,-74.77083,6
+15,"Trenton, NJ",NJ,New Jersey,1127182,40.21694,-74.74333,6
+15,"Waltham, MA",MA,Massachusetts,1154703,42.37639,-71.23611,6
+15,"Westwood, MA",MA,Massachusetts,1154722,42.21389,-71.225,6
+15,"Plymouth, MN",MN,Minnesota,1162329,45.01056,-93.45528,6
+15,"Ocala, FL",FL,Florida,1154201,29.18694,-82.14028,6
+15,"West Jordan, UT",UT,Utah,1128296,40.60972,-111.93833,6
+15,"Oswego, IL",IL,Illinois,1128941,41.68278,-88.35139,6
+15,"Oak Lawn, IL",IL,Illinois,1128937,41.71083,-87.75806,6
+15,"Park Ridge, IL",IL,Illinois,1128947,42.01111,-87.84056,6
+15,"Hoffman Estates, IL",IL,Illinois,1128872,42.086994,-88.11034,6
+15,"Pawtucket, RI",RI,Rhode Island,1151286,41.87861,-71.38306,6
+15,"Shelby Township, MI",MI,Michigan,1159803,0,0,6
+15,"Butler, PA",PA,Pennsylvania,1152790,40.86111,-79.89556,6
+15,"Bala Cynwyd, PA",PA,Pennsylvania,1152523,40.0138,-75.231705,6
+15,"Charlottesville, VA",VA,Virginia,1130001,38.02917,-78.47694,6
+15,"Mechanicsburg, PA",PA,Pennsylvania,1152196,40.21506,-77.00858,6
+15,"Cypress, TX",TX,Texas,1140146,29.96889,-95.69694,6
+15,"Cedar Park, TX",TX,Texas,1139765,30.505,-97.82,6
+15,"Kenner, LA",LA,Louisiana,1150024,29.99389,-90.24167,6
+15,"Santa Maria, CA",CA,California,1147474,34.95306,-120.43472,6
+15,"Claremont, NH",NH,New Hampshire,1147769,43.37667,-72.34722,6
+15,"Athens, GA",GA,Georgia,1155564,33.96083,-83.37806,6
+15,"Roswell, GA",GA,Georgia,1155681,34.02306,-84.36167,6
+15,"Highlands Ranch, CO",CO,Colorado,1164304,39.55389,-104.96889,6
+15,"Neenah, WI",WI,Wisconsin,1133635,44.18583,-88.4625,6
+15,"Tukwila, WA",WA,Washington,1164776,47.47417,-122.25972,6
+15,"Hudson, WI",WI,Wisconsin,1133612,44.97472,-92.75667,6
+15,"El Cajon, CA",CA,California,1147285,32.79472,-116.96167,6
+15,"Salinas, CA",CA,California,1147265,36.67778,-121.65444,6
+15,"Alameda, CA",CA,California,1147323,37.76528,-122.24056,6
+15,"Eden Prairie, MN",MN,Minnesota,1142521,44.85472,-93.47056,6
+15,"Eau Claire, WI",WI,Wisconsin,1133380,44.81139,-91.49833,6
+15,"Dover, DE",DE,Delaware,1156347,39.15806,-75.52472,6
+15,"Hattiesburg, MS",MS,Mississippi,1141337,31.32694,-89.29028,6
+15,"Manchester, CT",CT,Connecticut,1148404,41.77583,-72.52194,6
+15,"Farmington, CT",CT,Connecticut,1148395,41.71972,-72.8325,6
+14,"Clarksville, TN",TN,Tennessee,1144270,36.52972,-87.35944,6
+14,"Glen Burnie, MD",MD,Maryland,1153575,39.1625,-76.625,6
+14,"Livingston, NJ",NJ,New Jersey,1126850,40.79583,-74.31528,6
+14,"Somerset, NJ",NJ,New Jersey,1126989,40.4975,-74.48889,6
+14,"State College, PA",PA,Pennsylvania,1153370,40.79333,-77.86028,6
+14,"Norwood, MA",MA,Massachusetts,1154655,42.19444,-71.2,6
+14,"Needham, MA",MA,Massachusetts,1154631,42.28333,-71.23333,6
+14,"Newton, MA",MA,Massachusetts,1154636,42.33694,-71.20972,6
+14,"Bozeman, MT",MT,Montana,1135421,45.67972,-111.03778,6
+14,"Marlborough, MA",MA,Massachusetts,1154610,42.34583,-71.55278,6
+14,"Nampa, ID",ID,Idaho,1127948,43.54083,-116.5625,6
+14,"Brookline, MA",MA,Massachusetts,1154540,42.33167,-71.12167,6
+14,"Royal Oak, MI",MI,Michigan,1134726,42.48944,-83.14472,6
+14,"Berkley, MI",MI,Michigan,1134625,42.50306,-83.18361,6
+14,"Bloomfield Hills, MI",MI,Michigan,1134627,42.58361,-83.24556,6
+14,"Maitland, FL",FL,Florida,1154238,28.6275,-81.36333,6
+14,"Pembroke Pines, FL",FL,Florida,1154179,26.00278,-80.22417,6
+14,"Findlay, OH",OH,Ohio,1146001,41.04417,-83.65,6
+14,"Sandusky, OH",OH,Ohio,1146158,41.44889,-82.70806,6
+14,"Middletown, RI",RI,Rhode Island,1151277,41.54556,-71.29194,6
+14,"Oroville, CA",CA,California,1146617,39.51389,-121.55528,6
+14,"Westmont, IL",IL,Illinois,1129002,41.79583,-87.97556,6
+14,"Leawood, KS",KS,Kansas,1151039,38.96667,-94.61667,6
+14,"Downey, CA",CA,California,1146775,33.94,-118.13167,6
+14,"Encino, CA",CA,California,1146781,34.15917,-118.50028,6
+14,"Saint George, UT",UT,Utah,3724218,37.10417,-113.58333,6
+14,"Fishers, IN",IN,Indiana,1145003,39.95556,-86.01389,6
+14,"Langhorne, PA",PA,Pennsylvania,1152626,40.17444,-74.92306,6
+14,"Jeffersonville, IN",IN,Indiana,1145141,38.2775,-85.73722,6
+14,"North Olmsted, OH",OH,Ohio,1145804,41.41556,-81.92361,6
+14,"Mentor, OH",OH,Ohio,1145800,41.66611,-81.33972,6
+14,"Denton, TX",TX,Texas,1139980,33.21472,-97.13278,6
+14,"Elko, NV",NV,Nevada,1149567,40.8325,-115.76222,6
+14,"Mineola, NY",NY,New York,1132333,40.74917,-73.64111,6
+14,"Lockport, NY",NY,New York,1131877,43.17056,-78.69056,6
+14,"East Greenbush, NY",NY,New York,1131681,42.59083,-73.70222,6
+14,"Saint Joseph, MO",MO,Missouri,1131187,39.76861,-94.84639,6
+14,"Maryland Heights, MO",MO,Missouri,1131251,38.71306,-90.42972,6
+14,"Sunrise, FL",FL,Florida,1166212,26.13361,-80.11333,6
+14,"Fayetteville, NC",NC,North Carolina,1138720,35.0525,-78.87861,6
+14,"Cape Girardeau, MO",MO,Missouri,1130863,37.30583,-89.51806,6
+14,"Florence, SC",SC,South Carolina,1155168,34.19528,-79.76278,6
+14,"Cupertino, CA",CA,California,1147422,37.32306,-122.03111,6
+14,"South San Francisco, CA",CA,California,1147412,37.65472,-122.40667,6
+14,"Hilton Head Island, SC",SC,South Carolina,1155224,32.21611,-80.75278,6
+14,"Fairfield, CA",CA,California,1147605,38.24944,-122.03889,6
+14,"West Covina, CA",CA,California,1146907,34.06861,-117.93806,6
+14,"Tustin, CA",CA,California,1146897,33.74583,-117.82528,6
+14,"Moorpark, CA",CA,California,1146975,34.28556,-118.88111,6
+14,"Saint Cloud, MN",MN,Minnesota,1142664,45.56083,-94.16222,6
+14,"Thornton, CO",CO,Colorado,1164313,39.86806,-104.97139,6
+14,"Flagstaff, AZ",AZ,Arizona,1133807,35.19806,-111.65056,6
+14,"Dublin, CA",CA,California,1147348,37.70222,-121.93472,6
+14,"Manhattan Beach, CA",CA,California,1163714,33.88472,-118.41,6
+13,"Morris Plains, NJ",NJ,New Jersey,1126890,40.82167,-74.48139,6
+13,"Wayne, NJ",NJ,New Jersey,1127034,40.92528,-74.27694,6
+13,"Murfreesboro, TN",TN,Tennessee,1144540,35.84556,-86.39028,6
+13,"Johnson City, TN",TN,Tennessee,1144365,36.31333,-82.35361,6
+13,"Voorhees, NJ",NJ,New Jersey,1127164,39.85415,-74.96143,6
+13,"Bloomington, IN",IN,Indiana,1144789,39.16528,-86.52639,6
+13,"Wilkes-Barre, PA",PA,Pennsylvania,3806633,41.24583,-75.88167,6
+13,"Camden, ME",ME,Maine,1135930,44.20972,-69.06528,6
+13,"Quincy, MA",MA,Massachusetts,1154667,42.25278,-71.00278,6
+13,"Medfield, MA",MA,Massachusetts,1154616,42.1875,-71.30694,6
+13,"Kalispell, MT",MT,Montana,1135471,48.19583,-114.31194,6
+13,"Taylor, MI",MI,Michigan,1134735,42.24083,-83.26972,6
+13,"Waterford, MI",MI,Michigan,1134743,42.70222,-83.40278,6
+13,"Ferndale, MI",MI,Michigan,1134653,42.46056,-83.13472,6
+13,"Milford, MI",MI,Michigan,1134695,42.59361,-83.59944,6
+13,"Stuart, FL",FL,Florida,1154326,27.19722,-80.25306,6
+13,"Orem, UT",UT,Utah,1128244,40.29694,-111.69389,6
+13,"Winter Park, FL",FL,Florida,1154259,28.59972,-81.33944,6
+13,"Palm Beach Gardens, FL",FL,Florida,1154178,26.82306,-80.13889,6
+13,"Mansfield, OH",OH,Ohio,1146055,40.75833,-82.51556,6
+13,"Maumee, OH",OH,Ohio,1146224,41.56278,-83.65389,6
+13,"Cornelius, NC",NC,North Carolina,1138647,35.48667,-80.86028,6
+13,"Garden Grove, CA",CA,California,1146785,33.77389,-117.94056,6
+13,"Lake Forest, CA",CA,California,1146811,33.64694,-117.68833,6
+13,"Las Cruces, NM",NM,New Mexico,1138109,32.31222,-106.77778,6
+13,"Havertown, PA",PA,Pennsylvania,1152606,39.98083,-75.30889,6
+13,"Northfield, OH",OH,Ohio,1145551,41.345,-81.52861,6
+13,"Fairlawn, OH",OH,Ohio,1145539,41.12778,-81.61,6
+13,"Reston, VA",VA,Virginia,1130404,38.96861,-77.34139,6
+13,"Strongsville, OH",OH,Ohio,1145819,41.31444,-81.83583,6
+13,"Solon, OH",OH,Ohio,1145817,41.38972,-81.44139,6
+13,"Fredericksburg, VA",VA,Virginia,1130363,38.30306,-77.46083,6
+13,"North Las Vegas, NV",NV,Nevada,1149609,36.19889,-115.11667,6
+13,"Westbury, NY",NY,New York,1132461,40.75556,-73.58806,6
+13,"Berkeley Heights, NJ",NJ,New Jersey,1157307,40.68333,-74.44306,6
+13,"Valley Stream, NY",NY,New York,1132447,40.66417,-73.70889,6
+13,"Bryan, TX",TX,Texas,1139896,30.67417,-96.36972,6
+13,"Kingston, NY",NY,New York,1132106,41.92694,-73.99778,6
+13,"Queensbury, NY",NY,New York,1131987,43.37722,-73.61361,6
+13,"Evergreen Park, IL",IL,Illinois,1158002,41.72207,-87.70231,6
+13,"Lubbock, TX",TX,Texas,1140320,33.57778,-101.85472,6
+13,"Doral, FL",FL,Florida,1166112,25.81917,-80.35556,6
+13,"Shreveport, LA",LA,Louisiana,1150108,32.525,-93.75,6
+13,"Monroe, LA",LA,Louisiana,1149963,32.515842,-92.119675,6
+13,"Bothell, WA",WA,Washington,1150445,47.7625,-122.20417,6
+13,"University Park, PA",PA,Pennsylvania,1165673,40.80194,-77.85667,6
+13,"Tarzana, CA",CA,California,1146890,34.17333,-118.55306,6
+13,"Casa Grande, AZ",AZ,Arizona,1133875,32.87944,-111.75667,6
+13,"Solana Beach, CA",CA,California,1147317,32.99111,-117.27028,6
+13,"Novato, CA",CA,California,1147379,38.1075,-122.56861,6
+13,"Rocky Hill, CT",CT,Connecticut,1148424,41.66472,-72.63972,6
+13,"Sun Prairie, WI",WI,Wisconsin,1133487,43.18361,-89.21361,6
+13,"Middleton, WI",WI,Wisconsin,1133474,43.09722,-89.50417,6
+13,"Rhinebeck, NY",NY,New York,1132665,41.92667,-73.91306,6
+13,"Parker, CO",CO,Colorado,1148198,39.51861,-104.76083,6
+12,"Hoboken, NJ",NJ,New Jersey,1126809,40.74389,-74.03278,6
+12,"Mount Juliet, TN",TN,Tennessee,1144539,36.2,-86.51861,6
+12,"Bangor, ME",ME,Maine,1135774,44.80111,-68.77833,6
+12,"Woodbridge, NJ",NJ,New Jersey,1127049,40.5575,-74.285,6
+12,"Taunton, MA",MA,Massachusetts,1154795,41.9,-71.09028,6
+12,"Raynham, MA",MA,Massachusetts,1154787,41.94861,-71.07361,6
+12,"Stoughton, MA",MA,Massachusetts,1154691,42.125,-71.10278,6
+12,"Randolph, MA",MA,Massachusetts,1154668,42.1625,-71.04167,6
+12,"Fort Smith, AR",AR,Arkansas,1143091,35.38583,-94.39833,6
+12,"Hingham, MA",MA,Massachusetts,1154586,42.24167,-70.89028,6
+12,"Helena, MT",MT,Montana,1135460,46.59278,-112.03528,6
+12,"Westland, MI",MI,Michigan,1134746,42.32417,-83.40028,6
+12,"Palm Harbor, FL",FL,Florida,1154413,28.07778,-82.76389,6
+12,"Venice, FL",FL,Florida,1154353,27.09944,-82.45444,6
+12,"Provo, UT",UT,Utah,1128247,40.23389,-111.65778,6
+12,"Pompano Beach, FL",FL,Florida,1154180,26.2375,-80.125,6
+12,"Lake Worth, FL",FL,Florida,1154168,26.61556,-80.05722,6
+12,"Bethlehem, PA",PA,Pennsylvania,1151922,40.62583,-75.37083,6
+12,"Joliet, IL",IL,Illinois,1128880,41.525,-88.08167,6
+12,"Springfield, OH",OH,Ohio,1146179,39.92417,-83.80889,6
+12,"Whitehouse, OH",OH,Ohio,1146256,41.51889,-83.80389,6
+12,"Asheville, NC",NC,North Carolina,1138579,35.60083,-82.55417,6
+12,"Urbana, IL",IL,Illinois,1128760,40.11056,-88.20722,6
+12,"Westerly, RI",RI,Rhode Island,1151306,41.3775,-71.82778,6
+12,"Wheeling, IL",IL,Illinois,1129004,42.13917,-87.92889,6
+12,"Westchester, IL",IL,Illinois,1129000,41.85056,-87.88194,6
+12,"Aliso Viejo, CA",CA,California,1146741,33.60833,-117.74444,6
+12,"Noblesville, IN",IN,Indiana,1145028,40.04556,-86.00861,6
+12,"Ambler, PA",PA,Pennsylvania,1152516,40.15444,-75.22194,6
+12,"Clark, NV",NV,Nevada,3793864,39.56417,-119.48056,6
+12,"North Canton, OH",OH,Ohio,1145669,40.87583,-81.4025,6
+12,"Chambersburg, PA",PA,Pennsylvania,1152023,39.9375,-77.66139,6
+12,"Kingwood, TX",TX,Texas,1140181,30.052557,-95.21405,6
+12,"Nanuet, NY",NY,New York,1132342,41.08861,-74.01389,6
+12,"Monsey, NY",NY,New York,1132335,41.11111,-74.06889,6
+12,"North Richland Hills, TX",TX,Texas,1140039,32.83417,-97.22861,6
+12,"Fresh Meadows, NY",NY,New York,1132253,40.733997,-73.7939,6
+12,"Binghamton, NY",NY,New York,1131807,42.09861,-75.91833,6
+12,"Coralville, IA",IA,Iowa,1149329,41.67639,-91.58028,6
+12,"Tomball, TX",TX,Texas,1140229,30.09694,-95.61583,6
+12,"Saint Peters, MO",MO,Missouri,1131271,38.80028,-90.62639,6
+12,"Independence, MO",MO,Missouri,1131039,39.09111,-94.41528,6
+12,"Covington, LA",LA,Louisiana,1150013,30.47528,-90.10083,6
+12,"Bellingham, WA",WA,Washington,1150256,48.75972,-122.48694,6
+12,"San Luis Obispo, CA",CA,California,1147458,35.28278,-120.65861,6
+12,"Ypsilanti, MI",MI,Michigan,1134570,42.24111,-83.61306,6
+12,"Tracy, CA",CA,California,1147541,37.73972,-121.42417,6
+12,"Williston, VT",VT,Vermont,1141809,44.4375,-73.06861,6
+12,"Albany, GA",GA,Georgia,1155542,31.57833,-84.15583,6
+12,"Valencia, CA",CA,California,1146899,34.44361,-118.60861,6
+12,"Temecula, CA",CA,California,1147145,33.49361,-117.1475,6
+12,"Stevens Point, WI",WI,Wisconsin,1133697,44.52361,-89.57444,6
+12,"Mill Valley, CA",CA,California,1147372,37.90611,-122.54389,6
+12,"Foster City, CA",CA,California,1163997,37.55861,-122.27,6
+12,"Brooklyn, OH",OH,Ohio,1163284,41.43972,-81.73556,6
+11,"Estero, FL",FL,Florida,1154015,26.43778,-81.80694,6
+11,"Brick, NJ",NJ,New Jersey,1126709,40.069016,-74.112495,6
+11,"Bloomfield, NJ",NJ,New Jersey,1126701,40.80667,-74.18583,6
+11,"Hackensack, NJ",NJ,New Jersey,1126787,40.88583,-74.04389,6
+11,"Auburn, MA",MA,Massachusetts,1154881,42.19444,-71.83611,6
+11,"O&#039;Fallon, MO",MO,Missouri,3733854,38.81056,-90.69972,6
+11,"Roslindale, MA",MA,Massachusetts,1154675,42.29111,-71.125,6
+11,"Coon Rapids, MN",MN,Minnesota,1162269,45.12,-93.2875,6
+11,"Apple Valley, MN",MN,Minnesota,1162254,44.73194,-93.2175,6
+11,"Lynn, MA",MA,Massachusetts,1154603,42.46667,-70.95,6
+11,"Dedham, MA",MA,Massachusetts,1154556,42.24167,-71.16667,6
+11,"Southgate, MI",MI,Michigan,1134733,42.21389,-83.19389,6
+11,"Osterville, MA",MA,Massachusetts,1154489,41.62833,-70.3875,6
+11,"Brighton, MI",MI,Michigan,1134628,42.52944,-83.78028,6
+11,"Powell, OH",OH,Ohio,1145892,40.15778,-83.07528,6
+11,"Grants Pass, OR",OR,Oregon,1151491,42.43917,-123.32722,6
+11,"Itasca, IL",IL,Illinois,1128879,41.975,-88.00722,6
+11,"Lake Zurich, IL",IL,Illinois,1128894,42.19694,-88.09333,6
+11,"Streamwood, IL",IL,Illinois,1128981,42.02556,-88.17833,6
+11,"El Centro, CA",CA,California,1146646,32.79194,-115.56222,6
+11,"Hanford, CA",CA,California,1146734,36.3275,-119.64472,6
+11,"Santa Fe, NM",NM,New Mexico,1138171,35.68694,-105.93722,6
+11,"Gardena, CA",CA,California,1146786,33.88833,-118.30806,6
+11,"Topeka, KS",KS,Kansas,1151173,39.04833,-95.67778,6
+11,"Merrillville, IN",IN,Indiana,1144838,41.48278,-87.33278,6
+11,"Florence, KY",KY,Kentucky,1137567,38.99889,-84.62667,6
+11,"Upper Darby, PA",PA,Pennsylvania,1152723,39.92833,-75.27417,6
+11,"Granger, IN",IN,Indiana,1145261,41.75333,-86.11083,6
+11,"Manassas, VA",VA,Virginia,1130381,38.75083,-77.47556,6
+11,"Springfield, VA",VA,Virginia,1130409,38.791557,-77.18702,6
+11,"Westlake, OH",OH,Ohio,1145825,41.45528,-81.91806,6
+11,"Chagrin Falls, OH",OH,Ohio,1145774,41.43611,-81.38667,6
+11,"Eastlake, OH",OH,Ohio,1145781,41.65389,-81.45056,6
+11,"Jackson Heights, NY",NY,New York,1132291,40.749542,-73.883316,6
+11,"Jamaica, NY",NY,New York,1132292,40.69139,-73.80611,6
+11,"Ewing, NJ",NJ,New Jersey,1157535,40.26972,-74.80028,6
+11,"Allen, TX",TX,Texas,1139946,33.10306,-96.67028,6
+11,"Bedford, TX",TX,Texas,1139956,32.84389,-97.14278,6
+11,"Wall Township, NJ",NJ,New Jersey,1157435,0,0,6
+11,"Wichita Falls, TX",TX,Texas,1140617,33.91361,-98.49306,6
+11,"Iowa City, IA",IA,Iowa,1149332,41.66111,-91.53,6
+11,"Slingerlands, NY",NY,New York,1131735,42.62917,-73.865,6
+11,"Bonita Springs, FL",FL,Florida,1165971,26.33944,-81.77889,6
+11,"Puyallup, WA",WA,Washington,1150497,47.18556,-122.29167,6
+11,"Cary, NC",NC,North Carolina,1138945,35.79139,-78.78139,6
+11,"Mercer Island, WA",WA,Washington,1150485,47.57083,-122.22083,6
+11,"Coral Springs, FL",FL,Florida,1166106,26.27083,-80.27083,6
+11,"Deerfield Beach, FL",FL,Florida,1166111,26.31806,-80.1,6
+11,"Pullman, WA",WA,Washington,1150430,46.73139,-117.17861,6
+11,"Mount Pleasant, SC",SC,South Carolina,1155092,32.79389,-79.86278,6
+11,"Battle Creek, MI",MI,Michigan,1134573,42.32111,-85.17972,6
+11,"Truckee, CA",CA,California,1147571,39.32806,-120.18222,6
+11,"Bedford, NH",NH,New Hampshire,1147894,42.94639,-71.51639,6
+11,"Maricopa, AZ",AZ,Arizona,1133896,33.05806,-112.04694,6
+11,"Temple City, CA",CA,California,1146891,34.10722,-118.05694,6
+11,"South Gate, CA",CA,California,1146880,33.95472,-118.21111,6
+11,"Sun City, AZ",AZ,Arizona,1133913,33.5975,-112.27111,6
+11,"Lakeville, MN",MN,Minnesota,1142542,44.64972,-93.2425,6
+11,"Merced, CA",CA,California,1146938,37.30222,-120.48194,6
+11,"Chino Hills, CA",CA,California,1147068,33.89361,-117.72639,6
+11,"Grand Junction, CO",CO,Colorado,1164330,39.070377,-108.54904,6
+11,"Palm Springs, CA",CA,California,1147125,33.83028,-116.54444,6
+11,"El Dorado Hills, CA",CA,California,1147182,38.68583,-121.08111,6
+11,"Chula Vista, CA",CA,California,1147280,32.64,-117.08333,6
+11,"Vista, CA",CA,California,1147321,33.2,-117.24167,6
+11,"Pinole, CA",CA,California,1147387,38.00444,-122.29778,6
+11,"Windsor, CT",CT,Connecticut,1148450,41.8525,-72.64417,6
+11,"Milford, CT",CT,Connecticut,1148464,41.22222,-73.05694,6
+11,"Janesville, WI",WI,Wisconsin,1133435,42.68278,-89.01861,6
+11,"Lewes, DE",DE,Delaware,1156390,38.77444,-75.13972,6
+10,"Cape Coral, FL",FL,Florida,1154013,26.5625,-81.94972,6
+10,"Grand Island, NE",NE,Nebraska,1136313,40.925,-98.34167,6
+10,"East Hanover, NJ",NJ,New Jersey,1126743,40.82,-74.36528,6
+10,"Catonsville, MD",MD,Maryland,1153536,39.27194,-76.73222,6
+10,"Bellevue, NE",NE,Nebraska,1136412,41.13667,-95.89056,6
+10,"Montgomery, PA",PA,Pennsylvania,1153423,41.17028,-76.87722,6
+10,"Anderson, IN",IN,Indiana,1144756,40.10528,-85.68028,6
+10,"Scranton, PA",PA,Pennsylvania,1153278,41.40889,-75.66278,6
+10,"Fall River, MA",MA,Massachusetts,1154779,41.70139,-71.15556,6
+10,"Belchertown, MA",MA,Massachusetts,1154801,42.27694,-72.40139,6
+10,"Swansea, MA",MA,Massachusetts,1154794,41.74806,-71.19028,6
+10,"Stoneham, MA",MA,Massachusetts,1154690,42.48,-71.1,6
+10,"Somerville, MA",MA,Massachusetts,1154685,42.3875,-71.1,6
+10,"East Boston, MA",MA,Massachusetts,1154562,42.375,-71.03972,6
+10,"Marshfield, MA",MA,Massachusetts,1154611,42.09167,-70.70611,6
+10,"Methuen, MA",MA,Massachusetts,1154621,42.72611,-71.19139,6
+10,"Lawrence, MA",MA,Massachusetts,1154598,42.70694,-71.16361,6
+10,"Jamaica Plain, MA",MA,Massachusetts,1154595,42.30972,-71.12083,6
+10,"Fayetteville, AR",AR,Arkansas,1143041,36.0625,-94.15722,6
+10,"The Villages, FL",FL,Florida,1154443,28.93333,-81.94861,6
+10,"Orland Park, IL",IL,Illinois,1128940,41.63028,-87.85389,6
+10,"Gurnee, IL",IL,Illinois,1128857,42.37028,-87.90194,6
+10,"Elgin, IL",IL,Illinois,1128828,42.03722,-88.28111,6
+10,"Bolingbrook, IL",IL,Illinois,1128793,41.69861,-88.06833,6
+10,"Saint Charles, IL",IL,Illinois,1128967,41.91417,-88.30861,6
+10,"Romeoville, IL",IL,Illinois,1128963,41.6475,-88.08944,6
+10,"Waukegan, IL",IL,Illinois,1128997,42.36361,-87.84472,6
+10,"Lathrup Village, Oakland, MI",MI,Michigan,1159775,42.49639,-83.22278,6
+10,"Canoga Park, CA",CA,California,1146758,34.20111,-118.59722,6
+10,"San Clemente, CA",CA,California,1146863,33.42694,-117.61111,6
+10,"Harleysville, PA",PA,Pennsylvania,1152602,40.27944,-75.3875,6
+10,"Abington, PA",PA,Pennsylvania,1152515,40.12056,-75.11833,6
+10,"Willow Grove, PA",PA,Pennsylvania,1152737,40.14389,-75.11611,6
+10,"Newtown Square, PA",PA,Pennsylvania,1152655,39.98667,-75.40139,6
+10,"Midlothian, VA",VA,Virginia,1130183,37.50583,-77.64944,6
+10,"Willow Street, PA",PA,Pennsylvania,1152392,39.97917,-76.27667,6
+10,"Leesburg, VA",VA,Virginia,1130376,39.11556,-77.56389,6
+10,"Woodbridge, VA",VA,Virginia,1130422,38.65806,-77.25,6
+10,"West Chester, OH",OH,Ohio,1145760,39.346878,-84.40942,6
+10,"Ashburn, VA",VA,Virginia,1130338,39.04361,-77.48778,6
+10,"Falls Church, VA",VA,Virginia,1130361,38.88222,-77.17139,6
+10,"Euclid, OH",OH,Ohio,1145783,41.59306,-81.52694,6
+10,"Elyria, OH",OH,Ohio,1145782,41.36833,-82.10778,6
+10,"Humble, TX",TX,Texas,1140175,29.99999,-95.26125,6
+10,"Southlake, TX",TX,Texas,1140065,32.94111,-97.13389,6
+10,"Hoover, AL",AL,Alabama,1157612,33.40528,-86.81139,6
+10,"Elmsford, NY",NY,New York,1132243,41.055,-73.82056,6
+10,"Kailua Kona, HI",HI,Hawaii,1140628,19.666319,-155.98389,6
+10,"Niagara Falls, NY",NY,New York,1131882,43.09444,-79.05694,6
+10,"Midland, TX",TX,Texas,1140362,31.99722,-102.0775,6
+10,"Council Bluffs, IA",IA,Iowa,1149408,41.26194,-95.86083,6
+10,"Elk Grove Village, IL",IL,Illinois,1158001,42.00389,-87.97028,6
+10,"Temple, TX",TX,Texas,1140277,31.09806,-97.3425,6
+10,"Arlington Heights, IL",IL,Illinois,1157971,42.092873,-87.97989,6
+10,"Saint Ann, MO",MO,Missouri,1131267,38.72722,-90.38306,6
+10,"Issaquah, WA",WA,Washington,1150468,47.53028,-122.03139,6
+10,"Hazelwood, MO",MO,Missouri,1131233,38.77139,-90.37083,6
+10,"Radnor, PA",PA,Pennsylvania,1165356,40.04611,-75.36028,6
+10,"Creve Coeur, MO",MO,Missouri,1158736,38.66083,-90.4225,6
+10,"Wyomissing, PA",PA,Pennsylvania,1165577,40.32944,-75.96556,6
+10,"Poulsbo, WA",WA,Washington,1150279,47.73611,-122.64528,6
+10,"Morgan Hill, CA",CA,California,1147429,37.13056,-121.65333,6
+10,"Sausalito, CA",CA,California,1147411,37.85917,-122.48417,6
+10,"Watsonville, CA",CA,California,1147491,36.91028,-121.75583,6
+10,"Rock Hill, SC",SC,South Carolina,1155111,34.92472,-81.02528,6
+10,"Sonoma, CA",CA,California,1147520,38.29194,-122.45694,6
+10,"Visalia, CA",CA,California,1147641,36.33028,-119.29111,6
+10,"Exeter, NH",NH,New Hampshire,1147728,42.98139,-70.94833,6
+10,"Surprise, AZ",AZ,Arizona,1133916,33.63056,-112.3325,6
+10,"Buford, GA",GA,Georgia,1155595,34.12056,-84.00444,6
+10,"Dalton, GA",GA,Georgia,1155803,34.775177,-84.970665,6
+10,"Burien, WA",WA,Washington,1164740,47.47056,-122.34556,6
+10,"Pewaukee, WI",WI,Wisconsin,1133590,43.08056,-88.26111,6
+10,"Oconomowoc, WI",WI,Wisconsin,1133588,43.11167,-88.49917,6
+10,"Menomonee Falls, WI",WI,Wisconsin,1133576,43.17889,-88.11722,6
+10,"Encinitas, CA",CA,California,1147286,33.03694,-117.29111,6
+10,"La Mesa, CA",CA,California,1147295,32.76778,-117.02222,6
+10,"Page, AZ",AZ,Arizona,1133819,36.90861,-111.47278,6
+10,"Livermore, CA",CA,California,1147367,37.68194,-121.76694,6
+10,"Larkspur, CA",CA,California,1147366,37.93417,-122.53417,6
+10,"Kenosha, WI",WI,Wisconsin,1133351,42.58472,-87.82111,6
+10,"Woodbridge, CT",CT,Connecticut,1148480,41.3525,-73.00889,6
+10,"Onalaska, WI",WI,Wisconsin,1133442,43.88444,-91.235,6
+10,"Torrington, CT",CT,Connecticut,1148553,41.80056,-73.12167,6
+10,"Marshfield, WI",WI,Wisconsin,1133526,44.66889,-90.17167,6
+10,"Hudson, NH",NH,New Hampshire,1147904,42.76472,-71.44028,6
+10,"Milford, NH",NH,New Hampshire,1147909,42.83528,-71.64944,6
+10,"Utica, NY",NY,New York,1132931,43.10083,-75.23306,6
+10,"Garfield Heights, Cuyahoga, OH",OH,Ohio,1163303,41.41694,-81.60611,6
+10,"Watertown, NY",NY,New York,1132984,43.97472,-75.91111,6
+10,"University Heights, Cuyahoga, OH",OH,Ohio,1163348,41.49778,-81.5375,6
+10,"Evergreen, CO",CO,Colorado,1148177,39.63333,-105.31667,6
+10,"Fishkill, NY",NY,New York,1132627,41.53556,-73.89944,6
+10,"Montrose, CO",CO,Colorado,1148298,38.47833,-107.87556,6
+9,"Deland, FL",FL,Florida,1154031,29.037182,-81.3138,6
+9,"Daytona Beach, FL",FL,Florida,1154028,29.21056,-81.02306,6
+9,"Lanham, MD",MD,Maryland,1153870,38.96694,-76.86222,6
+9,"Huntington, WV",WV,West Virginia,1143910,38.41917,-82.44528,6
+9,"Forked River, NJ",NJ,New Jersey,1126768,39.83972,-74.19056,6
+9,"Cookeville, TN",TN,Tennessee,1144304,36.16278,-85.50167,6
+9,"Hollywood, MD",MD,Maryland,1153739,38.34583,-76.57194,6
+9,"Papillion, NE",NE,Nebraska,1136441,41.15444,-96.04194,6
+9,"Summit, NJ",NJ,New Jersey,1127008,40.74139,-74.36,6
+9,"Greeneville, TN",TN,Tennessee,1144328,36.16306,-82.83111,6
+9,"Whippany, NJ",NJ,New Jersey,1127044,40.82444,-74.4175,6
+9,"Burlington, NJ",NJ,New Jersey,1127086,40.07111,-74.86528,6
+9,"Uniontown, PA",PA,Pennsylvania,1153047,39.9,-79.71667,6
+9,"Contact, MT",MT,Montana,3745564,45.50833,-110.22528,6
+9,"Norwell, MA",MA,Massachusetts,1154654,42.16167,-70.79444,6
+9,"Blaine, MN",MN,Minnesota,1162256,45.16083,-93.23472,6
+9,"Arlington, MA",MA,Massachusetts,1154519,42.41528,-71.15694,6
+9,"Mashpee, MA",MA,Massachusetts,1154482,41.64833,-70.48167,6
+9,"Panama City, FL",FL,Florida,1154305,30.15861,-85.66028,6
+9,"Layton, UT",UT,Utah,1128218,41.06783,-111.94993,6
+9,"Kentwood, MI",MI,Michigan,3744907,42.86944,-85.64472,6
+9,"Park City, UT",UT,Utah,1128285,40.64611,-111.49722,6
+9,"Apopka, FL",FL,Florida,1154213,28.68028,-81.50972,6
+9,"Fort Walton Beach, FL",FL,Florida,1154048,30.40556,-86.61889,6
+9,"Hilliard, OH",OH,Ohio,1145863,40.03333,-83.15833,6
+9,"Lisle, IL",IL,Illinois,1128900,41.80111,-88.07472,6
+9,"Highland Park, IL",IL,Illinois,1128866,42.18167,-87.80028,6
+9,"Evanston, IL",IL,Illinois,1128835,42.04111,-87.69,6
+9,"Carol Stream, IL",IL,Illinois,1128804,41.9125,-88.13472,6
+9,"Burbank, IL",IL,Illinois,1128801,41.73389,-87.77944,6
+9,"Deerfield, IL",IL,Illinois,1128821,42.17111,-87.84444,6
+9,"Algonquin, IL",IL,Illinois,1128776,42.16556,-88.29417,6
+9,"Narragansett, RI",RI,Rhode Island,1151278,41.45,-71.45,6
+9,"Ashland, KY",KY,Kentucky,1137666,38.47833,-82.63806,6
+9,"Vernon Hills, IL",IL,Illinois,1128989,42.21944,-87.97944,6
+9,"Ridgecrest, CA",CA,California,1146584,35.6225,-117.67,6
+9,"Rolling Meadows, IL",IL,Illinois,1128962,42.08417,-88.01306,6
+9,"Chico, CA",CA,California,1146608,39.72861,-121.83639,6
+9,"Ladera Ranch, CA",CA,California,1146806,33.57083,-117.63472,6
+9,"Monterey Park, CA",CA,California,1146832,34.0625,-118.12194,6
+9,"Zionsville, IN",IN,Indiana,1145048,39.95083,-86.26194,6
+9,"Spring Lake Heights, NJ",NJ,New Jersey,3716430,40.15028,-74.03139,6
+9,"Monroeville, PA",PA,Pennsylvania,1152956,40.42111,-79.78833,6
+9,"McKeesport, PA",PA,Pennsylvania,1152945,40.34778,-79.86444,6
+9,"Glen Mills, PA",PA,Pennsylvania,1152593,39.91917,-75.49194,6
+9,"Lafayette, IN",IN,Indiana,1145102,40.41667,-86.87528,6
+9,"Mishawaka, IN",IN,Indiana,1145263,41.66194,-86.15861,6
+9,"Danville, VA",VA,Virginia,1130050,36.58583,-79.39528,6
+9,"Rocky River, OH",OH,Ohio,1145813,41.47556,-81.83944,6
+9,"Suffern, NY",NY,New York,1132433,41.11472,-74.15,6
+9,"Garland, TX",TX,Texas,1139995,32.9125,-96.63861,6
+9,"Mount Kisco, NY",NY,New York,1132339,41.20417,-73.7275,6
+9,"Georgetown, TX",TX,Texas,1139774,30.6325,-97.67694,6
+9,"Marion, IA",IA,Iowa,1149173,42.03417,-91.5975,6
+9,"Schenectady, NY",NY,New York,1131729,42.81417,-73.94,6
+9,"Glenmont, NY",NY,New York,1131690,42.60472,-73.77,6
+9,"Longview, TX",TX,Texas,1140307,32.50056,-94.74028,6
+9,"Jefferson City, MO",MO,Missouri,1130954,38.57667,-92.17333,6
+9,"Blue Springs, MO",MO,Missouri,1131005,39.01694,-94.28139,6
+9,"Lemay, MO",MO,Missouri,1158753,38.53333,-90.27917,6
+9,"Lacey, WA",WA,Washington,1150384,47.03444,-122.82194,6
+9,"Los Gatos, CA",CA,California,1147427,37.22667,-121.97361,6
+9,"Buellton, CA",CA,California,1147464,34.61361,-120.19167,6
+9,"Paso Robles, CA",CA,California,1147456,35.62667,-120.69,6
+9,"Vacaville, CA",CA,California,1147609,38.35667,-121.98667,6
+9,"East Norriton, PA",PA,Pennsylvania,1165268,40.15167,-75.33694,6
+9,"South Burlington, VT",VT,Vermont,1141803,44.46694,-73.17139,6
+9,"Westminster, CA",CA,California,1146911,33.75917,-118.00583,6
+9,"Shakopee, MN",MN,Minnesota,1142581,44.79806,-93.52667,6
+9,"Hopkins, MN",MN,Minnesota,1142534,44.925,-93.4625,6
+9,"Napa, CA",CA,California,1146966,38.29722,-122.28444,6
+9,"Redlands, CA",CA,California,1147135,34.05556,-117.18167,6
+9,"Davis, CA",CA,California,1147176,38.545,-121.73944,6
+9,"Placerville, CA",CA,California,1147219,38.72972,-120.7975,6
+9,"San Marcos, CA",CA,California,1147313,33.14333,-117.16528,6
+9,"Northfield, MN",MN,Minnesota,1142411,44.45833,-93.16139,6
+9,"Emeryville, CA",CA,California,1147352,37.83139,-122.28417,6
+9,"Chanhassen, MN",MN,Minnesota,1142508,44.86222,-93.53056,6
+9,"Woodside, CA",CA,California,1164024,37.43,-122.25278,6
+9,"Fond du Lac, WI",WI,Wisconsin,1133392,43.77306,-88.44694,6
+9,"Golden, CO",CO,Colorado,1148181,39.75556,-105.22056,6
+9,"Middletown, NY",NY,New York,1132645,41.44583,-74.42333,6
+9,"Cromwell, CT",CT,Connecticut,1148380,41.595,-72.64583,6
+9,"Westport, CT",CT,Connecticut,1148360,41.14139,-73.35833,6
+9,"East Hampton, CT",CT,Connecticut,1148387,41.57583,-72.50306,6
