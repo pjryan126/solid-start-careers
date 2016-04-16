@@ -7,7 +7,7 @@ from sqlalchemy.ext.declarative import declarative_base
 # build db_uri
 db_uri = 'postgresql://postgres:password@' \
          'ec2-54-152-192-253.compute-1.amazonaws.com:5432/' \
-         'solid_start_test'
+         'solid_start'
 
 engine = create_engine(db_uri, convert_unicode=True)
 db_session = scoped_session(sessionmaker(autocommit=False,

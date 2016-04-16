@@ -1,11 +1,14 @@
 # create a source folder
 sudo -u w205 hdfs dfs -mkdir /user/w205/src
 
-# create a folder for each batch source file
+# create a folder for each source file
 sudo -u w205 hdfs dfs -mkdir /user/w205/src/crime_by_state
 sudo -u w205 hdfs dfs -mkdir /user/w205/src/median_earnings
 sudo -u w205 hdfs dfs -mkdir /user/w205/src/park_score
 sudo -u w205 hdfs dfs -mkdir /user/w205/src/quality_of_life
+sudo -u w205 hdfs dfs -mkdir /user/w205/src/jobs_data
+sudo -u w205 hdfs dfs -mkdir /user/w205/src/housing_data
+
 
 # load batch source files into hdfs for long-term storage
 sudo -u w205 hdfs dfs -put /data/batch/crime_by_state.csv /user/w205/src/crime_by_state

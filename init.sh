@@ -189,3 +189,19 @@ echo 'export SPARK_HOME=/home/w205/spark15' >> conf/zeppelin-env.sh
 EOF
 
 chmod +x setup_zeppelin.sh
+
+#setup glassdoor etl application
+cp -r store/api/glassdoor/ /data/glassdoor
+
+# create shell script to run glassdoor etl script as
+# a daily cronjob
+cat > /data/glassdoor.sh <<EOF
+cd /data/glassdoor
+source venv/bin/activate
+python glassdoorEtl/etl.py
+deactivate
+EOF
+
+# create cronjob
+sudo echo "0  4  *  *  * /data/glassdoor.sh" >> /etc/crontab
+

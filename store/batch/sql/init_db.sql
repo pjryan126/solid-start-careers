@@ -9,6 +9,15 @@ CREATE TABLE raw.location (
   county TEXT
 );
 
+DROP TABLE IF EXISTS raw.city_data;
+CREATE TABLE raw.city_data (
+  Region TEXT,
+  State TEXT,
+  Metro TEXT,
+  County TEXT,
+  Code TEXT
+);
+
 -- create crime stats raw table
 DROP TABLE IF EXISTS raw.crime_stats;
 CREATE TABLE raw.crime_stats (
@@ -534,7 +543,8 @@ VALUES
   (4, 'Median Earnings'),
   (5, 'Housing Data'),
   (6, 'Jobs Data'),
-  (7, 'GeoLocation Data');
+  (7, 'GeoLocation Data'),
+  (8, 'City Data');
 
 -- create batch table
 DROP TABLE IF EXISTS src.batch;
@@ -555,6 +565,16 @@ CREATE TABLE src.location (
   city TEXT,
   state TEXT,
   county TEXT
+);
+
+DROP TABLE IF EXISTS src.city_data;
+CREATE TABLE src.city_data (
+  city_id SERIAL PRIMARY KEY,
+  Region TEXT,
+  State TEXT,
+  Metro TEXT,
+  County TEXT,
+  Code TEXT
 );
 
 -- create crime stats source table
