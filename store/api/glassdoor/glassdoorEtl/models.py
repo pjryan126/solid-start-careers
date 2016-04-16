@@ -1,35 +1,71 @@
 #! /usr/bin python
-from sqlalchemy import Column, Integer, String, Float, TEXT
+from sqlalchemy import (
+    Boolean,
+    Column,
+    Integer,
+    String,
+    Float,
+    TEXT
+)
 from database import Base
 
+
+class Batch(Base):
+
+    __tablename__ = 'batch'
+    __table_args__ = {'schema': 'src'}
+
+    batch_id = Column(Integer, primary_key=True)
+    datasource_id = Column(Integer)
+    name = Column(String())
+    is_active = Column(Boolean)
+
+    def __init__(self,
+                 datasource_id=None,
+                 name=None,
+                 is_active=None):
+
+        self.datasource_id = datasource_id
+        self.name = name
+        self.is_active = is_active
+
+
 class JobsData(Base):
+
     __tablename__ = 'jobs_data'
     __table_args__ = {'schema': 'src'}
 
     jobs_data_id = Column(Integer, primary_key=True)
-    numJobs = Column(String())
+    batch_id = Column(Integer)
+    category_id = Column(Float)
+    numJobs = Column(Integer)
     name = Column(String())
-    stateAbbreviation = Column(String())
+    stateAbbreviation = Column(String(2))
     stateName = Column(String())
-    id = Column(String())
-    latitude = Column(String())
-    longitude = Column(String())
-    category_id = Column(String())
+    id = Column(Integer)
+    latitude = Column(Float)
+    longitude = Column(Float)
 
     def __init__(self,
-                 num_jobs=None,
-                 city=None,
-                 state=None,
-                 source_id=None,
+                 batch_id=None,
+                 numJobs=None,
+                 name=None,
+                 stateAbbreviation=None,
+                 stateName=None,
+                 id=None,
                  latitude=None,
-                 longitude=None):
+                 longitude=None,
+                 category_id=None):
 
-        self.num_jobs = num_jobs
-        self.city = city
-        self.state = state
-        self.source_id = source_id
+        self.batch_id = batch_id
+        self.numJobs = numJobs
+        self.name = name
+        self.stateAbbreviation = stateAbbreviation
+        self.stateName = stateName
+        self.id = id
         self.latitude = latitude
         self.longitude = longitude
+        self.category_id = category_id
 
-    def __repr__(self):
+def __repr__(self):
         return '<city-state: %s, %s>' % (self.city, self.state)
