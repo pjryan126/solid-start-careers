@@ -120,7 +120,7 @@ def main():
     for c in categories:
         print "processing category %s" % c
         data = get_job_stats(c)
-        #push_to_hadoop(data, batch_name, c)
+        push_to_hadoop(data, batch_name, c)
         push_to_sql(data['response']['cities'], batch.batch_id, c)
 
     db_session.close()
