@@ -77,13 +77,13 @@ def push_to_hadoop(data, batch_name, category):
 def push_to_sql(data, batch_id, category):
 
     def parse_data(d):
-    # iterate over the key/values pairings
-    for k, v in d.items():
-        if v == u'Wahiaw\xe4, HI':
-            d[k] = u'Wahiawa, HI'
-        if isinstance(v, str):
-            d[k] = ''.join([i if ord(i) < 128 else ' ' for i in text])
-    return d
+        # iterate over the key/values pairings
+        for k, v in d.items():
+            if v == u'Wahiaw\xe4, HI':
+                d[k] = u'Wahiawa, HI'
+            if isinstance(v, str):
+                d[k] = ''.join([i if ord(i) < 128 else ' ' for i in text])
+        return d
 
     for i, d in enumerate(data):
         d = parse_data(d)
