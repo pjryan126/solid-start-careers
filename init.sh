@@ -190,8 +190,9 @@ EOF
 
 chmod +x setup_zeppelin.sh
 
-#setup glassdoor etl application
+#setup glassdoor and zillow etl applications
 cp -r store/api/glassdoor/ /data/glassdoor
+cp -r store/api/zillow/ /data/zillow
 
 # create shell script to run glassdoor etl script as
 # a daily cronjob
@@ -201,7 +202,19 @@ source venv/bin/activate
 python glassdoorEtl/etl.py
 deactivate
 EOF
+sudo chmod a+x /data/glassdoor.sh
+
+# create shell script to run zillow etl script as
+# a daily cronjob
+cat > /data/zillow.sh <<EOF
+cd /data/zillow
+source venv/bin/activate
+python zillowEtl/etl.py
+deactivate
+EOF
+sudo chmod a+x /data/zillow.sh
 
 # create cronjob
 sudo echo "0  4  *  *  * /data/glassdoor.sh" >> /etc/crontab
+sudo echo "0  0  1  *  * /data/zillow.sh >> /etc/crontab
 

@@ -541,7 +541,7 @@ VALUES
   (2, 'Park Score'),
   (3, 'Quality of Life'),
   (4, 'Median Earnings'),
-  (5, 'Housing Data'),
+  (5, 'Median Home Values Data'),
   (6, 'Jobs Data'),
   (7, 'GeoLocation Data'),
   (8, 'City Data');
@@ -559,6 +559,7 @@ CREATE TABLE src.batch (
 DROP TABLE IF EXISTS src.location;
 CREATE TABLE src.location (
   location_id SERIAL PRIMARY KEY,
+  batch_id INT REFERENCES src.batch(batch_id),
   zip_code TEXT,
   latitude TEXT,
   longitude TEXT,
@@ -570,6 +571,7 @@ CREATE TABLE src.location (
 DROP TABLE IF EXISTS src.city_data;
 CREATE TABLE src.city_data (
   city_id SERIAL PRIMARY KEY,
+  batch_id INT REFERENCES src.batch(batch_id),
   Region TEXT,
   State TEXT,
   Metro TEXT,
