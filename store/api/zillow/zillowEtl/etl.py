@@ -15,7 +15,7 @@ def get_home_values(code):
         data = Quandl.get('%s/C%s_A' % (dataset, code), authtoken=token)
     except:
         import time
-        time.sleep(3)
+        time.sleep(.35)
         data = Quandl.get('%s/C%s_A' % (dataset, code))
 
     data.index.name = 'Date'
@@ -26,9 +26,9 @@ def get_home_values(code):
 def push_to_hadoop(data, batch_name):
     s = StringIO.StringIO()
     data.to_csv(s)
-    os.system('sudo -u w205 hdfs dfs -mkdir /user/w205/src/jobs_data')
+    os.system('sudo -u w205 hdfs dfs -mkdir -p /user/w205/src/housing_data')
     cmd = 'echo "%s" | sudo -u w205 hdfs dfs -put ' \
-          '/user/w205/src/jobs_data/%s.txt'
+          '/user/w205/src/housing_data/%s'
     os.system(cmd % (s, batch_name))
     return
 
