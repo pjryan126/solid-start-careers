@@ -209,7 +209,7 @@ cat > /data/glassdoor.sh <<EOF
 cd /data/glassdoor
 source venv/bin/activate
 pip install -r requirements.txt
-python glassdoorEtl/etl.py
+/usr/bin/python glassdoorEtl/etl.py
 deactivate
 EOF
 sudo chmod a+x /data/glassdoor.sh
@@ -220,7 +220,7 @@ cat > /data/zillow.sh <<EOF
 cd /data/zillow
 source venv/bin/activate
 pip install -r requirements.txt
-python zillowEtl/etl.py
+/usr/bin/python zillowEtl/etl.py
 deactivate
 EOF
 sudo chmod a+x /data/zillow.sh
@@ -231,7 +231,7 @@ cp -r analyze/sql /data/analysis
 cp /analyze/analyis.sh /data
 
 # create cronjob
-sudo echo "0  4  *  *  * /data/glassdoor.sh" >> /etc/crontab
-sudo echo "0  0  1  *  * /data/zillow.sh" >> /etc/crontab
-sudo echo "0  0  1  *  * /data/analysis.sh" >> /etc/crontab
+sudo echo "  0  4  *  *  * /data/glassdoor.sh" >> /etc/crontab
+sudo echo "  0  0  1  *  * /data/zillow.sh" >> /etc/crontab
+sudo echo "  0  0  1  *  * /data/analysis.sh" >> /etc/crontab
 
