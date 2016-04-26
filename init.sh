@@ -225,7 +225,13 @@ deactivate
 EOF
 sudo chmod a+x /data/zillow.sh
 
+# copy analysis table scripts to /data/analysis
+mkdir -p /data/analysis
+cp -r analyze/sql /data/analysis
+cp /analyze/analyis.sh /data
+
 # create cronjob
 sudo echo "0  4  *  *  * /data/glassdoor.sh" >> /etc/crontab
-sudo echo "0  0  1  *  * /data/zillow.sh >> /etc/crontab
+sudo echo "0  0  1  *  * /data/zillow.sh" >> /etc/crontab
+sudo echo "0  0  1  *  * /data/analysis.sh" >> /etc/crontab
 

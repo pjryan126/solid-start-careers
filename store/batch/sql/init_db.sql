@@ -18,6 +18,12 @@ CREATE TABLE raw.city_data (
   Code TEXT
 );
 
+DROP TABLE IF EXISTS raw.job_category;
+CREATE TABLE raw.job_category (
+  category_id TEXT,
+  name TEXT
+);
+
 -- create crime stats raw table
 DROP TABLE IF EXISTS raw.crime_stats;
 CREATE TABLE raw.crime_stats (
@@ -577,6 +583,13 @@ CREATE TABLE src.city_data (
   Metro TEXT,
   County TEXT,
   Code TEXT
+);
+
+DROP TABLE IF EXISTS src.job_category;
+CREATE TABLE src.job_category (
+  category_id INT PRIMARY KEY,
+  batch_id INT REFERENCES src.batch(batch_id),
+  name TEXT
 );
 
 -- create crime stats source table

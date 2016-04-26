@@ -1,0 +1,1001 @@
+Region,State,Metro,County,Code
+New York,NY,New York,Queens,00001
+Los Angeles,CA,Los Angeles,Los Angeles,00002
+Chicago,IL,Chicago,Cook,00003
+Philadelphia,PA,Philadelphia,Philadelphia,00004
+Phoenix,AZ,Phoenix,Maricopa,00005
+Las Vegas,NV,Las Vegas,Clark,00006
+San Diego,CA,San Diego,San Diego,00007
+San Jose,CA,San Jose,Santa Clara,00008
+Jacksonville,FL,Jacksonville,Duval,00009
+San Francisco,CA,San Francisco,San Francisco,00010
+Columbus,OH,Columbus,Franklin,00011
+Detroit,MI,Detroit,Wayne,00012
+Charlotte,NC,Charlotte,Mecklenburg,00013
+Memphis,TN,Memphis,Shelby,00014
+Baltimore,MD,Baltimore,Baltimore City,00015
+Boston,MA,Boston,Suffolk,00016
+Seattle,WA,Seattle,King,00017
+Washington,DC,Washington,District of Columbia,00018
+Denver,CO,Denver,Denver,00019
+Nashville,TN,Nashville,Davidson,00020
+Milwaukee,WI,Milwaukee,Milwaukee,00021
+Portland,OR,Portland,Multnomah,00022
+Oklahoma City,OK,Oklahoma City,Oklahoma,00023
+Tucson,AZ,Tucson,Pima,00024
+Omaha,NE,Omaha,Douglas,00025
+Fresno,CA,Fresno,Fresno,00026
+Mesa,AZ,Phoenix,Maricopa,00027
+Long Beach,CA,Los Angeles,Los Angeles,00028
+Sacramento,CA,Sacramento,Sacramento,00029
+Virginia Beach,VA,Virginia Beach,Virginia Beach City,00030
+Colorado Springs,CO,Colorado Springs,El Paso,00031
+Atlanta,GA,Atlanta,Fulton,00032
+Miami,FL,Miami-Fort Lauderdale,Miami-Dade,00033
+Tulsa,OK,Tulsa,Tulsa,00034
+Cleveland,OH,Cleveland,Cuyahoga,00035
+Honolulu,HI,Honolulu,Honolulu,00036
+Oakland,CA,San Francisco,Alameda,00037
+Minneapolis,MN,Minneapolis-St Paul,Hennepin,00038
+Raleigh,NC,Raleigh,Wake,00039
+Bakersfield,CA,Bakersfield,Kern,00040
+Tampa,FL,Tampa,Hillsborough,00041
+Anaheim,CA,Los Angeles,Orange,00042
+Aurora,CO,Denver,Arapahoe,00043
+Santa Ana,CA,Los Angeles,Orange,00044
+Marietta,GA,Atlanta,Cobb,00045
+Pittsburgh,PA,Pittsburgh,Allegheny,00046
+Riverside,CA,Riverside,Riverside,00047
+Cincinnati,OH,Cincinnati,Hamilton,00048
+Saint Paul,MN,Minneapolis-St Paul,Ramsey,00049
+Silver Spring,MD,Washington,Montgomery,00050
+Toledo,OH,Toledo,Lucas,00051
+Tallahassee,FL,Tallahassee,Leon,00052
+Stockton,CA,Stockton,San Joaquin,00053
+Newark,NJ,New York,Essex,00054
+Lexington,KY,Lexington,Fayette,00055
+Modesto,CA,Modesto,Stanislaus,00056
+Durham,NC,Durham,Durham,00057
+Chandler,AZ,Phoenix,Maricopa,00058
+Pensacola,FL,Pensacola,Escambia,00059
+Henderson,NV,Las Vegas,Clark,00060
+Saint Petersburg,FL,Tampa,Pinellas,00061
+Mobile,AL,Mobile,Mobile,00062
+Orlando,FL,Orlando,Orange,00063
+Jersey City,NJ,New York,Hudson,00064
+Glendale,AZ,Phoenix,Maricopa,00065
+Greensboro,NC,Greensboro,Guilford,00066
+Louisville,KY,Louisville/Jefferson County,Jefferson,00067
+Corona,CA,Riverside,Riverside,00068
+Chula Vista,CA,San Diego,San Diego,00069
+Lincoln,NE,Lincoln,Lancaster,00070
+Fayetteville,NC,Fayetteville,Cumberland,00071
+Hialeah,FL,Miami-Fort Lauderdale,Miami-Dade,00072
+Lawrenceville,GA,Atlanta,Gwinnett,00073
+Town of Madison,WI,Madison,Dane,00074
+Fort Myers,FL,Fort Myers,Lee,00075
+San Bernardino,CA,Riverside,San Bernardino,00076
+Winston-Salem,NC,Winston-Salem,Forsyth,00077
+Chesapeake,VA,Virginia Beach,Chesapeake City,00078
+Birmingham,AL,Birmingham,Jefferson,00079
+Fontana,CA,Riverside,San Bernardino,00080
+Bradenton,FL,Sarasota,Manatee,00081
+Knoxville,TN,Knoxville,Knox,00082
+North Las Vegas,NV,Las Vegas,Clark,00083
+Reno,NV,Reno,Washoe,00084
+Montgomery,AL,Montgomery,Montgomery,00085
+Scottsdale,AZ,Phoenix,Maricopa,00086
+Santa Rosa,CA,Santa Rosa,Sonoma,00087
+Fremont,CA,San Francisco,Alameda,00088
+Oxnard,CA,Ventura,Ventura,00089
+Rochester,NY,Rochester,Monroe,00090
+Greenville,SC,Greenville,Greenville,00091
+Gilbert,AZ,Phoenix,Maricopa,00092
+Boca Raton,FL,Miami-Fort Lauderdale,Palm Beach,00093
+Arlington,VA,Washington,Arlington,00094
+Richmond,VA,Richmond,Richmond City,00095
+Grand Rapids Township,MI,Grand Rapids,Kent,00096
+Ocala,FL,Ocala,Marion,00097
+Irvine,CA,Los Angeles,Orange,00098
+Spokane,WA,Spokane,Spokane,00099
+Des Moines,IA,Des Moines,Polk,00100
+Oceanside,CA,San Diego,San Diego,00101
+Gainesville,FL,Gainesville,Alachua,00102
+Tacoma,WA,Seattle,Pierce,00103
+Akron,OH,Akron,Summit,00104
+Augusta,GA,Augusta,Richmond,00105
+Woodbridge,VA,Washington,Prince William,00106
+Huntington Beach,CA,Los Angeles,Orange,00107
+Glendale,CA,Los Angeles,Los Angeles,00108
+Moreno Valley,CA,Riverside,Riverside,00109
+Aurora,IL,Chicago,Kane,00110
+Rockford,IL,Rockford,Winnebago,00111
+Little Rock,AR,Little Rock,Pulaski,00112
+Grand Rapids,MI,Grand Rapids,Kent,00113
+Salinas,CA,Salinas,Monterey,00114
+Worcester,MA,Worcester,Worcester,00115
+Lancaster,CA,Los Angeles,Los Angeles,00116
+Port Saint Lucie,FL,Port St. Lucie,Saint Lucie,00117
+Huntsville,AL,Huntsville,Madison,00118
+Fort Collins,CO,Fort Collins,Larimer,00119
+Providence,RI,Providence,Providence,00120
+Yonkers,NY,New York,Westchester,00121
+Garden Grove,CA,Los Angeles,Orange,00122
+Newport News,VA,Virginia Beach,Newport News City,00123
+Cape Coral,FL,Fort Myers,Lee,00124
+Columbus,GA,Columbus,Muscogee,00125
+Ontario,CA,Riverside,San Bernardino,00126
+Palmdale,CA,Los Angeles,Los Angeles,00127
+Fort Lauderdale,FL,Miami-Fort Lauderdale,Broward,00128
+Chattanooga,TN,Chattanooga,Hamilton,00129
+Roanoke,VA,Roanoke,Roanoke City,00130
+Santa Clarita,CA,Los Angeles,Los Angeles,00131
+Rancho Cucamonga,CA,Riverside,San Bernardino,00132
+Naperville,IL,Chicago,Du Page,00133
+El Cajon,CA,San Diego,San Diego,00134
+Fredericksburg,VA,Washington,Spotsylvania,00135
+Tempe,AZ,Phoenix,Maricopa,00136
+Vancouver,WA,Portland,Clark,00137
+Murfreesboro,TN,Nashville,Rutherford,00138
+Clarksville,TN,Clarksville,Montgomery,00139
+Elk Grove,CA,Sacramento,Sacramento,00140
+Pembroke Pines,FL,Miami-Fort Lauderdale,Broward,00141
+Pueblo,CO,Pueblo,Pueblo,00142
+Springfield,MA,Springfield,Hampden,00143
+Fairfax,VA,Washington,Fairfax,00144
+Peoria,AZ,Phoenix,Maricopa,00145
+Boynton Beach,FL,Miami-Fort Lauderdale,Palm Beach,00146
+Pomona,CA,Los Angeles,Los Angeles,00147
+Paterson,NJ,New York,Passaic,00148
+Lakewood,CO,Denver,Jefferson,00149
+Visalia,CA,Visalia,Tulare,00150
+Torrance,CA,Los Angeles,Los Angeles,00151
+Charleston,SC,Charleston,Charleston,00152
+Dayton,OH,Dayton,Montgomery,00153
+Bridgeport,CT,Stamford,Fairfield,00154
+Canton,OH,Canton,Stark,00155
+Yuma,AZ,Yuma,Yuma,00156
+Salem,OR,Salem,Marion,00157
+Hayward,CA,San Francisco,Alameda,00158
+Alexandria,VA,Washington,Alexandria City,00159
+Hollywood,FL,Miami-Fort Lauderdale,Broward,00160
+Newark,DE,Philadelphia,New Castle,00161
+Sunnyvale,CA,San Jose,Santa Clara,00162
+Eugene,OR,Eugene,Lane,00163
+Hampton,VA,Virginia Beach,Hampton City,00164
+Pasadena,CA,Los Angeles,Los Angeles,00165
+Cumming,GA,Atlanta,Forsyth,00166
+Saginaw,MI,Saginaw,Saginaw,00167
+Santa Maria,CA,Santa Barbara,Santa Barbara,00168
+Inglewood,CA,Los Angeles,Los Angeles,00169
+Compton,CA,Los Angeles,Los Angeles,00170
+Orange,CA,Los Angeles,Orange,00171
+Savannah,GA,Savannah,Chatham,00172
+Renton,WA,Seattle,King,00173
+Fullerton,CA,Los Angeles,Orange,00174
+Warren,MI,Detroit,Macomb,00175
+Hamilton,OH,Cincinnati,Butler,00176
+Escondido,CA,San Diego,San Diego,00177
+Sterling Heights,MI,Detroit,Macomb,00178
+Gainesville,GA,Gainesville,Hall,00179
+New Haven,CT,New Haven,New Haven,00180
+Flint,MI,Flint,Genesee,00181
+Cary,NC,Raleigh,Wake,00182
+Victorville,CA,Riverside,San Bernardino,00183
+Simi Valley,CA,Ventura,Ventura,00184
+Miramar,FL,Miami-Fort Lauderdale,Broward,00185
+Concord,CA,San Francisco,Contra Costa,00186
+Thornton,CO,Denver,Adams,00187
+Elizabeth,NJ,New York,Union,00188
+East Los Angeles,CA,Los Angeles,Los Angeles,00189
+Hartford,CT,Hartford,Hartford,00190
+Bellevue,WA,Seattle,King,00191
+Coral Springs,FL,Miami-Fort Lauderdale,Broward,00192
+Stamford,CT,Stamford,Fairfield,00193
+Queen Creek,AZ,Phoenix,Pinal,00194
+Joliet,IL,Chicago,Will,00195
+Vallejo,CA,Vallejo,Solano,00196
+Frederick,MD,Washington,Frederick,00197
+Allentown,PA,Allentown,Lehigh,00198
+Lansing Township,MI,Lansing,Ingham,00199
+Hemet,CA,Riverside,Riverside,00200
+Surprise,AZ,Phoenix,Maricopa,00201
+Clearwater,FL,Tampa,Pinellas,00202
+Athens,GA,Athens,Clarke,00203
+Falls Church,VA,Washington,Fairfax,00204
+New Port Richey,FL,Tampa,Pasco,00205
+Santa Clara,CA,San Jose,Santa Clara,00206
+Temecula,CA,Riverside,Riverside,00207
+Cedar Rapids,IA,Cedar Rapids,Linn,00208
+Westminster,CO,Denver,Adams,00209
+Miami Gardens,FL,Miami-Fort Lauderdale,Miami-Dade,00210
+Vista,CA,San Diego,San Diego,00211
+Ann Arbor,MI,Ann Arbor,Washtenaw,00212
+Costa Mesa,CA,Los Angeles,Orange,00213
+Spartanburg,SC,Spartanburg,Spartanburg,00214
+Springfield,IL,Springfield,Sangamon,00215
+Manchester,NH,Manchester,Hillsborough,00216
+Norman,OK,Oklahoma City,Cleveland,00217
+Berkeley,CA,San Francisco,Alameda,00218
+Ventura,CA,Ventura,Ventura,00219
+Stone Mountain,GA,Atlanta,Dekalb,00220
+Downey,CA,Los Angeles,Los Angeles,00221
+Roseville,CA,Sacramento,Placer,00222
+Waterbury,CT,New Haven,New Haven,00223
+Clovis,CA,Fresno,Fresno,00224
+Tuscaloosa,AL,Tuscaloosa,Tuscaloosa,00225
+Sparks,NV,Reno,Washoe,00226
+Redding,CA,Redding,Shasta,00227
+Chico,CA,Chico,Butte,00228
+West Covina,CA,Los Angeles,Los Angeles,00229
+Lowell,MA,Boston,Middlesex,00230
+Norcross,GA,Atlanta,Gwinnett,00231
+Peoria,IL,Peoria,Peoria,00232
+Rock Hill,SC,Charlotte,York,00233
+Elgin,IL,Chicago,Kane,00234
+Concord,NC,Charlotte,Cabarrus,00235
+Carlsbad,CA,San Diego,San Diego,00236
+Wilmington,NC,Wilmington,New Hanover,00237
+Norwalk,CA,Los Angeles,Los Angeles,00238
+Springfield,VA,Washington,Fairfax,00239
+Tracy,CA,Stockton,San Joaquin,00240
+Lakeland,FL,Lakeland,Polk,00241
+Duluth,GA,Atlanta,Gwinnett,00242
+Cambridge,MA,Boston,Middlesex,00243
+Bend,OR,Bend,Deschutes,00244
+West Chester,PA,Philadelphia,Chester,00245
+Douglasville,GA,Atlanta,Douglas,00246
+Murrieta,CA,Riverside,Riverside,00247
+Green Bay,WI,Green Bay,Brown,00248
+Arvada,CO,Denver,Jefferson,00249
+Palm Bay,FL,Melbourne,Brevard,00250
+Laurel,MD,Washington,Prince Georges,00251
+Broken Arrow,OK,Tulsa,Tulsa,00252
+Burbank,CA,Los Angeles,Los Angeles,00253
+West Palm Beach,FL,Miami-Fort Lauderdale,Palm Beach,00254
+Everett,WA,Seattle,Snohomish,00255
+Davenport,IA,Davenport,Scott,00256
+Grand Junction,CO,Grand Junction,Mesa,00257
+Erie,PA,Erie,Erie,00258
+Fairfield,CA,Vallejo,Solano,00259
+Vero Beach,FL,Vero Beach,Indian River,00260
+San Leandro,CA,San Francisco,Alameda,00261
+Centennial,CO,Denver,Arapahoe,00262
+Vacaville,CA,Vallejo,Solano,00263
+Edison,NJ,New York,Middlesex,00264
+Madera,CA,Madera,Madera,00265
+Hesperia,CA,Riverside,San Bernardino,00266
+Albany,GA,Albany,Dougherty,00267
+Pompano Beach,FL,Miami-Fort Lauderdale,Broward,00268
+Jacksonville,NC,Jacksonville,Onslow,00269
+Dearborn,MI,Detroit,Wayne,00270
+Santa Cruz,CA,Santa Cruz,Santa Cruz,00271
+Albany,NY,Albany,Albany,00272
+Saint Augustine,FL,Jacksonville,Saint Johns,00273
+Columbia,MD,Baltimore,Howard,00274
+Portsmouth,VA,Virginia Beach,Portsmouth City,00275
+Clinton Township,MI,Detroit,Macomb,00276
+San Mateo,CA,San Francisco,San Mateo,00277
+Napa,CA,Napa,Napa,00278
+Antioch,CA,San Francisco,Contra Costa,00279
+Livonia,MI,Detroit,Wayne,00280
+South Gate,CA,Los Angeles,Los Angeles,00281
+Beaverton,OR,Portland,Washington,00282
+Kennesaw,GA,Atlanta,Cobb,00283
+Rialto,CA,Riverside,San Bernardino,00284
+Daly City,CA,San Francisco,San Mateo,00285
+Town of Greece,NY,Rochester,Monroe,00286
+Spring Hill,FL,Tampa,Hernando,00287
+New Bedford,MA,Providence,Bristol,00288
+Indio,CA,Riverside,Riverside,00289
+Hillsboro,OR,Portland,Washington,00290
+Chapel Hill,NC,Durham,Orange,00291
+Mission Viejo,CA,Los Angeles,Orange,00292
+High Point,NC,Greensboro,Guilford,00293
+Newton,MA,Boston,Middlesex,00294
+Brockton,MA,Boston,Plymouth,00295
+Anderson,SC,Anderson,Anderson,00296
+Apopka,FL,Orlando,Orange,00297
+Davie,FL,Miami-Fort Lauderdale,Broward,00298
+Sandy Springs,GA,Atlanta,Fulton,00299
+Riverview,FL,Tampa,Hillsborough,00300
+Lakewood Township,NJ,New York,Ocean,00301
+Kenosha,WI,Chicago,Kenosha,00302
+Midlothian,VA,Richmond,Chesterfield,00303
+Johnson City,TN,Johnson City,Washington,00304
+Orange Park,FL,Jacksonville,Clay,00305
+Plainfield,IL,Chicago,Will,00306
+Annapolis,MD,Baltimore,Anne Arundel,00307
+Champaign,IL,Champaign-Urbana,Champaign,00308
+Bethlehem Township,PA,Allentown,Northampton,00309
+Hawthorne,CA,Los Angeles,Los Angeles,00310
+Franklin,TN,Nashville,Williamson,00311
+Quincy,MA,Boston,Norfolk,00312
+Lithonia,GA,Atlanta,Dekalb,00313
+Valdosta,GA,Valdosta,Lowndes,00314
+Greeley,CO,Greeley,Weld,00315
+El Monte,CA,Los Angeles,Los Angeles,00316
+Kent,WA,Seattle,King,00317
+Acworth,GA,Atlanta,Cobb,00318
+Santa Monica,CA,Los Angeles,Los Angeles,00319
+Boulder,CO,Boulder,Boulder,00320
+Bowie,MD,Washington,Prince Georges,00321
+Federal Way,WA,Seattle,King,00322
+Livermore,CA,San Francisco,Alameda,00323
+McDonough,GA,Atlanta,Henry,00324
+Kennewick,WA,Kennewick,Benton,00325
+Lexington,SC,Columbia,Lexington,00326
+Lynn,MA,Boston,Essex,00327
+Waukegan,IL,Chicago,Lake,00328
+Canton,MI,Detroit,Wayne,00329
+Woodstock,GA,Atlanta,Cherokee,00330
+Lawton,OK,Lawton,Comanche,00331
+Toms River,NJ,New York,Ocean,00332
+Holland Township,MI,Holland,Ottawa,00333
+Westminster,CA,Los Angeles,Orange,00334
+Loveland,CO,Fort Collins,Larimer,00335
+Medford,OR,Medford,Jackson,00336
+Yakima,WA,Yakima,Yakima,00337
+Roswell,GA,Atlanta,Fulton,00338
+Reading,PA,Reading,Berks,00339
+Nashua,NH,Manchester,Hillsborough,00340
+Duluth,MN,Duluth,Saint Louis,00341
+Williamsburg,VA,Virginia Beach,James City,00342
+Highlands Ranch,CO,Denver,Douglas,00343
+Fall River,MA,Providence,Bristol,00344
+Sterling,VA,Washington,Loudoun,00345
+Cleveland,TN,Cleveland,Bradley,00346
+Germantown,MD,Washington,Montgomery,00347
+Norwalk,CT,Stamford,Fairfield,00348
+Plantation,FL,Miami-Fort Lauderdale,Broward,00349
+Santa Barbara,CA,Santa Barbara,Santa Barbara,00350
+Miami Beach,FL,Miami-Fort Lauderdale,Miami-Dade,00351
+Sunrise,FL,Miami-Fort Lauderdale,Broward,00352
+Newnan,GA,Atlanta,Coweta,00353
+Herndon,VA,Washington,Fairfax,00354
+Richmond,CA,San Francisco,Contra Costa,00355
+Town of Poughkeepsie,NY,Poughkeepsie,Dutchess,00356
+Fort Smith,AR,Fort Smith,Sebastian,00357
+Warner Robins,GA,Warner Robins,Houston,00358
+Trenton,NJ,Trenton,Mercer,00359
+Deltona,FL,Daytona Beach,Volusia,00360
+Bloomington,IL,Bloomington,McLean,00361
+Largo,FL,Tampa,Pinellas,00362
+Bloomington,MN,Minneapolis-St Paul,Hennepin,00363
+Macon,GA,Macon,Bibb,00364
+Westland,MI,Detroit,Wayne,00365
+Whittier,CA,Los Angeles,Los Angeles,00366
+Jackson,TN,Jackson,Madison,00367
+Conyers,GA,Atlanta,Rockdale,00368
+Bremerton,WA,Bremerton,Kitsap,00369
+Flagstaff,AZ,Flagstaff,Coconino,00370
+Glen Burnie,MD,Baltimore,Anne Arundel,00371
+Clifton,NJ,New York,Passaic,00372
+Milton,FL,Pensacola,Santa Rosa,00373
+Sumter,SC,Sumter,Sumter,00374
+Cicero,IL,Chicago,Cook,00375
+Pittsburg,CA,San Francisco,Contra Costa,00376
+Kingsport,TN,Kingsport,Sullivan,00377
+Citrus Heights,CA,Sacramento,Sacramento,00378
+San Marcos,CA,San Diego,San Diego,00379
+Alhambra,CA,Los Angeles,Los Angeles,00380
+Lehigh Acres,FL,Fort Myers,Lee,00381
+Brandon,FL,Tampa,Hillsborough,00382
+Arden-Arcade,CA,Sacramento,Sacramento,00383
+Edmond,OK,Oklahoma City,Oklahoma,00384
+Chino,CA,Riverside,San Bernardino,00385
+Buena Park,CA,Los Angeles,Orange,00386
+Parma,OH,Cleveland,Cuyahoga,00387
+Longmont,CO,Boulder,Boulder,00388
+Troy,MI,Detroit,Oakland,00389
+Sanford,FL,Orlando,Seminole,00390
+Lexington,NC,Thomasville,Davidson,00391
+Danbury,CT,Stamford,Fairfield,00392
+Parker,CO,Denver,Douglas,00393
+Watsonville,CA,Santa Cruz,Santa Cruz,00394
+Dalton,GA,Dalton,Whitfield,00395
+Town 'n' Country,FL,Tampa,Hillsborough,00396
+Walnut Creek,CA,San Francisco,Contra Costa,00397
+City of Spokane Valley,WA,Spokane,Spokane,00398
+Gresham,OR,Portland,Multnomah,00399
+Utica,MI,Detroit,Macomb,00400
+Thousand Oaks,CA,Ventura,Ventura,00401
+Farmington Hills,MI,Detroit,Oakland,00402
+Macomb Township,MI,Detroit,Macomb,00403
+Lakewood,CA,Los Angeles,Los Angeles,00404
+Iowa City,IA,Iowa City,Johnson,00405
+Schaumburg,IL,Chicago,Cook,00406
+Evanston,IL,Chicago,Cook,00407
+Carson,CA,Los Angeles,Los Angeles,00408
+Canton,GA,Atlanta,Cherokee,00409
+Redmond,WA,Seattle,King,00410
+Eau Claire,WI,Eau Claire,Eau Claire,00411
+Camarillo,CA,Ventura,Ventura,00412
+Tustin,CA,Los Angeles,Orange,00413
+Warwick,RI,Providence,Kent,00414
+Kirkland,WA,Seattle,King,00415
+Camden,NJ,Philadelphia,Camden,00416
+Covina,CA,Los Angeles,Los Angeles,00417
+Apple Valley,CA,Riverside,San Bernardino,00418
+Melbourne,FL,Melbourne,Brevard,00419
+Redwood City,CA,San Francisco,San Mateo,00420
+Rome,GA,Rome,Floyd,00421
+Waldorf,MD,Washington,Charles,00422
+Porterville,CA,Visalia,Tulare,00423
+Ellicott City,MD,Baltimore,Howard,00424
+Salisbury,NC,Salisbury,Rowan,00425
+Town of Colonie,NY,Albany,Albany,00426
+Hoover,AL,Birmingham,Jefferson,00427
+Kendall,FL,Miami-Fort Lauderdale,Miami-Dade,00428
+Palm Coast,FL,Palm Coast,Flagler,00429
+Upland,CA,Riverside,San Bernardino,00430
+Racine,WI,Racine,Racine,00431
+Ashburn,VA,Washington,Loudoun,00432
+Leesburg,VA,Washington,Loudoun,00433
+Conway,AR,Little Rock,Faulkner,00434
+Lodi,CA,Stockton,San Joaquin,00435
+Plant City,FL,Tampa,Hillsborough,00436
+Bellflower,CA,Los Angeles,Los Angeles,00437
+Stafford,VA,Washington,Stafford,00438
+Lawrence,MA,Boston,Essex,00439
+Kalamazoo,MI,Kalamazoo,Kalamazoo,00440
+Maryville,TN,Knoxville,Blount,00441
+Brooklyn Park,MN,Minneapolis-St Paul,Hennepin,00442
+Scranton,PA,Scranton,Lackawanna,00443
+Greer,SC,Greenville,Greenville,00444
+Baldwin Park,CA,Los Angeles,Los Angeles,00445
+Turlock,CA,Modesto,Stanislaus,00446
+Brick,NJ,New York,Ocean,00447
+Oviedo,FL,Orlando,Seminole,00448
+Appleton,WI,Appleton,Outagamie,00449
+Arlington Heights,IL,Chicago,Cook,00450
+Somerville,MA,Boston,Middlesex,00451
+Huntington Park,CA,Los Angeles,Los Angeles,00452
+Marysville,WA,Seattle,Snohomish,00453
+Palm Harbor,FL,Tampa,Pinellas,00454
+Mountain View,CA,San Jose,Santa Clara,00455
+New Rochelle,NY,New York,Westchester,00456
+Alameda,CA,San Francisco,Alameda,00457
+Manteca,CA,Stockton,San Joaquin,00458
+New Britain,CT,Hartford,Hartford,00459
+Bellingham,WA,Bellingham,Whatcom,00460
+Port Charlotte,FL,Punta Gorda,Charlotte,00461
+Springfield,OR,Eugene,Lane,00462
+San Ramon,CA,San Francisco,Contra Costa,00463
+Casa Grande,AZ,Phoenix,Pinal,00464
+Folsom,CA,Sacramento,Sacramento,00465
+Smyrna,GA,Atlanta,Cobb,00466
+Pawtucket,RI,Providence,Providence,00467
+Mount Pleasant,SC,Charleston,Charleston,00468
+Snellville,GA,Atlanta,Gwinnett,00469
+Rochester Hills,MI,Detroit,Oakland,00470
+Southfield,MI,Detroit,Oakland,00471
+Plymouth,MN,Minneapolis-St Paul,Hennepin,00472
+Wilmington,DE,Philadelphia,New Castle,00473
+Simpsonville,SC,Greenville,Greenville,00474
+La Mesa,CA,San Diego,San Diego,00475
+Redlands,CA,Riverside,San Bernardino,00476
+Petaluma,CA,Santa Rosa,Sonoma,00477
+Waterford,MI,Detroit,Oakland,00478
+Lake Forest,CA,Los Angeles,Orange,00479
+Spring Valley,CA,San Diego,San Diego,00480
+North Charleston,SC,Charleston,Charleston,00481
+Cocoa,FL,Melbourne,Brevard,00482
+Tulare,CA,Visalia,Tulare,00483
+San Rafael,CA,San Francisco,Marin,00484
+Yuba City,CA,Yuba City,Sutter,00485
+Cranston,RI,Providence,Providence,00486
+Waipahu,HI,Honolulu,Honolulu,00487
+North Little Rock,AR,Little Rock,Pulaski,00488
+Asheville,NC,Asheville,Buncombe,00489
+Gastonia,NC,Charlotte,Gaston,00490
+Chino Hills,CA,Riverside,San Bernardino,00491
+Winchester,VA,Winchester,Frederick,00492
+Statesville,NC,Statesville,Iredell,00493
+Avondale,AZ,Phoenix,Maricopa,00494
+Mooresville,NC,Statesville,Iredell,00495
+Passaic,NJ,New York,Passaic,00496
+Bolingbrook,IL,Chicago,Will,00497
+Aiken,SC,Augusta,Aiken,00498
+Pasco,WA,Kennewick,Franklin,00499
+Weston,FL,Miami-Fort Lauderdale,Broward,00500
+Apex,NC,Raleigh,Wake,00501
+Lynwood,CA,Los Angeles,Los Angeles,00502
+Framingham,MA,Boston,Middlesex,00503
+Pleasanton,CA,San Francisco,Alameda,00504
+Dubuque,IA,Dubuque,Dubuque,00505
+Greenville,NC,Greenville,Pitt,00506
+Hanford,CA,Hanford,Kings,00507
+Fayetteville,AR,Fayetteville,Washington,00508
+Lauderhill,FL,Miami-Fort Lauderdale,Broward,00509
+Centreville,VA,Washington,Fairfax,00510
+Salisbury,MD,Salisbury,Wicomico,00511
+Punta Gorda,FL,Punta Gorda,Charlotte,00512
+Youngstown,OH,Youngstown,Mahoning,00513
+Lorain,OH,Cleveland,Lorain,00514
+Sanford,NC,Sanford,Lee,00515
+Eagan,MN,Minneapolis-St Paul,Dakota,00516
+Venice,FL,Sarasota,Sarasota,00517
+Mount Vernon,NY,New York,Westchester,00518
+Redondo Beach,CA,Los Angeles,Los Angeles,00519
+Milpitas,CA,San Jose,Santa Clara,00520
+Springdale,AR,Fayetteville,Washington,00521
+Brentwood,CA,San Francisco,Contra Costa,00522
+Grants Pass,OR,Grants Pass,Josephine,00523
+Arcadia,CA,Los Angeles,Los Angeles,00524
+Corvallis,OR,Corvallis,Benton,00525
+Glen Allen,VA,Richmond,Henrico,00526
+Union City,NJ,New York,Hudson,00527
+Schenectady,NY,Albany,Schenectady,00528
+Waterloo,IA,Waterloo,Black Hawk,00529
+Gaithersburg,MD,Washington,Montgomery,00530
+Palatine,IL,Chicago,Cook,00531
+Bel Air,MD,Baltimore,Harford,00532
+Union City,CA,San Francisco,Alameda,00533
+Palo Alto,CA,San Jose,Santa Clara,00534
+Saint Cloud,FL,Orlando,Osceola,00535
+Brunswick,GA,Brunswick,Glynn,00536
+West Bloomfield,MI,Detroit,Oakland,00537
+North Port,FL,Sarasota,Sarasota,00538
+Massillon,OH,Canton,Stark,00539
+San Luis Obispo,CA,San Luis Obispo,San Luis Obispo,00540
+Fayetteville,GA,Atlanta,Fayette,00541
+Perris,CA,Riverside,Riverside,00542
+Elyria,OH,Cleveland,Lorain,00543
+Lake Elsinore,CA,Riverside,Riverside,00544
+Pico Rivera,CA,Los Angeles,Los Angeles,00545
+Goodyear,AZ,Phoenix,Maricopa,00546
+East Orange,NJ,New York,Essex,00547
+Lakewood,WA,Seattle,Pierce,00548
+Daytona Beach,FL,Daytona Beach,Volusia,00549
+San Clemente,CA,Los Angeles,Orange,00550
+Fountainbleau,FL,Miami-Fort Lauderdale,Miami-Dade,00551
+York Township,PA,York,York,00552
+Carson City,NV,Carson City,Carson City,00553
+Lancaster Township,PA,Lancaster,Lancaster,00554
+Waukesha,WI,Milwaukee,Waukesha,00555
+San Gabriel,CA,Los Angeles,Los Angeles,00556
+Newport Beach,CA,Los Angeles,Orange,00557
+West Hartford,CT,Hartford,Hartford,00558
+Stockbridge,GA,Atlanta,Henry,00559
+Taylor,MI,Detroit,Wayne,00560
+Vienna,VA,Washington,Fairfax,00561
+Bethesda,MD,Washington,Montgomery,00562
+Dundalk,MD,Baltimore,Baltimore,00563
+La Crosse,WI,La Crosse,La Crosse,00564
+Rosemead,CA,Los Angeles,Los Angeles,00565
+Woodbury,MN,Minneapolis-St Paul,Washington,00566
+Bayonne,NJ,New York,Hudson,00567
+Laguna Niguel,CA,Los Angeles,Orange,00568
+Orland Park,IL,Chicago,Cook,00569
+Maple Grove,MN,Minneapolis-St Paul,Hennepin,00570
+Valrico,FL,Tampa,Hillsborough,00571
+Medina,OH,Cleveland,Medina,00572
+Oshkosh,WI,Oshkosh,Winnebago,00573
+South San Francisco,CA,San Francisco,San Mateo,00574
+Reston,VA,Washington,Fairfax,00575
+Encinitas,CA,San Diego,San Diego,00576
+Port Orchard,WA,Bremerton,Kitsap,00577
+Rocklin,CA,Sacramento,Placer,00578
+Waltham,MA,Boston,Middlesex,00579
+Ewa Beach,HI,Honolulu,Honolulu,00580
+Utica,NY,Utica,Oneida,00581
+Tamarac,FL,Miami-Fort Lauderdale,Broward,00582
+Jupiter,FL,Miami-Fort Lauderdale,Palm Beach,00583
+Haverhill,MA,Boston,Essex,00584
+Greenwich,CT,Stamford,Fairfield,00585
+Coon Rapids,MN,Minneapolis-St Paul,Anoka,00586
+Bellevue,NE,Omaha,Sarpy,00587
+Pasadena,MD,Baltimore,Anne Arundel,00588
+Burnsville,MN,Minneapolis-St Paul,Dakota,00589
+Easley,SC,Greenville,Pickens,00590
+Hamden,CT,New Haven,New Haven,00591
+Eden Prairie,MN,Minneapolis-St Paul,Hennepin,00592
+Montebello,CA,Los Angeles,Los Angeles,00593
+Brentwood,NY,New York,Suffolk,00594
+Delray Beach,FL,Miami-Fort Lauderdale,Palm Beach,00595
+Des Plaines,IL,Chicago,Cook,00596
+Vineland,NJ,Vineland,Cumberland,00597
+Yorba Linda,CA,Los Angeles,Orange,00598
+Florence-Graham,CA,Los Angeles,Los Angeles,00599
+North Bergen,NJ,New York,Hudson,00600
+Deland,FL,Daytona Beach,Volusia,00601
+North Miami,FL,Miami-Fort Lauderdale,Miami-Dade,00602
+Town of Janesville,WI,Janesville,Rock,00603
+Woodland,CA,Sacramento,Yolo,00604
+Kendale Lakes,FL,Miami-Fort Lauderdale,Miami-Dade,00605
+Bristol,CT,Hartford,Hartford,00606
+Lilburn,GA,Atlanta,Gwinnett,00607
+Hendersonville,TN,Nashville,Sumner,00608
+Springfield,OH,Springfield,Clark,00609
+West Allis,WI,Milwaukee,Milwaukee,00610
+Monterey Park,CA,Los Angeles,Los Angeles,00611
+Florence,SC,Florence,Florence,00612
+Valley Stream,NY,New York,Nassau,00613
+Meriden,CT,New Haven,New Haven,00614
+Mechanicsville,VA,Richmond,Hanover,00615
+La Habra,CA,Los Angeles,Orange,00616
+Novato,CA,San Francisco,Marin,00617
+Pontiac,MI,Detroit,Oakland,00618
+Lancaster,OH,Columbus,Fairfield,00619
+Snohomish,WA,Seattle,Snohomish,00620
+Fort Mill,SC,Charlotte,York,00621
+Rancho Cordova,CA,Sacramento,Sacramento,00622
+Malden,MA,Boston,Middlesex,00623
+National City,CA,San Diego,San Diego,00624
+Skokie,IL,Chicago,Cook,00625
+Prescott,AZ,Prescott,Yavapai,00626
+Wake Forest,NC,Raleigh,Wake,00627
+Saint Clair Shores,MI,Detroit,Macomb,00628
+Albany,OR,Albany,Linn,00629
+Gardena,CA,Los Angeles,Los Angeles,00630
+Tamiami,FL,Miami-Fort Lauderdale,Miami-Dade,00631
+Grove City,OH,Columbus,Franklin,00632
+New Castle,DE,Philadelphia,New Castle,00633
+Wheaton,IL,Chicago,Du Page,00634
+Lutz,FL,Tampa,Hillsborough,00635
+Manchester,CT,Hartford,Hartford,00636
+Wilson,NC,Wilson,Wilson,00637
+Altamonte Springs,FL,Orlando,Seminole,00638
+Westminster,MD,Baltimore,Carroll,00639
+Dearborn Heights,MI,Detroit,Wayne,00640
+Howell,MI,Detroit,Livingston,00641
+Deerfield Beach,FL,Miami-Fort Lauderdale,Broward,00642
+Blaine,MN,Minneapolis-St Paul,Anoka,00643
+Carmichael,CA,Sacramento,Sacramento,00644
+Medford,MA,Boston,Middlesex,00645
+Rockville,MD,Washington,Montgomery,00646
+Oak Lawn,IL,Chicago,Cook,00647
+Cupertino,CA,San Jose,Santa Clara,00648
+Royal Oak,MI,Detroit,Oakland,00649
+Kettering,OH,Dayton,Montgomery,00650
+Statesboro,GA,Statesboro,Bulloch,00651
+Town of Plymouth,MA,Boston,Plymouth,00652
+White Plains,NY,New York,Westchester,00653
+Broomfield,CO,Denver,Broomfield,00654
+Muskegon Township,MI,Muskegon,Muskegon,00655
+Gilroy,CA,San Jose,Santa Clara,00656
+Azusa,CA,Los Angeles,Los Angeles,00657
+West Haven,CT,New Haven,New Haven,00658
+Lompoc,CA,Santa Barbara,Santa Barbara,00659
+Berwyn,IL,Chicago,Cook,00660
+Town of Hempstead,NY,New York,Nassau,00661
+Loveland,OH,Cincinnati,Clermont,00662
+Alpharetta,GA,Atlanta,Fulton,00663
+Gloucester,NJ,Philadelphia,Camden,00664
+Annandale,VA,Washington,Fairfax,00665
+Wesley Chapel,FL,Tampa,Pasco,00666
+New Brunswick,NJ,New York,Middlesex,00667
+Davis,CA,Sacramento,Yolo,00668
+Fountain Valley,CA,Los Angeles,Orange,00669
+Morganton,NC,Hickory,Burke,00670
+Yukon,OK,Oklahoma City,Canadian,00671
+Chicopee,MA,Springfield,Hampden,00672
+Seminole,FL,Tampa,Pinellas,00673
+Lebanon,TN,Nashville,Wilson,00674
+Sebring,FL,Sebring,Highlands,00675
+Fairfield,CT,Stamford,Fairfield,00676
+Riverdale,GA,Atlanta,Clayton,00677
+Bensalem,PA,Philadelphia,Bucks,00678
+Huntersville,NC,Charlotte,Mecklenburg,00679
+Mount Prospect,IL,Chicago,Cook,00680
+Kissimmee,FL,Orlando,Osceola,00681
+Wayne,NJ,New York,Passaic,00682
+West Des Moines,IA,Des Moines,Polk,00683
+Columbia,TN,Columbia,Maury,00684
+Battle Creek,MI,Battle Creek,Calhoun,00685
+Jackson,NJ,New York,Ocean,00686
+Kaneohe,HI,Honolulu,Honolulu,00687
+Titusville,FL,Melbourne,Brevard,00688
+South Whittier,CA,Los Angeles,Los Angeles,00689
+San Pablo,CA,San Francisco,Contra Costa,00690
+Town of Sheboygan,WI,Sheboygan,Sheboygan,00691
+Paramount,CA,Los Angeles,Los Angeles,00692
+Klamath Falls,OR,Klamath Falls,Klamath,00693
+Land O Lakes,FL,Tampa,Pasco,00694
+Niagara Falls,NY,Buffalo,Niagara,00695
+Parsippany-Troy Hills Township,NJ,New York,Morris,00696
+Town of Newburgh,NY,Poughkeepsie,Orange,00697
+Midwest City,OK,Oklahoma City,Oklahoma,00698
+Colton,CA,Riverside,San Bernardino,00699
+Irvington,NJ,New York,Essex,00700
+Stillwater,OK,Stillwater,Payne,00701
+Millcreek Township,PA,Erie,Erie,00702
+Catalina Foothills,AZ,Tucson,Pima,00703
+Painesville,OH,Cleveland,Lake,00704
+Wyoming,MI,Grand Rapids,Kent,00705
+El Centro,CA,El Centro,Imperial,00706
+Owings Mills,MD,Baltimore,Baltimore,00707
+Delano,CA,Bakersfield,Kern,00708
+Asheboro,NC,Greensboro,Randolph,00709
+Morristown,TN,Morristown,Hamblen,00710
+Middleburg,FL,Jacksonville,Clay,00711
+Lake Havasu City,AZ,Lake Havasu City,Mohave,00712
+Issaquah,WA,Seattle,King,00713
+Santee,CA,San Diego,San Diego,00714
+Danville,CA,San Francisco,Contra Costa,00715
+Clayton,NC,Raleigh,Johnston,00716
+Decatur,AL,Decatur,Morgan,00717
+Palm Desert,CA,Riverside,Riverside,00718
+Bonita Springs,FL,Fort Myers,Lee,00719
+Hacienda Heights,CA,Los Angeles,Los Angeles,00720
+Palm Beach Gardens,FL,Miami-Fort Lauderdale,Palm Beach,00721
+Revere,MA,Boston,Suffolk,00722
+Grand Island,NE,Grand Island,Hall,00723
+Lagrange,GA,LaGrange,Troup,00724
+Margate,FL,Miami-Fort Lauderdale,Broward,00725
+Levittown,PA,Philadelphia,Bucks,00726
+Perth Amboy,NJ,New York,Middlesex,00727
+Union,NJ,New York,Union,00728
+Shoreline,WA,Seattle,King,00729
+Sarasota,FL,Sarasota,Sarasota,00730
+Port Orange,FL,Daytona Beach,Volusia,00731
+Mililani,HI,Honolulu,Honolulu,00732
+Oroville,CA,Chico,Butte,00733
+Massapequa,NY,New York,Nassau,00734
+Glendora,CA,Los Angeles,Los Angeles,00735
+Rowlett,TX,Dallas-Fort Worth,Dallas,00736
+Coconut Creek,FL,Miami-Fort Lauderdale,Broward,00737
+Town of Binghamton,NY,Binghamton,Broome,00738
+Piscataway Township,NJ,New York,Middlesex,00739
+Gig Harbor,WA,Seattle,Pierce,00740
+Auburn,WA,Seattle,King,00741
+Oregon City,OR,Portland,Clackamas,00742
+Upper Darby Township,PA,Philadelphia,Delaware,00743
+Goose Creek,SC,Charleston,Berkeley,00744
+Lombard,IL,Chicago,Du Page,00745
+Delaware,OH,Columbus,Delaware,00746
+Moore,OK,Oklahoma City,Cleveland,00747
+Homestead,FL,Miami-Fort Lauderdale,Miami-Dade,00748
+Clifton Park,NY,Albany,Saratoga,00749
+Oak Park,IL,Chicago,Cook,00750
+Stratford,CT,Stamford,Fairfield,00751
+Johns Creek,GA,Atlanta,Fulton,00752
+Kailua,HI,Honolulu,Honolulu,00753
+Milford,CT,New Haven,New Haven,00754
+Irondequoit,NY,Rochester,Monroe,00755
+The Hammocks,FL,Miami-Fort Lauderdale,Miami-Dade,00756
+Lake City,FL,Lake City,Columbia,00757
+Chesterfield,VA,Richmond,Chesterfield,00758
+Mc Lean,VA,Washington,Fairfax,00759
+Tinley Park,IL,Chicago,Cook,00760
+East Hartford,CT,Hartford,Hartford,00761
+Peabody,MA,Boston,Essex,00762
+Cuyahoga Falls,OH,Akron,Summit,00763
+Lakewood,OH,Cleveland,Cuyahoga,00764
+Yucaipa,CA,Riverside,San Bernardino,00765
+Fort Washington,MD,Washington,Prince Georges,00766
+Kingman,AZ,Lake Havasu City,Mohave,00767
+Brookline,MA,Boston,Norfolk,00768
+Lincoln,CA,Sacramento,Placer,00769
+Waianae,HI,Honolulu,Honolulu,00770
+Novi,MI,Detroit,Oakland,00771
+Sierra Vista,AZ,Sierra Vista,Cochise,00772
+West Sacramento,CA,Sacramento,Yolo,00773
+Apache Junction,AZ,Phoenix,Pinal,00774
+Rogers,AR,Fayetteville,Benton,00775
+Troy,NY,Albany,Rensselaer,00776
+Town of Elmira,NY,Elmira,Chemung,00777
+Normal,IL,Bloomington,McLean,00778
+Brighton,MI,Detroit,Livingston,00779
+Apple Valley,MN,Minneapolis-St Paul,Dakota,00780
+Castle Rock,CO,Denver,Douglas,00781
+Urbana,IL,Champaign-Urbana,Champaign,00782
+Downers Grove,IL,Chicago,Du Page,00783
+Plainfield,NJ,New York,Union,00784
+North Fort Myers,FL,Fort Myers,Lee,00785
+Old Bridge Township,NJ,New York,Middlesex,00786
+Longwood,FL,Orlando,Seminole,00787
+Bartlett,TN,Memphis,Shelby,00788
+Longview,WA,Longview,Cowlitz,00789
+Placentia,CA,Los Angeles,Orange,00790
+Hoboken,NJ,New York,Hudson,00791
+Lancaster,SC,Lancaster,Lancaster,00792
+West New York,NJ,New York,Hudson,00793
+Mason,OH,Cincinnati,Warren,00794
+Harrisburg,PA,Harrisburg,Dauphin,00795
+Edina,MN,Minneapolis-St Paul,Hennepin,00796
+Kentwood,MI,Grand Rapids,Kent,00797
+Cerritos,CA,Los Angeles,Los Angeles,00798
+Taunton,MA,Providence,Bristol,00799
+Hollister,CA,San Jose,San Benito,00800
+Buckeye,AZ,Phoenix,Maricopa,00801
+La Mirada,CA,Los Angeles,Los Angeles,00802
+Cypress,CA,Los Angeles,Orange,00803
+Poway,CA,San Diego,San Diego,00804
+Parkersburg,WV,Parkersburg,Wood,00805
+Middletown,OH,Cincinnati,Butler,00806
+Castro Valley,CA,San Francisco,Alameda,00807
+Middletown,CT,Hartford,Middlesex,00808
+Fallbrook,CA,San Diego,San Diego,00809
+Aloha,OR,Portland,Washington,00810
+Chantilly,VA,Washington,Loudoun,00811
+Catonsville,MD,Baltimore,Baltimore,00812
+East Lansing,MI,Lansing,Ingham,00813
+Pinellas Park,FL,Tampa,Pinellas,00814
+Redford,MI,Detroit,Wayne,00815
+Diamond Bar,CA,Los Angeles,Los Angeles,00816
+Cathedral City,CA,Riverside,Riverside,00817
+Dekalb,IL,Chicago,De Kalb,00818
+Methuen,MA,Boston,Essex,00819
+Tigard,OR,Portland,Washington,00820
+Roseburg,OR,Roseburg,Douglas,00821
+Eureka,CA,Eureka,Humboldt,00822
+Doral,FL,Miami-Fort Lauderdale,Miami-Dade,00823
+Richland,WA,Kennewick,Benton,00824
+South Hill,WA,Seattle,Pierce,00825
+Orangeburg,SC,Orangeburg,Orangeburg,00826
+Coral Gables,FL,Miami-Fort Lauderdale,Miami-Dade,00827
+Kannapolis,NC,Charlotte,Cabarrus,00828
+Roseville,MI,Detroit,Macomb,00829
+Mentor,OH,Cleveland,Lake,00830
+Bloomfield,NJ,New York,Essex,00831
+Wahiawa,HI,Honolulu,Honolulu,00832
+Highland,CA,Riverside,San Bernardino,00833
+Charleston,WV,Charleston,Kanawha,00834
+Hamilton Township,NJ,Trenton,Mercer,00835
+Aliso Viejo,CA,Los Angeles,Orange,00836
+Claremore,OK,Tulsa,Rogers,00837
+Hoffman Estates,IL,Chicago,Cook,00838
+Garner,NC,Raleigh,Wake,00839
+Yorktown,VA,Virginia Beach,York,00840
+Martinez,CA,San Francisco,Contra Costa,00841
+West Orange,NJ,New York,Essex,00842
+Lakeville,MN,Minneapolis-St Paul,Dakota,00843
+Palm Springs,CA,Riverside,Riverside,00844
+Wellington,FL,Miami-Fort Lauderdale,Palm Beach,00845
+Elmhurst,IL,Chicago,Du Page,00846
+Portage,MI,Kalamazoo,Kalamazoo,00847
+East Brunswick,NJ,New York,Middlesex,00848
+Grand Blanc Township,MI,Flint,Genesee,00849
+Smyrna,TN,Nashville,Rutherford,00850
+Cleveland Heights,OH,Cleveland,Cuyahoga,00851
+West Chester,OH,Cincinnati,Butler,00852
+Okeechobee,FL,Okeechobee,Okeechobee,00853
+Olympia,WA,Olympia,Thurston,00854
+Saint Louis Park,MN,Minneapolis-St Paul,Hennepin,00855
+Clarkston,MI,Detroit,Oakland,00856
+Cumberland,MD,Cumberland,Allegany,00857
+Lindenhurst,NY,New York,Suffolk,00858
+Burlington,NC,Burlington,Alamance,00859
+San Jacinto,CA,Riverside,Riverside,00860
+Dunwoody,GA,Atlanta,Dekalb,00861
+Hilo,HI,Hilo,Hawaii,00862
+Tuckahoe,VA,Richmond,Henrico,00863
+Patchogue,NY,New York,Suffolk,00864
+Mansfield,OH,Mansfield,Richland,00865
+Commerce City,CO,Denver,Adams,00866
+Mount Vernon,WA,Mount Vernon,Skagit,00867
+Rocky Mount,NC,Rocky Mount,Nash,00868
+Campbell,CA,San Jose,Santa Clara,00869
+Glenview,IL,Chicago,Cook,00870
+Wallingford,CT,New Haven,New Haven,00871
+Moline,IL,Davenport,Rock Island,00872
+Country Club,FL,Miami-Fort Lauderdale,Miami-Dade,00873
+Washington Township,NJ,Philadelphia,Gloucester,00874
+Potomac,MD,Washington,Montgomery,00875
+Hempfield Township,PA,Pittsburgh,Westmoreland,00876
+Elkton,MD,Philadelphia,Cecil,00877
+Spanaway,WA,Seattle,Pierce,00878
+Grass Valley,CA,Truckee,Nevada,00879
+Sammamish,WA,Seattle,King,00880
+Freeport,NY,New York,Nassau,00881
+Egg Harbor Township,NJ,Atlantic City,Atlantic,00882
+Hudson,FL,Tampa,Pasco,00883
+Belleville,IL,St. Louis,Saint Clair,00884
+Enfield,CT,Hartford,Hartford,00885
+Lake Mary,FL,Orlando,Seminole,00886
+Strongsville,OH,Cleveland,Cuyahoga,00887
+Newbury Park,CA,Ventura,Ventura,00888
+Attleboro,MA,Providence,Bristol,00889
+Hinesville,GA,Hinesville,Liberty,00890
+Thomasville,NC,Thomasville,Davidson,00891
+Port Richey,FL,Tampa,Pasco,00892
+Dacula,GA,Atlanta,Gwinnett,00893
+Crestview,FL,Destin,Okaloosa,00894
+Carol Stream,IL,Chicago,Du Page,00895
+Auburn,CA,Sacramento,Placer,00896
+Desert Hot Springs,CA,Riverside,Riverside,00897
+North Bethesda,MD,Washington,Montgomery,00898
+Fairfield,OH,Cincinnati,Butler,00899
+Dublin,OH,Columbus,Franklin,00900
+Brea,CA,Los Angeles,Orange,00901
+Chesterfield,MI,Detroit,Macomb,00902
+Ankeny,IA,Des Moines,Polk,00903
+Beavercreek,OH,Dayton,Greene,00904
+Chester,VA,Richmond,Chesterfield,00905
+Lake Wales,FL,Lakeland,Polk,00906
+Edmonds,WA,Seattle,Snohomish,00907
+Manchester,NJ,New York,Ocean,00908
+Rowland Heights,CA,Los Angeles,Los Angeles,00909
+Lakeside,CA,San Diego,San Diego,00910
+Brunswick,OH,Cleveland,Medina,00911
+Towson,MD,Baltimore,Baltimore,00912
+Austell,GA,Atlanta,Cobb,00913
+Arlington,MA,Boston,Middlesex,00914
+Concord,NH,Concord,Merrimack,00915
+Mount Juliet,TN,Nashville,Wilson,00916
+Aiea,HI,Honolulu,Honolulu,00917
+Salem,MA,Boston,Essex,00918
+Rancho Santa Margarita,CA,Los Angeles,Orange,00919
+Hackensack,NJ,New York,Bergen,00920
+North Highlands,CA,Sacramento,Sacramento,00921
+Town of Webster,NY,Rochester,Monroe,00922
+Henrietta,NY,Rochester,Monroe,00923
+Greeneville,TN,Greeneville,Greene,00924
+Burke,VA,Washington,Fairfax,00925
+Covington,KY,Cincinnati,Kenton,00926
+Wooster,OH,Wooster,Wayne,00927
+Muskogee,OK,Muskogee,Muskogee,00928
+Euclid,OH,Cleveland,Cuyahoga,00929
+Hopkinsville,KY,Clarksville,Christian,00930
+Shakopee,MN,Minneapolis-St Paul,Scott,00931
+Penn Hills,PA,Pittsburgh,Allegheny,00932
+Lake Oswego,OR,Portland,Clackamas,00933
+Newark,CA,San Francisco,Alameda,00934
+Gallatin,TN,Nashville,Sumner,00935
+Bell Gardens,CA,Los Angeles,Los Angeles,00936
+Xenia,OH,Dayton,Greene,00937
+Nicholasville,KY,Lexington,Jessamine,00938
+Monrovia,CA,Los Angeles,Los Angeles,00939
+Essex,MD,Baltimore,Baltimore,00940
+Westfield,MA,Springfield,Hampden,00941
+State College,PA,State College,Centre,00942
+Everett,MA,Boston,Middlesex,00943
+Oakland Park,FL,Miami-Fort Lauderdale,Broward,00944
+Pekin,IL,Peoria,Tazewell,00945
+Levittown,NY,New York,Nassau,00946
+Burlington,VT,Burlington,Chittenden,00947
+Woonsocket,RI,Providence,Providence,00948
+Manheim Township,PA,Lancaster,Lancaster,00949
+Perinton,NY,Rochester,Monroe,00950
+Merritt Island,FL,Melbourne,Brevard,00951
+Cutler Bay,FL,Miami-Fort Lauderdale,Miami-Dade,00952
+Fair Oaks,CA,Sacramento,Sacramento,00953
+Winter Springs,FL,Orlando,Seminole,00954
+Fitchburg,MA,Worcester,Worcester,00955
+Hicksville,NY,New York,Nassau,00956
+Arlington,WA,Seattle,Snohomish,00957
+Casselberry,FL,Orlando,Seminole,00958
+Gaffney,SC,Gaffney,Cherokee,00959
+Menifee,CA,Riverside,Riverside,00960
+Manitowoc,WI,Manitowoc,Manitowoc,00961
+Palmetto,FL,Sarasota,Manatee,00962
+Wilkes-Barre,PA,Scranton,Luzerne,00963
+Walla Walla,WA,Walla Walla,Walla Walla,00964
+Paso Robles,CA,San Luis Obispo,San Luis Obispo,00965
+Littleton,CO,Denver,Arapahoe,00966
+Menlo Park,CA,San Francisco,San Mateo,00967
+Norwich,CT,New London,New London,00968
+Port Huron Township,MI,Detroit,Saint Clair,00969
+Brookfield,WI,Milwaukee,Waukesha,00970
+North Lauderdale,FL,Miami-Fort Lauderdale,Broward,00971
+Kearny,NJ,New York,Hudson,00972
+Fond du Lac,WI,Fond du Lac,Fond du Lac,00973
+Leominster,MA,Worcester,Worcester,00974
+Collierville,TN,Memphis,Shelby,00975
+Linden,NJ,New York,Union,00976
+Rancho Palos Verdes,CA,Los Angeles,Los Angeles,00977
+Fuquay Varina,NC,Raleigh,Wake,00978
+Wenatchee,WA,Wenatchee,Chelan,00979
+North Atlanta,GA,Atlanta,Dekalb,00980
+Bullhead City,AZ,Lake Havasu City,Mohave,00981
+La Puente,CA,Los Angeles,Los Angeles,00982
+Great Neck,NY,New York,Nassau,00983
+Elmont,NY,New York,Nassau,00984
+San Bruno,CA,San Francisco,San Mateo,00985
+Kankakee,IL,Kankakee,Kankakee,00986
+Addison,IL,Chicago,Du Page,00987
+Holyoke,MA,Springfield,Hampden,00988
+Bonney Lake,WA,Seattle,Pierce,00989
+Bartlett,IL,Chicago,Du Page,00990
+Shelton,CT,Stamford,Fairfield,00991
+North Brunswick,NJ,New York,Middlesex,00992
+New Berlin,WI,Milwaukee,Waukesha,00993
+Warren,OH,Youngstown,Trumbull,00994
+Kapolei,HI,Honolulu,Honolulu,00995
+Middle River,MD,Baltimore,Baltimore,00996
+Moses Lake,WA,Moses Lake,Grant,00997
+Kendall West,FL,Miami-Fort Lauderdale,Miami-Dade,00998
+Winter Haven,FL,Lakeland,Polk,00999
+West Babylon,NY,New York,Suffolk,01000

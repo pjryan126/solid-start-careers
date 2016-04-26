@@ -67,7 +67,7 @@ $ cd store/batch
 $ unzip data/batch.zip -d /data/batch
 ```
 
-**10. Load source files into hadoop.**
+**10. Load source files into hadoop and postgresql.**
 
 ```
 $ ./batch_load.sh
